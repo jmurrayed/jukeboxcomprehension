@@ -11,24 +11,64 @@
         Home
     </a>
   </div>
+  <div class="text-center spacer" ng-if="detail.isLoggedIn()">
+    <a class="btn btn-primary btn-lg outline neon-font blue"
+        ng-click="main.openLogout()">
+        Logout
+    </a>
+  </div>
+  <div class="text-center spacer" ng-if="!detail.isLoggedIn()">
+    <a class="btn btn-primary btn-lg outline neon-font blue"
+        ng-click="main.openLogin()">
+        Login
+    </a>
+  </div>
 </div>
 
 <div class="col-sm-6">
   <div class="detail-youtube border-glow spacer-3x text-center" ng-class="detail.selectedSong.colour">
-    <video width="100%" height="100%" controls>
+
+
+    <videogular class="videogular-container">
+    			<vg-media vg-src="detail.selectedSong.lyricVideo"></vg-media>
+
+    			<vg-controls>
+    				<vg-play-pause-button></vg-play-pause-button>
+    				<!-- <vg-time-display>{{ currentTime | date:'mm:ss' }}</vg-time-display> -->
+    				<vg-scrub-bar>
+    					<vg-scrub-bar-current-time></vg-scrub-bar-current-time>
+    				</vg-scrub-bar>
+    				<!-- <vg-time-display>{{ timeLeft | date:'mm:ss' }}</vg-time-display> -->
+    				<vg-volume>
+    					<vg-mute-button></vg-mute-button>
+    					<vg-volume-bar></vg-volume-bar>
+    				</vg-volume>
+    				<vg-fullscreen-button></vg-fullscreen-button>
+    			</vg-controls>
+
+    			<vg-overlay-play></vg-overlay-play>
+    			<!-- <vg-poster vg-url='controller.config.plugins.poster'></vg-poster> -->
+    		</videogular>
+
+    <!-- <video width="100%" height="100%" controls>
       <source ng-src="{{detail.selectedSong.lyricVideo}}" type="video/mp4">
     Your browser does not support the video tag. Please use a more modern browser.
-    </video>
+    </video> -->
   </div>
 </div>
 
 <div class="col-sm-3 ">
-  <div class="text-center spacer-3x detail-btn" ng-if="detail.isLoggedIn()">
-    <a class="btn btn-primary btn-lg outline neon-font detail-btn"
+  <div class="text-center spacer-3x detail-btn" >
+    <a class="btn btn-primary btn-lg outline neon-font detail-btn" ng-if="detail.isLoggedIn()"
         ng-class="detail.selectedSong.colour"
         target="_blank"
         href="https://firebasestorage.googleapis.com/v0/b/jukebox-temp.appspot.com/o/tasks.pdf?alt=media&token=84a14a0c-cad4-497e-962b-1334225e2939">
-        <i class="glyphicon glyphicon-hand-right"></i>
+        Task
+    </a>
+    <a class="btn btn-primary btn-lg outline neon-font detail-btn" ng-if="!detail.isLoggedIn()"
+        ng-class="detail.selectedSong.colour"
+        target="_blank"
+        ng-click="main.openLogin()">
         Task
     </a>
   </div>
@@ -36,7 +76,6 @@
   <div class="text-center spacer-2x">
     <a class="btn btn-primary btn-lg outline neon-font detail-btn"
         ng-class="detail.selectedSong.colour">
-        <i class="glyphicon glyphicon-pencil"></i>
         Comprehension
     </a>
   </div>

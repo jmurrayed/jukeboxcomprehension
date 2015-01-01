@@ -59,6 +59,15 @@
       });
     };
 
+    vm.openLogout = function() {
+      $uibModal.open({
+        animation: true,
+        templateUrl: 'app/components/logout/logout.html',
+        controller: 'LogoutController',
+        controllerAs: 'logout'
+      });
+    };
+
     vm.isLoggedIn = function() {
       var res = loginService.isLoggedIn();
       if (res == null) {

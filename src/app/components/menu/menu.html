@@ -9,14 +9,21 @@
     <div class="genre-button spacer-5x">
       <a class="btn btn-primary btn-lg outline neon-font blue"
           ng-click="main.openContact()">
-        <span class="glyphicon glyphicon-account"></span> Contact Us
+        Contact Us
       </a>
     </div>
 
     <div class="genre-button" ng-if="!main.isLoggedIn()">
       <a class="btn btn-primary btn-lg outline neon-font blue"
           ng-click="main.openLogin()">
-        <span class="glyphicon glyphicon-account"></span> Login
+        Login
+      </a>
+    </div>
+
+    <div class="genre-button" ng-if="main.isLoggedIn()">
+      <a class="btn btn-primary btn-lg outline neon-font blue"
+          ng-click="main.openLogout()">
+        Logout
       </a>
     </div>
 
