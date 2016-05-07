@@ -32,7 +32,7 @@ gulp.task('default', ['clean'], function () {
 /**
  * Push build to gh-pages
  */
-gulp.task('deploy', function () {
+gulp.task('deploy', ['default'], function () {
   return gulp.src("./dist/**/*")
     .pipe(deploy())
 });
