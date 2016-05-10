@@ -14,7 +14,7 @@
       </ul>
 
       <ul class="nav navbar-nav navbar-right acme-navbar-text">
-        <li>Application was created {{ vm.relativeDate }}.</li>
+        <li>Application was created {{ vm.relativeDate | date:'yyyy-MM-dd HH:mm:ss Z' }}.</li>
       </ul>
     </div>
   </div>

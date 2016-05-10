@@ -1,20 +1,35 @@
 <div class="container">
 
-  <div>
+  <div class="row">
     <acme-navbar creation-date="main.creationDate"></acme-navbar>
   </div>
 
-  <div class="jumbotron text-center">
-    <h1>'Allo, 'Allo!</h1>
-    <p class="lead">
-      <img src="assets/images/yeoman.png" alt="I'm Yeoman"><br>
-      Always a pleasure scaffolding your apps.
-    </p>
-
-  </div>
-
   <div class="row">
-    <h3>Stuff goes here...</h3>
+    <div>
+      <div style="height: 305px">
+        <uib-carousel active="0" no-wrap="false" interval="0">
+          <uib-slide ng-repeat="song in main.selectedGenre track by song.id">
+            <img class="img-circle" ng-src="{{song.image}}" style="margin:auto;" >
+            <div class="carousel-caption">
+              <p>{{song.artist}}</p>
+              <p>{{song.title}}</p>
+            </div>
+          </uib-slide>
+        </uib-carousel>
+      </div>
+      <div class="row">
+        <div ng-repeat="genreKey in main.genreKeys" class="col-sm-6">
+            <div class="thumbnail text-center">
+              <h2>
+                <button class="btn btn-info" ng-click="main.setGenre(genreKey)">
+                  <i class="glyphicon glyphicon-music"></i>
+                </button>
+                {{genreKey | uppercase}}
+              </h2>
+            </div>
+        </div>
+      </div>
+    </div>
   </div>
 
 </div>
