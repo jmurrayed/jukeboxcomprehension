@@ -1,0 +1,29 @@
+<div class="row">
+  <div>
+    <div style="height: 305px">
+      <uib-carousel active="0" no-wrap="false" interval="0">
+        <uib-slide ng-repeat="song in menu.selectedGenre track by song.id" >
+          <a ng-href="/songs/{{song.genre}}/{{song.id}}">
+          <img class="img-circle" ng-src="{{song.image}}" style="margin:auto;" >
+          <div class="carousel-caption">
+            <p>{{song.artist}}</p>
+            <p>{{song.title}}</p>
+          </div>
+        </a>
+        </uib-slide>
+      </uib-carousel>
+    </div>
+    <div>
+      <div ng-repeat="genreKey in menu.genreKeys" class="col-sm-6">
+          <div class="thumbnail text-center"
+               ng-class="menu.selectedGenre[0].genre == genreKey ? 'selectedGenre' : ''"
+               ng-click="menu.setGenre(genreKey)">
+            <h2>
+              <i class="glyphicon glyphicon-music"></i>
+              {{genreKey | uppercase}}
+            </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>

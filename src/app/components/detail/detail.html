@@ -1,0 +1,37 @@
+
+<div>
+
+<ng-youtube-embed
+    url="detail.selectedSong.lyricVideo"
+    autoplay="false"
+    color="white"
+    disablekb="true"
+    fs="false"
+    width="100%"
+    end="20">
+</ng-youtube-embed>
+
+</div>
+
+<h1>{{detail.selectedSong.artist}} - {{detail.selectedSong.title}}</h1>
+
+  <div class="thumbnail text-center col-sm-4">
+    <h2>
+      <i class="glyphicon glyphicon-music"></i>
+      Music Video
+    </h2>
+  </div>
+  <div class="thumbnail text-center col-sm-4">
+    <h2>
+      <i class="glyphicon glyphicon-music"></i>
+      Lyric Video
+    </h2>
+  </div>
+  <div class="thumbnail text-center col-sm-4">
+    <h2>
+      <i class="glyphicon glyphicon-save"></i>
+      Download Tasks
+    </h2>
+  </div>
+
+{{ detail.selectedSong | json }}
