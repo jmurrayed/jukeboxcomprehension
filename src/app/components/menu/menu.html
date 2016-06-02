@@ -1,6 +1,7 @@
 <div class="row">
-  <div>
-    <div style="height: 305px">
+  <div class="col-sm-12">
+
+    <div id="menu-carousel" >
       <uib-carousel active="0" no-wrap="false" interval="0">
         <uib-slide ng-repeat="song in menu.selectedGenre track by song.id" >
           <a ng-href="/songs/{{song.genre}}/{{song.id}}">
@@ -13,9 +14,9 @@
         </uib-slide>
       </uib-carousel>
     </div>
-    <div>
-      <div ng-repeat="genreKey in menu.genreKeys" class="col-sm-6">
-          <div class="thumbnail text-center"
+
+      <div ng-repeat="genreKey in menu.genreKeys" class="col-sm-12">
+          <div class="text-center col-sm-4 col-sm-offset-4"
                ng-class="menu.selectedGenre[0].genre == genreKey ? 'selectedGenre' : ''"
                ng-click="menu.setGenre(genreKey)">
             <h2>
@@ -24,6 +25,6 @@
             </h2>
           </div>
       </div>
-    </div>
-  </div>
+
+</div>
 </div>
