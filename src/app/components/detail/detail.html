@@ -1,38 +1,30 @@
-
-<div id="detail-youtube">
-  <ng-youtube-embed
-    url="detail.selectedSong.lyricVideo"
-    autoplay="false"
-    color="white"
-    disablekb="true"
-    fs="false"
-    width="100%"
-    end="20">
-  </ng-youtube-embed>
-</div>
-
-
-<div>
-  <div class="text-center col-sm-offset-4 col-sm-4">
-    <h2>
-      <i class="glyphicon glyphicon-music"></i>
-      Music Video
-    </h2>
-  </div>
-  <div class="text-center col-sm-offset-4 col-sm-4 selectedVideo">
-    <h2>
-      <i class="glyphicon glyphicon-music"></i>
-      Lyric Video
-    </h2>
-  </div>
-  <div class="text-center col-sm-offset-4 col-sm-4">
-    <h2>
-      <i class="glyphicon glyphicon-save"></i>
-      Download Tasks
-    </h2>
+<div class="col-sm-12">
+  <div id="detail-youtube" >
+    <ng-youtube-embed
+      url="detail.selectedSong.lyricVideo"
+      autoplay="false"
+      color="white"
+      disablekb="true"
+      fs="false"
+      width="100%"
+      end="20">
+    </ng-youtube-embed>
   </div>
 </div>
 
 <div class="song-text col-sm-12">
-  <h1>{{detail.selectedSong.artist}} - {{detail.selectedSong.title}}</h1>
+  <h2 class="text-wrap">{{detail.selectedSong.artist}} - {{detail.selectedSong.title}}</h2>
+</div>
+
+<div class="text-center col-sm-offset-4 col-sm-4 button-img">
+  <h2>
+    <i class="glyphicon glyphicon-music"></i>
+    Lyric Video
+  </h2>
+</div>
+<div class="text-center col-sm-offset-4 col-sm-4 button-img">
+  <h2>
+    <i class="glyphicon glyphicon-cloud-download"></i>
+    Download Tasks
+  </h2>
 </div>

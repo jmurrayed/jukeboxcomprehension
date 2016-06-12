@@ -2,22 +2,14 @@
   'use strict';
 
   describe('directive navbar', function() {
-    // var $window;
-    var vm;
-    var el;
-    var timeInMs;
+    var vm, el;
 
     beforeEach(module('jukeboxcomprehension'));
     beforeEach(inject(function($compile, $rootScope) {
-      timeInMs = new Date();
-      timeInMs = timeInMs.setHours(timeInMs.getHours() - 24);
-
-      el = angular.element('<acme-navbar creation-date="' + timeInMs + '"></acme-navbar>');
-
+      el = angular.element('<navbar-header></navbar-header>');
       $compile(el)($rootScope.$new());
       $rootScope.$digest();
       vm = el.isolateScope().vm;
-
     }));
 
     it('should be compiled', function() {

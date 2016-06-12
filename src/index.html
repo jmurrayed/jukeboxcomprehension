@@ -24,15 +24,25 @@
     <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-
-    <!-- <header>
-      <acme-navbar creation-date="main.creationDate"></acme-navbar>
-    </header> -->
-    <!-- <div style="min-height:100%;"></div> -->
-    <div id="wrap" class="fluid-container" ng-view></div>
-    <footer>
-      <span>&copy; Jukebox Comprehension 2016</span>
-    </footer>
+    <div class="container">
+      <div class="row">
+        <header>
+          <navbar-header></navbar-header>
+        </header>
+      </div>
+      <div class="row">
+        <div id="wrap" ng-view></div>
+      </div>
+      <div class="row">
+        <footer>
+          <div class="neon-font text-center neon-homepage">
+            <h1>Jukebox</h1>
+            <h1>Comprehension</h1>
+          </div>
+          <span>&copy; Jukebox Comprehension 2016</span>
+        </footer>
+      </div>
+    </div>
 
     <!-- build:js(src) scripts/vendor.js -->
     <!-- bower:js -->

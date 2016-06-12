@@ -17,9 +17,6 @@
           }
         }
       })
-      .when('/contact', {
-        templateUrl: 'app/components/contact/contact.html'
-      })
       .when('/', {
         templateUrl: 'app/components/menu/menu.html',
         controller: 'MenuController',

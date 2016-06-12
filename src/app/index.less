@@ -11,6 +11,10 @@
  */
 @navbar-inverse-link-color: #5AADBB;
 @icon-font-path: '/fonts/';
+@font-face {
+    font-family: Neon;
+    src: url(/assets/fonts/neon/NEON.TTF);
+}
 
 html, body{
   height: 100%;
@@ -18,16 +22,16 @@ html, body{
 
 #wrap {
   min-height: 100%;
-  margin: 0 auto -40px;
+  margin: 0 auto;
   height: auto !important;
 }
 
 body {
-    background-color: black;
-    background-image: url("/assets/images/jukebox-background.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center top;
+  background-color: black;
+  background-image: url("/assets/images/jukebox-background.png");
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center top;
 }
 
 .browsehappy {
@@ -37,17 +41,46 @@ body {
   padding: 0.2em 0;
 }
 
+h1 {
+  font-size: 55px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+
+.neon-font {
+  font-family: Neon;
+  color: orange;
+}
+
+.neon-homepage {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
 .thumbnail {
   height: 200px;
-
   img.pull-right {
     width: 50px;
   }
 }
 
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
 footer {
   text-align: center;
   color: white;
+  // position: absolute;
+  // bottom: 0;
+  // width: 90%;
 }
 
 
