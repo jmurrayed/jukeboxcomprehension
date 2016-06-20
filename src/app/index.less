@@ -15,30 +15,22 @@
     font-family: Neon;
     src: url(/assets/fonts/neon/NEON.TTF);
 }
+// Define Colour variables.
+@orange: orange;
+@yellow: yellow;
+@blue: lightblue;
+@red: red;
+@pink: pink;
 
 html, body{
   height: 100%;
 }
 
-#wrap {
-  min-height: 100%;
-  margin: 0 auto;
-  height: auto !important;
-}
-
 body {
   background-color: black;
-  background-image: url("/assets/images/jukebox-background.png");
+  background-image: url("/assets/images/background.jpg");
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-size: auto auto;
-  background-position: center top;
-}
-
-.browsehappy {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
 }
 
 h1 {
@@ -53,9 +45,30 @@ a:link, a:visited, a:hover, a:active {
   text-decoration: none;
 }
 
+.orange {
+  color: @orange !important;
+  border-color: @orange !important;
+}
+
+.pink {
+  color: @pink !important;
+  border-color: @pink !important;
+}
+
+.blue {
+  color: @blue !important;
+  border-color: @blue !important;
+}
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
 .neon-font {
   font-family: Neon;
-  color: orange;
 }
 
 .neon-homepage {
@@ -75,15 +88,97 @@ a:link, a:visited, a:hover, a:active {
     background-image: none
 }
 
+.row-centered {
+    text-align:center;
+}
+
 footer {
   text-align: center;
   color: white;
-  // position: absolute;
-  // bottom: 0;
-  // width: 90%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
+.border-glow {
+  padding: 10px;
+  margin: 20px;
+  border: 2px solid orange;
+  outline:none;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  /* create a BIG glow */
+  box-shadow: 0px 0px 14px;
+  -moz-box-shadow: 0px 0px 14px;
+  -webkit-box-shadow: 0px 0px 14px;
+  color: orange;
+}
 
+/**************************
+  Outline Buttons with glow
+**************************/
+.btn {
+  min-width: 9em;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 20px 16px;
+}
+
+.btn-lg {
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
+.btn.outline {
+    background: none;
+    padding: 12px 22px;
+}
+
+.btn-primary.outline {
+    border: 2px solid orange;
+    color: orange;
+}
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    outline:none;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    /* create a BIG glow */
+    box-shadow: 0px 0px 14px;
+    -moz-box-shadow: 0px 0px 14px;
+    -webkit-box-shadow: 0px 0px 14px;
+    color: orange;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
 
 /**
  *  Do not remove the comments below. It's the markers used by gulp-inject to inject

@@ -19,8 +19,9 @@
     return directive;
 
     /** @ngInject */
-    function NavbarController($uibModal) {
+    function NavbarController($log, $rootScope, $uibModal, GenreModel) {
       var vm = this;
+      vm.colour = GenreModel.getGenreColour();
       vm.openLoginForm = function () {
         $uibModal.open({
            animation: true,
@@ -34,6 +35,11 @@
            }
         });
       };
+      var temp = $rootScope.$on('genreColour', function(event, args) {
+        vm.colour = args;
+      });
+      $log.info(temp);
+
     }
   }
 
