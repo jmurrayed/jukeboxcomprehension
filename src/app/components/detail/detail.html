@@ -1,30 +1,35 @@
 <div class="col-sm-12">
-  <div id="detail-youtube" >
+  <div class="detail-youtube border-glow" ng-class="detail.selectedSong.colour">
     <ng-youtube-embed
       url="detail.selectedSong.lyricVideo"
       autoplay="false"
-      color="white"
-      disablekb="true"
-      fs="false"
-      width="100%"
-      end="20">
+      disablekb="false"
+      fs="true"
+      width=100%
+      ivloadpolicy=false
+      playsinline=true
+      rel=false
+      showinfo=false
+      controls=true>
     </ng-youtube-embed>
   </div>
 </div>
 
-<div class="song-text col-sm-12">
-  <h2 class="text-wrap">{{detail.selectedSong.artist}} - {{detail.selectedSong.title}}</h2>
-</div>
-
-<div class="text-center col-sm-offset-4 col-sm-4 button-img">
-  <h2>
-    <i class="glyphicon glyphicon-music"></i>
-    Lyric Video
-  </h2>
-</div>
-<div class="text-center col-sm-offset-4 col-sm-4 button-img">
-  <h2>
-    <i class="glyphicon glyphicon-cloud-download"></i>
-    Download Tasks
-  </h2>
-</div>
+  <div class="song-text col-sm-6 neon-font spacer" ng-class="detail.selectedSong.colour">
+    <h3 class="text-wrap">{{detail.selectedSong.artist}} - {{detail.selectedSong.title}}</h3>
+  </div>
+  <div class="col-sm-2 text-center spacer">
+    <a class="btn btn-primary btn-lg outline neon-font"
+        ng-class="detail.selectedSong.colour">
+        <i class="glyphicon glyphicon-cloud-download"></i>
+        Download Tasks
+    </a>
+  </div>
+  <div class="col-sm-offset-1 col-sm-2 text-center spacer">
+    <a class="btn btn-primary btn-lg outline neon-font"
+        ng-class="detail.selectedSong.colour"
+        href="/">
+        <i class="glyphicon glyphicon glyphicon-repeat"></i>
+        Back
+    </a>
+  </div>

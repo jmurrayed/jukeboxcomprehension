@@ -1,27 +1,28 @@
-<div class="col-sm-12">
-  <div id="menu-carousel">
-    <uib-carousel active="0" no-wrap="false" interval="0">
-      <uib-slide ng-repeat="song in menu.selectedGenre track by song.id" >
-        <a ng-href="/songs/{{song.genre}}/{{song.id}}">
-        <img class="img-circle" ng-src="{{song.image}}" style="margin:auto;" >
-        <div class="carousel-caption">
-          <p>{{song.artist}}</p>
-          <p>{{song.title}}</p>
-        </div>
-      </a>
-      </uib-slide>
-    </uib-carousel>
-  </div>
-</div>
 
-<div class="col-sm-12">
-  <div class="col-sm-offset-3 col-sm-6">
-    <div ng-repeat="genreKey in menu.genreKeys">
-        <div class="text-center col-sm-6 genre-key"
-             ng-class="menu.selectedGenre[0].genre == genreKey ? 'selectedGenre' : ''"
-             ng-click="menu.setGenre(genreKey)">
-          <h2>{{genreKey | uppercase}}</h2>
-        </div>
+  <div class="col-sm-12">
+    <div class="border-glow" ng-class="menu.genreColour">
+      <uib-carousel active="0" no-wrap="false" interval="0">
+        <uib-slide ng-repeat="song in menu.selectedGenre track by song.id" >
+          <a ng-href="/songs/{{song.genre}}/{{song.id}}">
+              <img class="img-container" ng-src="{{song.image}}" style="margin:auto;" >
+          <div class="carousel-caption">
+            <p>{{song.title}}</p>
+            <p>{{song.artist}}</p>
+          </div>
+        </a>
+        </uib-slide>
+      </uib-carousel>
     </div>
   </div>
-</div>
+
+  <div class="col-sm-12 genre-container" >
+      <div ng-repeat="genreKey in menu.genreKeys">
+        <div class="col-sm-2">
+          <a class="btn btn-primary btn-lg outline neon-font"
+              ng-class="menu.genreColourByKey(genreKey)"
+              ng-click="menu.setGenre(genreKey)">
+            <span class="glyphicon glyphicon-music"></span> {{genreKey}}
+          </a>
+        </div>
+      </div>
+  </div>
