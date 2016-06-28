@@ -11,10 +11,16 @@
  */
 @navbar-inverse-link-color: #5AADBB;
 @icon-font-path: '/fonts/';
+// @font-face {
+//     font-family: Neon;
+//     src: url(/assets/fonts/neon/NEON.TTF);
+// }
+
 @font-face {
-    font-family: Neon;
-    src: url(/assets/fonts/neon/NEON.TTF);
+    font-family: Clip;
+    src: url(/assets/fonts/clip.regular.ttf);
 }
+
 // Define Colour variables.
 @orange: orange;
 @yellow: yellow;
@@ -22,15 +28,16 @@
 @red: red;
 @pink: pink;
 @green: lightgreen;
+@background-colour: #2F4F4E;
 
 html, body{
   height: 100%;
 }
 
 body {
-  background-color: black;
-  background-image: url("/assets/images/background.jpg");
-  background-size: 100% 100%;
+  background-color: @background-colour;
+  // background-image: url("/assets/images/background.jpg");
+  // background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
@@ -74,7 +81,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .neon-font {
-  font-family: Neon;
+  font-family: Clip;
 }
 
 .neon-homepage {

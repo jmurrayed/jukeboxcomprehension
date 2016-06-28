@@ -1,9 +1,16 @@
 <nav class="col-sm-12 header" ng-class="nc.colour">
   <div class="col-sm-1">
-      <a href="/">
-        <p class="neon-font" ng-class="nc.colour"><i class="glyphicon glyphicon-home"></i>&nbsp;Home</p>
+    <span uib-dropdown on-toggle="toggled(open)">
+      <a href id="simple-dropdown" uib-dropdown-toggle ng-class="nc.colour">
+        <p><i class="glyphicon glyphicon-menu-hamburger"></i></p>
       </a>
-    </h2>
+      <ul class="dropdown-menu" ng-class="nc.colour" uib-dropdown-menu aria-labelledby="simple-dropdown">
+        <li><a href="/" class="neon-font" ng-class="nc.colour"><i class="glyphicon glyphicon-home"></i>&nbsp;Home</a></li>
+        <li><a href="#" class="neon-font" ng-class="nc.colour"><i class="glyphicon glyphicon-gbp"></i>&nbsp;Pricing</a></li>
+        <li><a href="#" class="neon-font" ng-class="nc.colour"><i class="glyphicon glyphicon-tag"></i>&nbsp;About us</a></li>
+        <li><a href="#" class="neon-font" ng-class="nc.colour"><i class="glyphicon glyphicon-folder-open"></i>&nbsp;Terms &amp; Conditions</a></li>
+      </ul>
+    </span>
   </div>
 
   <div class="col-sm-10 text-center">
