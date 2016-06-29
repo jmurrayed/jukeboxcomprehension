@@ -1,28 +1,40 @@
 
-  <div class="col-sm-12">
-    <div class="border-glow" ng-class="menu.genreColour">
-      <uib-carousel active="0" no-wrap="false" interval="0">
-        <uib-slide ng-repeat="song in menu.selectedGenre track by song.id" >
-          <a ng-href="/songs/{{song.genre}}/{{song.id}}">
-              <img class="img-container" ng-src="{{song.image}}" style="margin:auto;" >
-          <div class="carousel-caption">
-            <p>{{song.title}}</p>
-            <p>{{song.artist}}</p>
-          </div>
+<div class="col-sm-3 genre-container">
+    <div ng-repeat="genreKey in menu.genreKeys" ng-switch on="$index % 2">
+      <div class="genre-button" ng-switch-when="0">
+        <a class="btn btn-primary btn-lg outline neon-font"
+            ng-class="menu.genreColourByKey(genreKey)"
+            ng-click="menu.setGenre(genreKey)">
+          <span class="glyphicon glyphicon-music"></span> {{genreKey}}
         </a>
-        </uib-slide>
-      </uib-carousel>
+      </div>
+    </div>
+</div>
+
+<div class="col-sm-6">
+  <div class="border-glow" ng-class="menu.genreColour">
+    <uib-carousel active="0" no-wrap="false" interval="0">
+      <uib-slide ng-repeat="song in menu.selectedGenre track by song.id" >
+        <a ng-href="/songs/{{song.genre}}/{{song.id}}">
+            <img class="img-container" ng-src="{{song.image}}" style="margin:auto;" >
+        <div class="carousel-caption">
+          <p>{{song.title}}</p>
+          <p>{{song.artist}}</p>
+        </div>
+      </a>
+      </uib-slide>
+    </uib-carousel>
+  </div>
+</div>
+
+<div class="col-sm-3 genre-container">
+  <div ng-repeat="genreKey in menu.genreKeys" ng-switch on="$index % 2">
+    <div class="genre-button" ng-switch-when="1">
+      <a class="btn btn-primary btn-lg outline neon-font"
+          ng-class="menu.genreColourByKey(genreKey)"
+          ng-click="menu.setGenre(genreKey)">
+        <span class="glyphicon glyphicon-music"></span> {{genreKey}}
+      </a>
     </div>
   </div>
-
-  <div class="col-sm-12 genre-container" >
-      <div ng-repeat="genreKey in menu.genreKeys">
-        <div class="col-sm-2">
-          <a class="btn btn-primary btn-lg outline neon-font"
-              ng-class="menu.genreColourByKey(genreKey)"
-              ng-click="menu.setGenre(genreKey)">
-            <span class="glyphicon glyphicon-music"></span> {{genreKey}}
-          </a>
-        </div>
-      </div>
-  </div>
+</div>
