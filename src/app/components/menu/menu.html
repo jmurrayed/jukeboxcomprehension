@@ -16,10 +16,10 @@
     <uib-carousel active="0" no-wrap="false" interval="0">
       <uib-slide ng-repeat="song in menu.selectedGenre track by song.id" >
         <a ng-href="/songs/{{song.genre}}/{{song.id}}">
-            <img class="img-container" ng-src="{{song.image}}" style="margin:auto;" >
-        <div class="carousel-caption">
-          <p>{{song.title}}</p>
-          <p>{{song.artist}}</p>
+            <img class="img img-container img-responsive" ng-src="{{song.image}}" style="margin:auto;" >
+        <div class="carousel-caption neon-font" ng-class="menu.genreColour">
+          <h3>{{song.title}}</h3>
+          <h4>{{song.artist}}</h4>
         </div>
       </a>
       </uib-slide>
