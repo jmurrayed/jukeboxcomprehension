@@ -2,6 +2,6 @@
   'use strict';
 
   angular
-    .module('jukeboxcomprehension', ['ngRoute', 'ui.bootstrap', 'ngYoutubeEmbed']);
+    .module('jukeboxcomprehension', ['ngRoute', 'ui.bootstrap', 'ngYoutubeEmbed', 'firebase']);
 
 })();

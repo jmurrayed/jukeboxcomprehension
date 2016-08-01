@@ -1,24 +1,59 @@
 <div class="modal-header">
-    <h3 class="modal-title neon-font orange">Jukebox Comprehension Login</h3>
+    <h3 class="modal-title neon-font orange">Jukebox Comprehension Account</h3>
 </div>
 <div class="modal-body">
-  <form>
-    <p class="text-center"> <i class="glyphicon glyphicon-hand-down"></i><span> login to your account to get full access to the teaching material.</span></p>
+
+  <div ng-if="lc.isLoggedIn()">  <!-- LOGGED IN-->
     <div class="form-group">
-      <div class="input-group">
-        <span class="input-group-addon" id="basic-addon1"><i class="glyphicon glyphicon-envelope"></i></span>
-        <input type="text" class="form-control" placeholder="Enter Username" aria-describedby="basic-addon1">
-      </div>
+      <h3>Hello {{lc.userInfo.email}}</h3>
+      <p>Your Account subscription will expire on 31st August 2017.</p>
     </div>
+    <br/>
     <div class="form-group">
-      <div class="input-group">
-        <span class="input-group-addon" id="basic-addon2"><i class="glyphicon glyphicon-lock"></i></span>
-        <input type="password" class="form-control" placeholder="Enter Password" aria-describedby="basic-addon2">
-      </div>
+      <button class="btn btn-lg btn-primary btn-lg outline neon-font" type="button" ng-click="lc.cancel()">Cancel</button>
+      <button class="btn btn-lg btn-primary btn-lg outline neon-font pull-right" type="button" ng-click="lc.logout()">logout</button>
     </div>
-  </form>
-</div>
-<div class="modal-footer">
-    <button class="btn btn-primary btn-lg outline neon-font red" type="button" ng-click="lc.cancel()">Cancel <i class="glyphicon glyphicon-remove"></i></button>
-    <button class="btn btn-primary btn-lg outline neon-font green" type="button" ng-click="lc.login()">Login <i class="glyphicon glyphicon-ok"></i></button>
+  </div>
+
+  <div ng-if="!lc.isLoggedIn()"> <!-- NOT LOGGED IN-->
+    <form name="authForm" ng-submit="authForm.$valid && lc.login(lc.user)" class="form-group" novalidate>
+        <p class="text-center"> <i class="glyphicon glyphicon-hand-down"></i><span> login to your account to get full access to the teaching material.</span></p>
+
+        <div class="form-group">
+          <div class="input-group">
+            <!--Email input-->
+            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+            <input ng-model="lc.user.email" ng-model-options="{ updateOn: 'default blur', debounce: { default: 1000, blur: 0 } }" type="email" name="email" class="form-control" placeholder="Email address" required autofocus>
+            <!--Email error-->
+            <div ng-show="authForm.$submitted">
+                <p ng-show="authForm.email.$error.required" class="text-danger">Email required</p>
+                <p ng-show="authForm.email.$error.email" class="text-danger">Please enter a valid email.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="input-group">
+            <!--Password input-->
+            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+            <input ng-model="lc.user.password" type="password" name="password" class="form-control" placeholder="Password" required>
+            <!--Password error-->
+            <div ng-show="authForm.$submitted">
+                <p ng-show="authForm.password.$error.required" class="text-danger">Password required</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <!--Server authentication error-->
+          <h1 ng-show="lc.error" class="text-danger">The Email or Password is incorrect</h1>
+        <div>
+
+        <div class="form-group">
+          <button class="btn btn-lg btn-primary btn-lg outline neon-font" type="button" ng-click="lc.cancel()">Cancel</button>
+          <button class="btn btn-lg btn-primary btn-lg outline neon-font pull-right" type="submit">login</button>
+        </div>
+    </form>
+  </div>
+
 </div>
