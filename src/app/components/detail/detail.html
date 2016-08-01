@@ -18,10 +18,19 @@
   <div class="song-text col-sm-6 neon-font spacer" ng-class="detail.selectedSong.colour">
     <h3 class="text-wrap">{{detail.selectedSong.artist}} - {{detail.selectedSong.title}}</h3>
   </div>
-  <div class="col-sm-2 text-center spacer">
+  <div class="col-sm-2 text-center spacer" ng-if="!detail.isLoggedIn()">
     <a class="btn btn-primary btn-lg outline neon-font"
         ng-class="detail.selectedSong.colour"
         ng-click="detail.openRegister()">
+        <i class="glyphicon glyphicon-blackboard"></i>
+        Register for Tasks
+    </a>
+  </div>
+  <div class="col-sm-2 text-center spacer" ng-if="detail.isLoggedIn()">
+    <a class="btn btn-primary btn-lg outline neon-font"
+        ng-class="detail.selectedSong.colour"
+        target="_blank"
+        ng-href="{{detail.fileUrl}}">
         <i class="glyphicon glyphicon-cloud-download"></i>
         Download Tasks
     </a>

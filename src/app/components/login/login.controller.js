@@ -6,16 +6,39 @@
     .controller('LoginController', LoginController);
 
   /** @ngInject */
-  function LoginController($scope, $uibModalInstance, $log) {
+  function LoginController($scope, $uibModalInstance, $log, loginService) {
     var vm = this;
-    vm.login =  function () {
-      $log.info("login clicked");
+
+    vm.login =  function (user) {
+      return loginService.login(user)
+        .then(function() {
+          $uibModalInstance.close();
+        })
+        .catch(function(error) {
+          $log.error("login failed "+error);
+          vm.error = error;
+        });
+    };
+
+    vm.logout = function () {
+      loginService.logout();
       $uibModalInstance.close();
     };
 
     vm.cancel = function () {
-      $log.info("Cancel clicked");
       $uibModalInstance.dismiss('cancel');
     };
+
+    vm.isLoggedIn = function () {
+      var res = loginService.isLoggedIn();
+      if (res == null) {
+        vm.userInfo = null;
+        return false;
+      } else {
+        vm.userInfo = res;
+        return true;
+      }
+    };
+
   }
 })();

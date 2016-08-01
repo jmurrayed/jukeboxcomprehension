@@ -25,7 +25,7 @@
 @pink: #ff0dba;
 @green: #00FF00;
 
-@background-colour: #2F4F4E;
+@background-colour: black;
 
 html, body{
   height: 100%;
@@ -132,7 +132,7 @@ footer {
 .border-glow {
   padding: 10px;
   margin: 20px;
-  border: 3px solid orange;
+  border: 3px solid @orange;
   outline:none;
   border-radius: 4px;
   -moz-border-radius: 4px;
@@ -141,7 +141,7 @@ footer {
   box-shadow: 0px 0px 48px;
   -moz-box-shadow: 0px 0px 48px;
   -webkit-box-shadow: 0px 0px 48px;
-  color: orange;
+  color: @orange;
 }
 
 /**************************
@@ -180,7 +180,7 @@ footer {
   box-shadow: 0px 0px 522px;
   -moz-box-shadow: 0px 0px 52px;
   -webkit-box-shadow: 0px 0px 52px;
-  color: orange;
+  color: @orange;
   background-image: url("/assets/images/button-bg.jpg");
 }
 
@@ -196,8 +196,8 @@ footer {
 }
 
 .btn-primary.outline {
-    border: 2px solid orange;
-    color: orange;
+    border: 2px solid @orange;
+    color: @orange;
 }
 
 .btn:focus, .btn:active:focus, .btn.active:focus {
