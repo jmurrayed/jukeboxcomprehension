@@ -3,10 +3,10 @@
 
   angular
     .module('jukeboxcomprehension')
-    .controller('RegisterController', RegisterController);
+    .controller('ContactController',ContactController);
 
   /** @ngInject */
-  function RegisterController($uibModalInstance) {
+  function ContactController($uibModalInstance) {
     var vm = this;
     vm.close = function () {
       $uibModalInstance.dismiss('close');
