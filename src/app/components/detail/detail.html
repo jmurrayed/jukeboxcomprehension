@@ -1,6 +1,29 @@
-<div class="col-sm-12">
-  <div class="detail-youtube border-glow" ng-class="detail.selectedSong.colour">
-    <ng-youtube-embed
+<div class="col-sm-3">
+  <div class="song-text spacer" ng-class="detail.selectedSong.colour">
+    <h3 class="text-wrap">{{detail.selectedSong.artist}}</h3>
+    <h3 class="text-wrap">{{detail.selectedSong.title}}</h3>
+  </div>
+
+  <div class="song-text spacer-3x" ng-class="detail.selectedSong.colour">
+    <p>{{detail.selectedSong.description}}</p>
+  </div>
+
+  <div class="text-center spacer-3x">
+    <a class="btn btn-primary btn-lg outline neon-font blue"
+        href="/">
+        <i class="glyphicon glyphicon-home"></i>
+        Home
+    </a>
+  </div>
+</div>
+
+<div class="col-sm-6">
+  <div class="detail-youtube border-glow spacer-3x" ng-class="detail.selectedSong.colour">
+    <video width="100%" height="100%" controls>
+      <source ng-src="{{detail.selectedSong.lyricVideo}}" type="video/mp4">
+    Your browser does not support the video tag. Please use a more modern browser.
+    </video>
+    <!-- <ng-youtube-embed
       url="detail.selectedSong.lyricVideo"
       autoplay="false"
       disablekb="false"
@@ -11,13 +34,11 @@
       rel=false
       showinfo=false
       controls=true>
-    </ng-youtube-embed>
+    </ng-youtube-embed> -->
   </div>
 </div>
 
-  <div class="song-text col-sm-6 neon-font spacer" ng-class="detail.selectedSong.colour">
-    <h3 class="text-wrap">{{detail.selectedSong.artist}} - {{detail.selectedSong.title}}</h3>
-  </div>
+<div class="col-sm-3 ">
   <div class="col-sm-2 text-center spacer" ng-if="!detail.isLoggedIn()">
     <a class="btn btn-primary btn-lg outline neon-font"
         ng-class="detail.selectedSong.colour"
@@ -34,11 +55,4 @@
         Download Tasks
     </a>
   </div>
-  <div class="col-sm-offset-1 col-sm-2 text-center spacer">
-    <a class="btn btn-primary btn-lg outline neon-font"
-        ng-class="detail.selectedSong.colour"
-        href="/">
-        <i class="glyphicon glyphicon glyphicon-repeat"></i>
-        Back
-    </a>
-  </div>
+</div>

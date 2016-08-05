@@ -36,5 +36,19 @@
       });
     };
 
+    vm.openLogin = function () {
+      $uibModal.open({
+         animation: true,
+         templateUrl: 'app/components/login/login.html',
+         controller: 'LoginController',
+         controllerAs: 'lc',
+         resolve: {
+           items: function () {
+             return [];
+           }
+         }
+      });
+    };
+
   }
 })();

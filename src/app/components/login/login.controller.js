@@ -25,8 +25,8 @@
       $uibModalInstance.close();
     };
 
-    vm.cancel = function () {
-      $uibModalInstance.dismiss('cancel');
+    vm.close = function () {
+      $uibModalInstance.close();
     };
 
     vm.isLoggedIn = function () {

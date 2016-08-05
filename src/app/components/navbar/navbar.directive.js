@@ -21,25 +21,9 @@
     /** @ngInject */
     function NavbarController($log, $rootScope, $uibModal, GenreModel) {
       var vm = this;
-      vm.colour = GenreModel.getGenreColour();
-      vm.openLoginForm = function () {
-        $uibModal.open({
-           animation: true,
-           templateUrl: 'app/components/login/login.html',
-           controller: 'LoginController',
-           controllerAs: 'lc',
-           resolve: {
-             items: function () {
-               return [];
-             }
-           }
-        });
-      };
-      var temp = $rootScope.$on('genreColour', function(event, args) {
-        vm.colour = args;
-      });
-      $log.info(temp);
-
+      // var temp = $rootScope.$on('genreColour', function(event, args) {
+      //   vm.colour = args;
+      // });
     }
   }
 

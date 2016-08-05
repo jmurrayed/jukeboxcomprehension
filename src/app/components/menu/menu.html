@@ -1,50 +1,57 @@
 
 <div class="col-sm-3 genre-container">
     <div>
-      <p class="text-intro" ng-class="menu.genreColour">Welcome to Jukebox Comprehension, where music and songs help you to developing
-      core comprehension skills in a fun and entertaining way.</p>
-    </div>
-    <div>
-      <p class="text-intro" ng-class="menu.genreColour">Designed for use in the modern classroom, and linked closely to the requirements
-      of the new National Curriculum, this jukebox holds a wide range of music and
+      <p class="text-intro blue">Welcome to Jukebox Comprehension, where music and songs help you to developing
+      core comprehension skills in a fun and entertaining way.
+      Designed for use in the modern classroom, and linked closely to the requirements
+      of the new National Curriculum.
+      <p class="blue">The jukebox holds a wide range of music and
       activities that will further the reading development of each and every child,
       supporting them as they journey towards becoming a confident and able user of the English language. </p>
+    </div>
+
+    <div class="genre-button">
+      <a class="btn btn-primary btn-lg outline neon-font blue"
+          ng-click="main.openContact()">
+        <span class="glyphicon glyphicon-account"></span> Contact-Us
+      </a>
+    </div>
+    <!-- <span class="divider">&nbsp;</span> -->
+    <div class="genre-button">
+      <a class="btn btn-primary btn-lg outline neon-font blue"
+          ng-click="main.openLogin()">
+        <span class="glyphicon glyphicon-account"></span> Login
+      </a>
     </div>
 
 </div>
 
 <div class="col-sm-6">
-    <div class="border-glow" ng-class="menu.genreColour">
+  <div class="border-glow" ng-class="menu.genreColour">
     <uib-carousel active="0" no-wrap="false" interval="0">
       <uib-slide ng-repeat="song in menu.selectedGenre track by song.id" >
-        <a ng-href="/songs/{{song.genre}}/{{song.id}}">
-            <img class="img img-container img-responsive" ng-src="{{song.image}}" style="margin:auto;" >
-        <div class="carousel-caption neon-font" ng-class="menu.genreColour">
-          <h3>{{song.title}}</h3>
-          <h4>{{song.artist}}</h4>
+        <div>
+          <a ng-href="/songs/{{song.genre}}/{{song.id}}">
+            <!-- class="img img-container img-responsive"  style="margin:auto;" -->
+              <img width="100%" ng-src="{{song.image}}">
+          </a>
         </div>
-      </a>
+        <div class="text-center" ng-class="menu.genreColour">
+          <h3 class="song-title">{{song.artist}} - {{song.title}}</h3>
+        </div>
       </uib-slide>
     </uib-carousel>
   </div>
+
 </div>
 
 <div class="col-sm-3 genre-container">
-  <div ng-repeat="genreKey in menu.genreKeys" ng-switch on="$index % 2">
-    <div class="genre-button" ng-switch-when="0">
+  <div ng-repeat="genreKey in menu.genreKeys">
+    <div class="genre-button">
       <a class="btn btn-primary btn-lg outline neon-font"
           ng-class="menu.genreColourByKey(genreKey)"
           ng-click="menu.setGenre(genreKey)">
-        <span class="glyphicon glyphicon-music"></span> {{genreKey}}
-      </a>
-    </div>
-  </div>
-  <div ng-repeat="genreKey in menu.genreKeys" ng-switch on="$index % 2">
-    <div class="genre-button" ng-switch-when="1">
-      <a class="btn btn-primary btn-lg outline neon-font"
-          ng-class="menu.genreColourByKey(genreKey)"
-          ng-click="menu.setGenre(genreKey)">
-        <span class="glyphicon glyphicon-music"></span> {{genreKey}}
+        {{genreKey}}
       </a>
     </div>
   </div>
