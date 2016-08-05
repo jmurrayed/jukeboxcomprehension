@@ -1,14 +1,15 @@
 <div class="col-sm-3">
-  <div class="song-text spacer" ng-class="detail.selectedSong.colour">
+  <div class="song-text spacer-3x blue neon-font">
     <h3 class="text-wrap">{{detail.selectedSong.artist}}</h3>
     <h3 class="text-wrap">{{detail.selectedSong.title}}</h3>
   </div>
 
-  <div class="song-text spacer-3x" ng-class="detail.selectedSong.colour">
-    <p>{{detail.selectedSong.description}}</p>
+  <div class="song-text spacer-3x blue">
+    <h3 class="neon-font">Task:</h3>
+    <h4>{{detail.selectedSong.description}}</h4>
   </div>
 
-  <div class="text-center spacer-3x">
+  <div class="text-center spacer-5x">
     <a class="btn btn-primary btn-lg outline neon-font blue"
         href="/">
         <i class="glyphicon glyphicon-home"></i>
@@ -19,40 +20,45 @@
 
 <div class="col-sm-6">
   <div class="detail-youtube border-glow spacer-3x" ng-class="detail.selectedSong.colour">
-    <video width="100%" height="100%" controls>
+    <video width="100%" height="100%" controls  poster="{{detail.selectedSong.image}}">
       <source ng-src="{{detail.selectedSong.lyricVideo}}" type="video/mp4">
     Your browser does not support the video tag. Please use a more modern browser.
     </video>
-    <!-- <ng-youtube-embed
-      url="detail.selectedSong.lyricVideo"
-      autoplay="false"
-      disablekb="false"
-      fs="true"
-      width=100%
-      ivloadpolicy=false
-      playsinline=true
-      rel=false
-      showinfo=false
-      controls=true>
-    </ng-youtube-embed> -->
   </div>
 </div>
 
 <div class="col-sm-3 ">
-  <div class="col-sm-2 text-center spacer" ng-if="!detail.isLoggedIn()">
-    <a class="btn btn-primary btn-lg outline neon-font"
-        ng-class="detail.selectedSong.colour"
-        ng-click="detail.openRegister()">
-        <i class="glyphicon glyphicon-blackboard"></i>
-        Register for Tasks
-    </a>
-  </div>
-  <div class="col-sm-2 text-center spacer" ng-if="detail.isLoggedIn()">
-    <a class="btn btn-primary btn-lg outline neon-font"
+  <div class="text-center spacer-3x detail-btn" ng-if="detail.isLoggedIn()">
+    <a class="btn btn-primary btn-lg outline neon-font detail-btn"
         ng-class="detail.selectedSong.colour"
         target="_blank"
-        href="https://firebasestorage.googleapis.com/v0/b/jukebox-temp.appspot.com/o/tasks.pdf?alt=media&token=84a14a0c-cad4-497e-962b-1334225e2939">        <i class="glyphicon glyphicon-cloud-download"></i>
-        Download Tasks
+        href="https://firebasestorage.googleapis.com/v0/b/jukebox-temp.appspot.com/o/tasks.pdf?alt=media&token=84a14a0c-cad4-497e-962b-1334225e2939">
+        <i class="glyphicon glyphicon-hand-right"></i>
+        Task
+    </a>
+  </div>
+
+  <div class="text-center spacer-2x">
+    <a class="btn btn-primary btn-lg outline neon-font detail-btn"
+        ng-class="detail.selectedSong.colour">
+        <i class="glyphicon glyphicon-pencil"></i>
+        Comprehension
+    </a>
+  </div>
+
+  <div class="text-center spacer-2x">
+    <a class="btn btn-primary btn-lg outline neon-font detail-btn"
+        ng-class="detail.selectedSong.colour">
+        <i class="glyphicon glyphicon-film"></i>
+        Lyric Video
+    </a>
+  </div>
+
+  <div class="text-center spacer-2x">
+    <a class="btn btn-primary btn-lg outline neon-font detail-btn"
+        ng-class="detail.selectedSong.colour">
+        <i class="glyphicon glyphicon-film"></i>
+        Music Video
     </a>
   </div>
 </div>
