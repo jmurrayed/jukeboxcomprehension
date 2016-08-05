@@ -2,6 +2,29 @@
   'use strict';
 
   var GENRES = {
+    'rock': [{
+      id: 1,
+      colour: 'red',
+      genre: 'rock',
+      image: 'http://placehold.it/325x275',
+      artist: 'Nickleback',
+      title: 'If Everyone Cared',
+      description: '',
+      lyricVideo: 'https://www.youtube.com/watch?v=CkliFcBLXc8',
+      musicVideo: '',
+      taskUrl: ''
+    }, {
+      id: 2,
+      colour: 'red',
+      genre: 'rock',
+      image: 'http://placehold.it/325x275',
+      artist: 'Foo Fighters',
+      title: 'Breakout',
+      description: '',
+      lyricVideo: 'https://www.youtube.com/watch?v=CkliFcBLXc8',
+      musicVideo: '',
+      taskUrl: ''
+    }],
     'theatre': [{
       id: 1,
       colour: 'green',
@@ -26,29 +49,6 @@
       musicVideo: '',
       taskUrl: '/tasks/1.png'
     }],
-    'rock': [{
-      id: 1,
-      colour: 'red',
-      genre: 'rock',
-      image: 'http://placehold.it/325x275',
-      artist: 'Nickleback',
-      title: 'If Everyone Cared',
-      description: '',
-      lyricVideo: 'https://www.youtube.com/watch?v=CkliFcBLXc8',
-      musicVideo: '',
-      taskUrl: ''
-    }, {
-      id: 2,
-      colour: 'red',
-      genre: 'rock',
-      image: 'http://placehold.it/325x275',
-      artist: 'Foo Fighters',
-      title: 'Breakout',
-      description: '',
-      lyricVideo: 'https://www.youtube.com/watch?v=CkliFcBLXc8',
-      musicVideo: '',
-      taskUrl: ''
-    }],
     'country': [{
       id: 1,
       colour: 'orange',
@@ -61,24 +61,24 @@
       musicVideo: '',
       taskUrl: ''
     }],
-    'film': [{
+    'film & TV': [{
       id: 1,
       colour: 'pink',
-      genre: 'film',
-      image: 'http://placehold.it/325x275',
-      artist: '???',
-      title: '??? TITLE',
-      lyricVideo: 'https://www.youtube.com/watch?v=CkliFcBLXc8',
+      genre: 'film & TV',
+      image: 'anna_kendrick-cups.jpg',
+      artist: 'Anna Kendrick',
+      title: 'Cups (Pitch Perfect)',
+      lyricVideo: 'assets/data/film/anna_kendrick-cups.mp4',
       musicVideo: '',
       taskUrl: ''
     }],
-    'mystery': [{
+    'R & B': [{
       id: 1,
-      colour: 'blue',
-      genre: 'mystery',
+      colour: 'white',
+      genre: 'R & B',
       image: 'http://placehold.it/325x275',
       artist: '???',
-      title: '??? TITLE',
+      title: '??? TITLE rnb',
       lyricVideo: 'https://www.youtube.com/watch?v=CkliFcBLXc8',
       musicVideo: '',
       taskUrl: ''

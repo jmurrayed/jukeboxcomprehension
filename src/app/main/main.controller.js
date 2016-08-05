@@ -6,48 +6,59 @@
     .controller('MainController', MainController);
 
   /** @ngInject */
-  function MainController($uibModal) {
+  function MainController($uibModal, loginService) {
     var vm = this;
 
-    vm.openContact = function () {
+    vm.openContact = function() {
       $uibModal.open({
-         animation: true,
-         templateUrl: 'app/components/contact/contact.html',
-         controller: 'ContactController',
-         controllerAs: 'cc'
+        animation: true,
+        templateUrl: 'app/components/contact/contact.html',
+        controller: 'ContactController',
+        controllerAs: 'cc'
       });
     };
 
-    vm.openTerms = function () {
+    vm.openTerms = function() {
       $uibModal.open({
-         animation: true,
-         templateUrl: 'app/components/terms/terms.html',
-         controller: 'TermsController',
-         controllerAs: 'tc'
+        animation: true,
+        templateUrl: 'app/components/terms/terms.html',
+        controller: 'TermsController',
+        controllerAs: 'tc'
       });
     };
 
-    vm.openPrivacy = function () {
+    vm.openPrivacy = function() {
       $uibModal.open({
-         animation: true,
-         templateUrl: 'app/components/privacy/privacy.html',
-         controller: 'PrivacyController',
-         controllerAs: 'pc'
+        animation: true,
+        templateUrl: 'app/components/privacy/privacy.html',
+        controller: 'PrivacyController',
+        controllerAs: 'pc'
       });
     };
 
-    vm.openLogin = function () {
+    vm.openLogin = function() {
       $uibModal.open({
-         animation: true,
-         templateUrl: 'app/components/login/login.html',
-         controller: 'LoginController',
-         controllerAs: 'lc',
-         resolve: {
-           items: function () {
-             return [];
-           }
-         }
+        animation: true,
+        templateUrl: 'app/components/login/login.html',
+        controller: 'LoginController',
+        controllerAs: 'lc',
+        resolve: {
+          items: function() {
+            return [];
+          }
+        }
       });
+    };
+
+    vm.isLoggedIn = function() {
+      var res = loginService.isLoggedIn();
+      if (res == null) {
+        vm.userInfo = null;
+        return false;
+      } else {
+        vm.userInfo = res;
+        return true;
+      }
     };
 
   }

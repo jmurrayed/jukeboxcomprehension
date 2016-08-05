@@ -1,28 +1,25 @@
 
 <div class="col-sm-3 genre-container">
     <div>
-      <p class="text-intro blue">Welcome to Jukebox Comprehension, where music and songs help you to developing
-      core comprehension skills in a fun and entertaining way.
-      Designed for use in the modern classroom, and linked closely to the requirements
-      of the new National Curriculum.
-      <p class="blue">The jukebox holds a wide range of music and
-      activities that will further the reading development of each and every child,
-      supporting them as they journey towards becoming a confident and able user of the English language. </p>
+      <h2 class="text-intro neon-font blue">A place where music and video improve the mind &amp; nurture the soul.</h2>
     </div>
 
-    <div class="genre-button">
+    <div class="genre-button spacer-5x">
       <a class="btn btn-primary btn-lg outline neon-font blue"
           ng-click="main.openContact()">
-        <span class="glyphicon glyphicon-account"></span> Contact-Us
+        <span class="glyphicon glyphicon-account"></span> Contact Us
       </a>
     </div>
-    <!-- <span class="divider">&nbsp;</span> -->
-    <div class="genre-button">
+
+    <div class="genre-button" ng-if="!main.isLoggedIn()">
       <a class="btn btn-primary btn-lg outline neon-font blue"
           ng-click="main.openLogin()">
         <span class="glyphicon glyphicon-account"></span> Login
       </a>
     </div>
+
+
+
 
 </div>
 

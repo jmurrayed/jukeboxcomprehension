@@ -21,9 +21,10 @@
 @orange: #fc7c00;
 @yellow: #ffff36;
 @blue: #40ffed;
-@red: #FF0015;
-@pink: #ff0dba;
+@red: #F60109;
+@pink: #FF00AA;
 @green: #00FF00;
+@white: white;
 
 @background-colour: black;
 
@@ -83,6 +84,11 @@ a:link, a:visited, a:hover, a:active {
 .yellow {
   color: @yellow !important;
   border-color: @yellow !important;
+}
+
+.white {
+  color: @white !important;
+  border-color: @white !important;
 }
 
 .browsehappy {
@@ -171,6 +177,7 @@ footer a {
   // background-image: url("/assets/images/button.jpg");
   background: -webkit-linear-gradient(top,  #2c354e 0%,#576a97 100%);
 	background: -moz-linear-gradient(top,  #2c354e 0%,#576a97 100%);
+  // background: black;
   border: 1px solid transparent;
   border-radius: 4px;
   padding: 20px 16px;
@@ -239,6 +246,21 @@ footer a {
   padding-bottom: 15px;
 }
 
+.spacer {
+  margin-top: 20px;
+}
+
+.spacer-3x {
+  margin-top: 60px;
+}
+
+.spacer-4x {
+  margin-top: 80px;
+}
+
+.spacer-5x {
+  margin-top: 100px;
+}
 
 /**
  *  Do not remove the comments below. It's the markers used by gulp-inject to inject
