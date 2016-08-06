@@ -19,8 +19,8 @@
     return directive;
 
     /** @ngInject */
-    function NavbarController($log, $rootScope, $uibModal, GenreModel) {
-      var vm = this;
+    function NavbarController() {
+      // var vm = this;
       // var temp = $rootScope.$on('genreColour', function(event, args) {
       //   vm.colour = args;
       // });
