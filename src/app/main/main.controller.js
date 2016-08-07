@@ -6,7 +6,7 @@
     .controller('MainController', MainController);
 
   /** @ngInject */
-  function MainController($uibModal, $log, $routeParams, loginService) {
+  function MainController($uibModal, $routeParams, loginService) {
     var vm = this;
 
     vm.openContact = function() {
@@ -52,7 +52,6 @@
 
     vm.isLoggedIn = function() {
       var res = loginService.isLoggedIn();
-      $log.info(res);
       if (res == null) {
         vm.userInfo = null;
         return false;

@@ -47,29 +47,6 @@
       musicVideo: '',
       taskUrl: ''
     }],
-    'theatre': [{
-      id: 1,
-      colour: 'green',
-      genre: 'theatre',
-      image: 'assets/data/theatre/wicked/wicked.jpg',
-      artist: 'Wicked',
-      title: 'Defying Gravity',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/theatre/wicked/wicked-defying-gravity-lyric-video.mp4',
-      musicVideo: '',
-      taskUrl: ''
-    }, {
-      id: 2,
-      colour: 'green',
-      genre: 'theatre',
-      image: 'assets/data/theatre/my-fair-lady/my-fair-lady.jpg',
-      artist: 'My Fair Lady',
-      title: "Wouldn't It Be Loverly",
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/theatre/my-fair-lady/my-fair-lady_wouldnt-it-be-loverly.mp4',
-      musicVideo: '',
-      taskUrl: ''
-    }],
     'pop': [{
       id: 1,
       colour: 'yellow',
@@ -100,8 +77,8 @@
       artist: 'Katy Perry',
       title: 'Firework',
       description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/pop/katy_perry/katy_perry-firework.mp4',
-      musicVideo: '',
+      lyricVideo: 'assets/data/pop/katy-perry/firework-lyric.mp4',
+      musicVideo: 'assets/data/pop/katy-perry/firework-music.mp4',
       taskUrl: '/tasks/1.png'
     }, {
       id: 4,
@@ -123,6 +100,28 @@
       title: 'Everything At Once',
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/pop/lenka/lenka-everything_at_once.mp4',
+      musicVideo: '',
+      taskUrl: '/tasks/1.png'
+    }, {
+      id: 6,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/michael-jackson/michael-jackson.jpg',
+      artist: 'Michael Jackson',
+      title: 'Earth Song',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/pop/michael-jackson/michael_jackson-earthsong.mp4',
+      musicVideo: '',
+      taskUrl: '/tasks/1.png'
+    }, {
+      id: 7,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/michael-jackson/michael_jackson_1.jpg',
+      artist: 'Michael Jackson',
+      title: 'Everything At Once',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/pop/michael-jackson/michael_jackson-black_or_white.mp4',
       musicVideo: '',
       taskUrl: '/tasks/1.png'
     }],
@@ -168,6 +167,40 @@
       title: 'Change',
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/country/carrie-underwood/carrie_underwood-change.mp4',
+      musicVideo: '',
+      taskUrl: ''
+    }],
+    'dance': [{
+      id: 1,
+      colour: 'white',
+      genre: 'dance',
+      image: 'assets/data/dance/rudimental/rudimental.jpg',
+      artist: 'Rudimental',
+      title: 'Free',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/dance/rudimental/rudimental-free-music.mp4',
+      musicVideo: '',
+      taskUrl: ''
+    }, {
+      id: 2,
+      colour: 'white',
+      genre: 'dance',
+      image: 'assets/data/dance/avicii/avicii.jpg',
+      artist: 'Avicii',
+      title: 'Waiting For Love',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/dance/avicii/avicii-waiting-for-love-lyric.mp4',
+      musicVideo: '',
+      taskUrl: ''
+    }, {
+      id: 3,
+      colour: 'white',
+      genre: 'dance',
+      image: 'assets/data/dance/david-guetta/david-guetta.jpg',
+      artist: 'David Guetta',
+      title: 'Titanium',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/dance/david-guetta/david_guetta-titanium-music.mp4',
       musicVideo: '',
       taskUrl: ''
     }],
@@ -226,30 +259,74 @@
       lyricVideo: 'assets/data/film/muppets/the-muppets_warburtons-ad_the-giant-crumpet-show.mp4',
       musicVideo: '',
       taskUrl: ''
-    }],
-    'dance': [{
-      id: 1,
-      colour: 'white',
-      genre: 'dance',
-      image: 'assets/data/dance/rudimental/rudimental.jpg',
-      artist: 'Rudimental',
-      title: 'Free',
+    }, {
+      id: 6,
+      colour: 'pink',
+      genre: 'film & tv',
+      image: 'assets/data/film/david-bowie/labyrinth.jpg',
+      artist: 'David Bowie',
+      title: "Magic Dance (Labrynth)",
       description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/dance/rudimental/rudimental-free-music.mp4',
+      lyricVideo: 'assets/data/film/david-bowie/labyrinth_magic-dance-lyric.mp4',
+      musicVideo: '',
+      taskUrl: ''
+    }],
+    'theatre': [{
+      id: 1,
+      colour: 'green',
+      genre: 'theatre',
+      image: 'assets/data/theatre/wicked/wicked.jpg',
+      artist: 'Wicked',
+      title: 'Defying Gravity',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/theatre/wicked/wicked-defying-gravity-lyric-video.mp4',
       musicVideo: '',
       taskUrl: ''
     }, {
       id: 2,
-      colour: 'white',
-      genre: 'dance',
-      image: 'assets/data/dance/avicii/avicii.jpg',
-      artist: 'Avicii',
-      title: 'Waiting For Love',
+      colour: 'green',
+      genre: 'theatre',
+      image: 'assets/data/theatre/my-fair-lady/my-fair-lady.jpg',
+      artist: 'My Fair Lady',
+      title: "Wouldn't It Be Loverly",
       description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/dance/avicii/avicii-waiting-for-love-lyric.mp4',
+      lyricVideo: 'assets/data/theatre/my-fair-lady/my-fair-lady_wouldnt-it-be-loverly.mp4',
       musicVideo: '',
       taskUrl: ''
-    }]
+    }, {
+      id: 3,
+      colour: 'green',
+      genre: 'theatre',
+      image: 'assets/data/theatre/cats/cats.jpg',
+      artist: 'Cats',
+      title: "Memory",
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/theatre/cats/memory.mp4',
+      musicVideo: '',
+      taskUrl: ''
+    }, {
+      id: 4,
+      colour: 'green',
+      genre: 'theatre',
+      image: 'assets/data/theatre/oliver/oliver.jpg',
+      artist: 'Oliver',
+      title: "You Gotta Pick A Pocket Or Two",
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/theatre/oliver/pick-a-pocket-or-two.mp4',
+      musicVideo: '',
+      taskUrl: ''
+    }, {
+      id: 5,
+      colour: 'green',
+      genre: 'theatre',
+      image: 'assets/data/theatre/phantom/phantom.jpg',
+      artist: 'Phantom',
+      title: "Phantom Theme",
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/theatre/phantom/phantom-theme.mp4',
+      musicVideo: '',
+      taskUrl: ''
+    }],
   };
 
   angular

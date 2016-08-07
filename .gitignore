@@ -7,3 +7,4 @@ coverage/
 dist/
 .publish/
 *.DS_Store
+src/assets/.DS_Store
