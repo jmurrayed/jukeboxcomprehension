@@ -326,7 +326,7 @@
       lyricVideo: 'assets/data/theatre/phantom/phantom-theme.mp4',
       musicVideo: '',
       taskUrl: ''
-    }],
+    }]
   };
 
   angular
