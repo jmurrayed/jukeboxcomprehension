@@ -25,7 +25,7 @@
     <uib-carousel active="0" no-wrap="false" interval="0">
       <uib-slide ng-repeat="song in menu.selectedGenre track by song.id" >
         <div>
-          <a ng-href="/songs/{{song.genre}}/{{song.id}}">
+          <a ng-href="index.html#!/songs/{{song.genre}}/{{song.id}}">
             <!-- class="img img-container img-responsive"  style="margin:auto;" -->
               <img width="100%" ng-src="{{song.image}}">
           </a>
