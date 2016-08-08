@@ -1,7 +1,9 @@
 
 <div class="col-sm-3 genre-container">
     <div>
-      <h2 class="text-intro neon-font blue">A place where music and video improve the mind &amp; nurture the soul.</h2>
+      <h2 class="text-intro neon-font blue">
+        Where music &amp; video improves the mind &amp; nurtures the soul.
+      </h2>
     </div>
 
     <div class="genre-button spacer-5x">
@@ -26,7 +28,6 @@
       <uib-slide ng-repeat="song in menu.selectedGenre track by song.id" >
         <div>
           <a ng-href="index.html#!/songs/{{song.genre}}/{{song.id}}">
-            <!-- class="img img-container img-responsive"  style="margin:auto;" -->
               <img width="100%" ng-src="{{song.image}}">
           </a>
         </div>
