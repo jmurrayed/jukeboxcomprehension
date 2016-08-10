@@ -275,7 +275,7 @@
       id: 1,
       colour: 'green',
       genre: 'theatre',
-      image: 'assets/data/theatre/wicked/wicked.jpg',
+      image: 'assets/data/theatre/wicked/wicked.png',
       artist: 'Wicked',
       title: 'Defying Gravity',
       description: 'Place the text in the correct chronological order using key word and context clues.',
