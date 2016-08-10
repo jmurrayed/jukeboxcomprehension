@@ -62,6 +62,72 @@
       id: 2,
       colour: 'yellow',
       genre: 'pop',
+      image: 'assets/data/pop/adele/adele.jpg',
+      artist: 'Adele',
+      title: 'Rolling In The Deep',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: "assets/data/pop/jason-mraz/adele-rolling-in-the-deep.mp4",
+      musicVideo: '',
+      taskUrl: '/tasks/1.png'
+    }, {
+      id: 3,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/beverley-knight/beverley-knight.jpg',
+      artist: 'Beverley Knight',
+      title: 'Keep This Fire Burning',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: "assets/data/pop/beverley-knigh/beverley-knight_keep-this-fire-burning.mp4",
+      musicVideo: '',
+      taskUrl: '/tasks/1.png'
+    }, {
+      id: 4,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/christina-aguilera/christina-aguilera.jpg',
+      artist: 'Christina Aguilera',
+      title: 'Fighter',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: "assets/data/pop/christina-aguilera/christina_aguilera-fighter.mp4",
+      musicVideo: '',
+      taskUrl: '/tasks/1.png'
+    }, {
+      id: 5,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/duffy/duffy.jpg',
+      artist: 'Duffy',
+      title: 'Warwick Avenue',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: "assets/data/pop/duffy/duffy_warwick-avenue.mp4",
+      musicVideo: '',
+      taskUrl: '/tasks/1.png'
+    }, {
+      id: 6,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/greg-holden/greg-holden.jpg',
+      artist: 'Greg Holden',
+      title: 'Hold On Tight',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: "assets/data/pop/greg-holden/greg-holden_hold-on-tight.mp4",
+      musicVideo: '',
+      taskUrl: '/tasks/1.png'
+    }, {
+      id: 7,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/heather-small/heather-small.jpg',
+      artist: 'Heather Small',
+      title: 'Proud',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: "assets/data/pop/heather-small/heather-small_proud.mp4",
+      musicVideo: '',
+      taskUrl: '/tasks/1.png'
+    }, {
+      id: 8,
+      colour: 'yellow',
+      genre: 'pop',
       image: 'assets/data/pop/jason-mraz/jason-mraz.jpg',
       artist: 'Jason Mraz',
       title: 'I Wont Give Up',
@@ -70,7 +136,7 @@
       musicVideo: '',
       taskUrl: '/tasks/1.png'
     }, {
-      id: 3,
+      id: 9,
       colour: 'yellow',
       genre: 'pop',
       image: 'assets/data/pop/katy-perry/katy-perry.jpg',
@@ -81,7 +147,7 @@
       musicVideo: 'assets/data/pop/katy-perry/firework-music.mp4',
       taskUrl: '/tasks/1.png'
     }, {
-      id: 4,
+      id: 10,
       colour: 'yellow',
       genre: 'pop',
       image: 'assets/data/pop/kylie/kylie.jpg',
@@ -92,7 +158,7 @@
       musicVideo: '',
       taskUrl: '/tasks/1.png'
     }, {
-      id: 5,
+      id: 11,
       colour: 'yellow',
       genre: 'pop',
       image: 'assets/data/pop/lenka/lenka.jpg',
@@ -103,7 +169,7 @@
       musicVideo: '',
       taskUrl: '/tasks/1.png'
     }, {
-      id: 6,
+      id: 12,
       colour: 'yellow',
       genre: 'pop',
       image: 'assets/data/pop/michael-jackson/michael-jackson.jpg',
@@ -114,7 +180,7 @@
       musicVideo: '',
       taskUrl: '/tasks/1.png'
     }, {
-      id: 7,
+      id: 13,
       colour: 'yellow',
       genre: 'pop',
       image: 'assets/data/pop/michael-jackson/michael_jackson_1.jpg',
@@ -122,6 +188,61 @@
       title: 'Everything At Once',
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/pop/michael-jackson/michael_jackson-black_or_white.mp4',
+      musicVideo: '',
+      taskUrl: '/tasks/1.png'
+    }, {
+      id: 14,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/norah-jones/norah_jones.jpeg',
+      artist: 'Norah Jones',
+      title: 'Come Away With Me',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/pop/norah-jones/norah-jones_come-away-with-me.mp4',
+      musicVideo: '',
+      taskUrl: '/tasks/1.png'
+    }, {
+      id: 15,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/rick-astley/rick-astley.png',
+      artist: 'Rick Astley',
+      title: 'Keep Singing',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/pop/rick-astley/rick_astley_keep-singing.mp4',
+      musicVideo: '',
+      taskUrl: '/tasks/1.png'
+    }, {
+      id: 16,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/sabrina-carpenter/sabrina-carpenter.jpg',
+      artist: 'Sabrina Carpenter',
+      title: 'Smoke And Fire',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/pop/sabrina-carpenter/sabrina-carpenter_smoke-and-fire-lyric.mp4',
+      musicVideo: '',
+      taskUrl: '/tasks/1.png'
+    }, {
+      id: 17,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/the-verve/verve.jpg',
+      artist: 'The Verve',
+      title: 'Bitter Sweet Symphony',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/pop/the-verve/the-verve_bitter-sweet-symphony.mp4',
+      musicVideo: '',
+      taskUrl: '/tasks/1.png'
+    }, {
+      id: 18,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/ed-sheeran/ed-sheeran.jpg',
+      artist: 'Ed Sheeran',
+      title: 'I See Fire',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/pop/ed-sheeran/ed-sheeran_I-see-fire-music.mp4',
       musicVideo: '',
       taskUrl: '/tasks/1.png'
     }],
@@ -169,6 +290,17 @@
       lyricVideo: 'assets/data/country/carrie-underwood/carrie_underwood-change.mp4',
       musicVideo: '',
       taskUrl: ''
+    }, {
+      id: 5,
+      colour: 'orange',
+      genre: 'country',
+      image: 'assets/data/country/nichole-nordeman/nichole-nordeman.jpg',
+      artist: 'Nichole Nordeman',
+      title: 'Slow Down',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/country/nichole-nordeman/nichole-nordeman_slow-down-lyric.mp4',
+      musicVideo: '',
+      taskUrl: ''
     }],
     'dance': [{
       id: 1,
@@ -201,6 +333,17 @@
       title: 'Titanium',
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/dance/david-guetta/david_guetta-titanium-music.mp4',
+      musicVideo: '',
+      taskUrl: ''
+    }, {
+      id: 4,
+      colour: 'white',
+      genre: 'dance',
+      image: 'assets/data/dance/woodkid/woodkid.jpg',
+      artist: 'Woodkid',
+      title: 'Run Boy Run',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/dance/woodkid/woodkid_run-boy-run.mp4',
       musicVideo: '',
       taskUrl: ''
     }],
@@ -270,6 +413,50 @@
       lyricVideo: 'assets/data/film/david-bowie/labyrinth_magic-dance-lyric.mp4',
       musicVideo: '',
       taskUrl: ''
+    }, {
+      id: 7,
+      colour: 'pink',
+      genre: 'film & tv',
+      image: 'assets/data/film/christina-perri/christina-perri.jpg',
+      artist: 'Christina Perri',
+      title: "A Thousand Years",
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/film/christina-perri/christina-perri_a-thousand-years.mp4',
+      musicVideo: '',
+      taskUrl: ''
+    }, {
+      id: 8,
+      colour: 'pink',
+      genre: 'film & tv',
+      image: 'assets/data/film/mans-zelmerlow/mans_zelmerlow.jpg',
+      artist: 'Måns Zelmerlöw',
+      title: "Heroes",
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/film/mans-zelmerlow/mans_zelmerlow-heroes.mp4',
+      musicVideo: '',
+      taskUrl: ''
+    }, {
+      id: 9,
+      colour: 'pink',
+      genre: 'film & tv',
+      image: 'assets/data/film/rihanna/rihanna.jpg',
+      artist: 'Rihanna',
+      title: "Sledgehammer (Star Trek - Beyond)",
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/film/rihanna/rihanna-sledgehammer.mp4',
+      musicVideo: '',
+      taskUrl: ''
+    }, {
+      id: 10,
+      colour: 'pink',
+      genre: 'film & tv',
+      image: 'assets/data/film/vista-print/the-postcard.jpg',
+      artist: 'Vista Print',
+      title: "Father & Son - The Postcard",
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/film/vista-print/father-son_the-postcard.mp4',
+      musicVideo: '',
+      taskUrl: ''
     }],
     'theatre': [{
       id: 1,
@@ -324,6 +511,17 @@
       title: "Phantom Theme",
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/theatre/phantom/phantom-theme.mp4',
+      musicVideo: '',
+      taskUrl: ''
+    }, {
+      id: 6,
+      colour: 'green',
+      genre: 'theatre',
+      image: 'assets/data/theatre/the-sound-of-music/sound-of-music.jpg',
+      artist: 'The Sound Of Music',
+      title: "My Favorite Things",
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/theatre/the-sound-of-music/my-favorite-things.mp4',
       musicVideo: '',
       taskUrl: ''
     }]
