@@ -66,7 +66,7 @@
       artist: 'Adele',
       title: 'Rolling In The Deep',
       description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: "assets/data/pop/jason-mraz/adele-rolling-in-the-deep.mp4",
+      lyricVideo: "assets/data/pop/adele/adele-rolling-in-the-deep.mp4",
       musicVideo: '',
       taskUrl: '/tasks/1.png'
     }, {
@@ -77,7 +77,7 @@
       artist: 'Beverley Knight',
       title: 'Keep This Fire Burning',
       description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: "assets/data/pop/beverley-knigh/beverley-knight_keep-this-fire-burning.mp4",
+      lyricVideo: "assets/data/pop/beverley-knight/beverley-knight_keep-this-fire-burning.mp4",
       musicVideo: '',
       taskUrl: '/tasks/1.png'
     }, {
@@ -130,7 +130,7 @@
       genre: 'pop',
       image: 'assets/data/pop/jason-mraz/jason-mraz.jpg',
       artist: 'Jason Mraz',
-      title: 'I Wont Give Up',
+      title: "I Won't Give Up",
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: "assets/data/pop/jason-mraz/jason-mraz_i-won't-give-up.mp4",
       musicVideo: '',
@@ -185,7 +185,7 @@
       genre: 'pop',
       image: 'assets/data/pop/michael-jackson/michael_jackson_1.jpg',
       artist: 'Michael Jackson',
-      title: 'Everything At Once',
+      title: 'Black Or White',
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/pop/michael-jackson/michael_jackson-black_or_white.mp4',
       musicVideo: '',
@@ -232,17 +232,6 @@
       title: 'Bitter Sweet Symphony',
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/pop/the-verve/the-verve_bitter-sweet-symphony.mp4',
-      musicVideo: '',
-      taskUrl: '/tasks/1.png'
-    }, {
-      id: 18,
-      colour: 'yellow',
-      genre: 'pop',
-      image: 'assets/data/pop/ed-sheeran/ed-sheeran.jpg',
-      artist: 'Ed Sheeran',
-      title: 'I See Fire',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/pop/ed-sheeran/ed-sheeran_I-see-fire-music.mp4',
       musicVideo: '',
       taskUrl: '/tasks/1.png'
     }],
@@ -299,6 +288,17 @@
       title: 'Slow Down',
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/country/nichole-nordeman/nichole-nordeman_slow-down-lyric.mp4',
+      musicVideo: '',
+      taskUrl: ''
+    }, {
+      id: 6,
+      colour: 'orange',
+      genre: 'country',
+      image: 'assets/data/country/dolly-parton/dolly_parton.jpg',
+      artist: 'Dolly Parton',
+      title: 'Blue Smoke',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/country/dolly-parton/dolly_parton_blue-smoke.mp4',
       musicVideo: '',
       taskUrl: ''
     }],
@@ -419,7 +419,7 @@
       genre: 'film & tv',
       image: 'assets/data/film/christina-perri/christina-perri.jpg',
       artist: 'Christina Perri',
-      title: "A Thousand Years",
+      title: "A Thousand Years (Twilight)",
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/film/christina-perri/christina-perri_a-thousand-years.mp4',
       musicVideo: '',
@@ -429,7 +429,7 @@
       colour: 'pink',
       genre: 'film & tv',
       image: 'assets/data/film/mans-zelmerlow/mans_zelmerlow.jpg',
-      artist: 'Måns Zelmerlöw',
+      artist: 'Måns Zelmerlöw (Eurovision)',
       title: "Heroes",
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/film/mans-zelmerlow/mans_zelmerlow-heroes.mp4',
@@ -452,11 +452,22 @@
       genre: 'film & tv',
       image: 'assets/data/film/vista-print/the-postcard.jpg',
       artist: 'Vista Print',
-      title: "Father & Son - The Postcard",
+      title: "D-Larson Hold On Tight (Vista Print Ad)",
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/film/vista-print/father-son_the-postcard.mp4',
       musicVideo: '',
       taskUrl: ''
+    }, {
+      id: 11,
+      colour: 'pink',
+      genre: 'film & tv',
+      image: 'assets/data/film/ed-sheeran/ed-sheeran.jpg',
+      artist: 'Ed Sheeran',
+      title: 'I See Fire',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/film/ed-sheeran/ed-sheeran_I-see-fire-music.mp4',
+      musicVideo: '',
+      taskUrl: '/tasks/1.png'
     }],
     'theatre': [{
       id: 1,
@@ -511,17 +522,6 @@
       title: "Phantom Theme",
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/theatre/phantom/phantom-theme.mp4',
-      musicVideo: '',
-      taskUrl: ''
-    }, {
-      id: 6,
-      colour: 'green',
-      genre: 'theatre',
-      image: 'assets/data/theatre/the-sound-of-music/sound-of-music.jpg',
-      artist: 'The Sound Of Music',
-      title: "My Favorite Things",
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/theatre/the-sound-of-music/my-favorite-things.mp4',
       musicVideo: '',
       taskUrl: ''
     }]

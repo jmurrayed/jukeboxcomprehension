@@ -18,6 +18,15 @@
       });
     };
 
+    vm.openTraining = function() {
+      $uibModal.open({
+        animation: true,
+        templateUrl: 'app/components/metronomics/metronomics.html',
+        controller: 'MetronomicsController',
+        controllerAs: 'mc'
+      });
+    };
+
     vm.openTerms = function() {
       $uibModal.open({
         animation: true,
