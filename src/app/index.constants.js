@@ -168,19 +168,8 @@
       lyricVideo: 'assets/data/pop/lenka/lenka-everything_at_once.mp4',
       musicVideo: '',
       taskUrl: '/tasks/1.png'
-    }, {
+    },  {
       id: 12,
-      colour: 'yellow',
-      genre: 'pop',
-      image: 'assets/data/pop/michael-jackson/michael-jackson.jpg',
-      artist: 'Michael Jackson',
-      title: 'Earth Song',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/pop/michael-jackson/michael_jackson-earthsong.mp4',
-      musicVideo: '',
-      taskUrl: '/tasks/1.png'
-    }, {
-      id: 13,
       colour: 'yellow',
       genre: 'pop',
       image: 'assets/data/pop/michael-jackson/michael_jackson_1.jpg',
@@ -191,7 +180,7 @@
       musicVideo: '',
       taskUrl: '/tasks/1.png'
     }, {
-      id: 14,
+      id: 13,
       colour: 'yellow',
       genre: 'pop',
       image: 'assets/data/pop/norah-jones/norah_jones.jpeg',
@@ -202,7 +191,7 @@
       musicVideo: '',
       taskUrl: '/tasks/1.png'
     }, {
-      id: 15,
+      id: 14,
       colour: 'yellow',
       genre: 'pop',
       image: 'assets/data/pop/rick-astley/rick-astley.png',
@@ -213,7 +202,7 @@
       musicVideo: '',
       taskUrl: '/tasks/1.png'
     }, {
-      id: 16,
+      id: 15,
       colour: 'yellow',
       genre: 'pop',
       image: 'assets/data/pop/sabrina-carpenter/sabrina-carpenter.jpg',
@@ -224,7 +213,7 @@
       musicVideo: '',
       taskUrl: '/tasks/1.png'
     }, {
-      id: 17,
+      id: 16,
       colour: 'yellow',
       genre: 'pop',
       image: 'assets/data/pop/the-verve/verve.jpg',
@@ -232,6 +221,17 @@
       title: 'Bitter Sweet Symphony',
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/pop/the-verve/the-verve_bitter-sweet-symphony.mp4',
+      musicVideo: '',
+      taskUrl: '/tasks/1.png'
+    },{
+      id: 17,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/michael-jackson/michael-jackson.jpg',
+      artist: 'Michael Jackson',
+      title: 'Earth Song',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/pop/michael-jackson/michael_jackson-earthsong.mp4',
       musicVideo: '',
       taskUrl: '/tasks/1.png'
     }],
