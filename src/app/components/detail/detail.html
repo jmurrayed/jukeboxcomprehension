@@ -1,34 +1,40 @@
-<div class="col-sm-3">
-  <div class="song-text spacer-5x blue neon-font">
+<div class="col-xs-12 col-sm-3">
+  <div class="spacer-4x hidden-xs">&nbsp;</div>
+  <div class="spacer visible-xs">&nbsp;</div>
+  <div class="col-xs-12 col-sm-12 song-text blue neon-font">
     <h2 class="text-wrap">{{detail.selectedSong.artist}}</h2>
     <h2 class="text-wrap">{{detail.selectedSong.title}}</h2>
   </div>
-
-  <div class="text-center spacer-5x">
-    <a class="btn btn-primary btn-lg outline neon-font blue"
-        href="index.html#!/">
-        <i class="glyphicon glyphicon-home"></i>
-        Home
-    </a>
-  </div>
-  <div class="text-center spacer" ng-if="detail.isLoggedIn()">
-    <a class="btn btn-primary btn-lg outline neon-font blue"
-        ng-click="main.openLogout()">
-        Logout
-    </a>
-  </div>
-  <div class="text-center spacer" ng-if="!detail.isLoggedIn()">
-    <a class="btn btn-primary btn-lg outline neon-font blue"
-        ng-click="main.openLogin()">
-        Login
-    </a>
+  <div class="spacer-5x col-sm-12 hidden-xs">&nbsp;</div>
+  <div class="col-xs-12 col-sm-12">
+    <div class="text-center col-xs-6 col-sm-12">
+      <a class="btn btn-primary btn-lg outline neon-font blue"
+          href="index.html#!/">
+          <i class="glyphicon glyphicon-home"></i>
+          Home
+      </a>
+    </div>
+    <div class="spacer hidden-xs">&nbsp;</div>
+    <div class="text-center col-xs-6 col-sm-12" ng-if="detail.isLoggedIn()">
+      <a class="btn btn-primary btn-lg outline neon-font blue"
+          ng-click="main.openLogout()">
+          Logout
+      </a>
+    </div>
+    <div class="spacer hidden-xs">&nbsp;</div>
+    <div class="text-center col-xs-6 col-sm-12" ng-if="!detail.isLoggedIn()">
+      <a class="btn btn-primary btn-lg outline neon-font blue"
+          ng-click="main.openLogin()">
+          Login
+      </a>
+    </div>
+    <div class="spacer visible-xs">&nbsp;</div>
   </div>
 </div>
 
-<div class="col-sm-6">
-  <div class="detail-youtube border-glow spacer-3x text-center" ng-class="detail.selectedSong.colour">
-
-
+<div class="col-xs-12 col-sm-6">
+  <div class="spacer-2x hidden-xs">&nbsp;</div>
+  <div class="detail-youtube border-glow text-center" ng-class="detail.selectedSong.colour">
     <videogular class="videogular-container">
     			<vg-media vg-src="detail.selectedSong.lyricVideo"></vg-media>
 
@@ -57,8 +63,10 @@
   </div>
 </div>
 
-<div class="col-sm-3 ">
-  <div class="text-center spacer-3x detail-btn" >
+<div class="col-xs-12 col-sm-3">
+  <div class="spacer-2x hidden-xs">&nbsp;</div>
+  <div class="spacer visible-xs">&nbsp;</div>
+  <div class="text-center detail-btn" >
     <a class="btn btn-primary btn-lg outline neon-font detail-btn" ng-if="detail.isLoggedIn()"
         ng-class="detail.selectedSong.colour"
         target="_blank"
@@ -72,23 +80,26 @@
         Task
     </a>
   </div>
-
-  <div class="text-center spacer-2x">
+  <div class="spacer-2x hidden-xs">&nbsp;</div>
+  <div class="spacer visible-xs">&nbsp;</div>
+  <div class="text-center">
     <a class="btn btn-primary btn-lg outline neon-font detail-btn"
         ng-class="detail.selectedSong.colour">
         Comprehension
     </a>
   </div>
-
-  <div class="text-center spacer-2x">
+  <div class="spacer-2x hidden-xs">&nbsp;</div>
+  <div class="spacer visible-xs">&nbsp;</div>
+  <div class="text-center">
     <a class="btn btn-primary btn-lg outline neon-font detail-btn"
         ng-class="detail.selectedSong.colour">
         <i class="glyphicon glyphicon-film"></i>
         Music Video
     </a>
   </div>
-
-  <div class="text-center spacer-2x">
+  <div class="spacer-2x hidden-xs">&nbsp;</div>
+  <div class="spacer visible-xs">&nbsp;</div>
+  <div class="text-center">
     <a class="btn btn-primary btn-lg outline neon-font detail-btn"
         ng-class="detail.selectedSong.colour">
         <i class="glyphicon glyphicon-film"></i>

@@ -1,35 +1,41 @@
 
-<div class="col-sm-3 genre-container">
-    <div>
-      <h2 class="text-intro neon-font blue">
+<div class="col-sm-3 col-xs-12 genre-container">
+    <div class="col-xs-12">
+      <h2 class="text-intro neon-font blue hidden-sm hidden-xs">
         Where music &amp; video improves the mind &amp; nurtures the soul.
       </h2>
+      <h3 class="text-intro neon-font blue hidden-md hidden-lg">
+        Where music &amp; video improves the mind &amp; nurtures the soul.
+      </h3>
     </div>
 
-    <div class="genre-button spacer-5x">
+    <div class="spacer-5x hidden-xs">&nbsp;</div>
+
+    <div class="col-xs-6 col-sm-12 genre-button">
       <a class="btn btn-primary btn-lg outline neon-font blue"
           ng-click="main.openContact()">
         Contact Us
       </a>
     </div>
 
-    <div class="genre-button" ng-if="!main.isLoggedIn()">
+    <div class="col-xs-6 col-sm-12 genre-button" ng-if="!main.isLoggedIn()">
       <a class="btn btn-primary btn-lg outline neon-font blue"
           ng-click="main.openLogin()">
         Login
       </a>
     </div>
 
-    <div class="genre-button" ng-if="main.isLoggedIn()">
+    <div class="col-xs-6 col-sm-12 genre-button" ng-if="main.isLoggedIn()">
       <a class="btn btn-primary btn-lg outline neon-font blue"
           ng-click="main.openLogout()">
         Logout
       </a>
     </div>
 
+    <div class="col-xs-12 spacer visible-xs">&nbsp;</div>
 </div>
 
-<div class="col-sm-6">
+<div class="col-sm-6 col-xs-12">
   <div class="border-glow" ng-class="menu.genreColour">
     <uib-carousel active="0" no-wrap="false" interval="0">
       <uib-slide ng-repeat="song in menu.selectedGenre track by song.id" >
@@ -44,12 +50,11 @@
       </uib-slide>
     </uib-carousel>
   </div>
-
 </div>
 
-<div class="col-sm-3 genre-container">
+<div class="genre-container col-xs-12 col-sm-3">
   <div ng-repeat="genreKey in menu.genreKeys">
-    <div class="genre-button">
+    <div class="col-sm-12 col-xs-6 genre-button">
       <a class="btn btn-primary btn-lg outline neon-font"
           ng-class="menu.genreColourByKey(genreKey)"
           ng-click="menu.setGenre(genreKey)">
