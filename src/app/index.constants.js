@@ -46,6 +46,28 @@
       lyricVideo: 'assets/data/rock/nickelback/nickelback-if-everyone-cared.mp4',
       musicVideo: '',
       taskUrl: ''
+    }, {
+      id: 5,
+      colour: 'red',
+      genre: 'rock',
+      image: 'assets/data/rock/hoobastank/hoobastank.jpeg',
+      artist: 'hoobastank',
+      title: 'The Reason',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/rock/hoobastank/hoobastank_the-reason.mp4',
+      musicVideo: '',
+      taskUrl: ''
+    }, {
+      id: 6,
+      colour: 'red',
+      genre: 'rock',
+      image: 'assets/data/rock/smashing-pumpkins/smashing.jpg',
+      artist: 'The Smashing Pumpkins',
+      title: 'Tonight, Tonight',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/rock/smashing-pumpkins/the-smashing-pumpkins_tonight-tonight.mp4',
+      musicVideo: '',
+      taskUrl: ''
     }],
     'pop': [{
       id: 1,
@@ -168,7 +190,7 @@
       lyricVideo: 'assets/data/pop/lenka/lenka-everything_at_once.mp4',
       musicVideo: '',
       taskUrl: '/tasks/1.png'
-    },  {
+    }, {
       id: 12,
       colour: 'yellow',
       genre: 'pop',
@@ -223,7 +245,7 @@
       lyricVideo: 'assets/data/pop/the-verve/the-verve_bitter-sweet-symphony.mp4',
       musicVideo: '',
       taskUrl: '/tasks/1.png'
-    },{
+    }, {
       id: 17,
       colour: 'yellow',
       genre: 'pop',
@@ -232,6 +254,50 @@
       title: 'Earth Song',
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/pop/michael-jackson/michael_jackson-earthsong.mp4',
+      musicVideo: '',
+      taskUrl: '/tasks/1.png'
+    }, {
+      id: 18,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/aurora/aurora.jpg',
+      artist: 'Aurora',
+      title: 'Half The World Away',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/pop/aurora/aurora_half-the-world-away.mp4',
+      musicVideo: '',
+      taskUrl: '/tasks/1.png'
+    }, {
+      id: 19,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/frances/frances.jpg',
+      artist: 'Frances',
+      title: 'Say It Again',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/pop/frances/frances_say-it-again.mp4',
+      musicVideo: '',
+      taskUrl: '/tasks/1.png'
+    }, {
+      id: 20,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/justin-timberlake/justin-timberlake.jpg',
+      artist: 'Aurora',
+      title: 'Half The World Away',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/pop/justin-timberlake/cant-stop-the-feeling.mp4',
+      musicVideo: '',
+      taskUrl: '/tasks/1.png'
+    }, {
+      id: 21,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/will-young/will-young.jpg',
+      artist: 'Will Young',
+      title: 'Come On',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/pop/will-young/come-on.mp4',
       musicVideo: '',
       taskUrl: '/tasks/1.png'
     }],
@@ -466,6 +532,28 @@
       title: 'I See Fire',
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/film/ed-sheeran/ed-sheeran_I-see-fire-music.mp4',
+      musicVideo: '',
+      taskUrl: '/tasks/1.png'
+    }, {
+      id: 12,
+      colour: 'pink',
+      genre: 'film & tv',
+      image: 'assets/data/film/aldi/aldi.jpg',
+      artist: 'Aldi',
+      title: 'Favourite Things Parody',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/film/aldi/favourite-things-parody_aldi-ad.mp4',
+      musicVideo: '',
+      taskUrl: '/tasks/1.png'
+    }, {
+      id: 13,
+      colour: 'pink',
+      genre: 'film & tv',
+      image: 'assets/data/film/enchanted/amy-adams.jpg',
+      artist: 'Amy Adams',
+      title: 'Happy Working Song (Enchanted)',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/film/enchanted/enchanted_happy-working-song_lyrics.mp4',
       musicVideo: '',
       taskUrl: '/tasks/1.png'
     }],
