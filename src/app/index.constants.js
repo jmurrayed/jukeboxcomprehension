@@ -417,6 +417,17 @@
       id: 1,
       colour: 'pink',
       genre: 'film & tv',
+      image: 'assets/data/film/muppets/muppets.jpg',
+      artist: 'Muppets',
+      title: "The Giant Crumpet Show (Warburton's Ad)",
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/film/muppets/the-muppets_warburtons-ad_the-giant-crumpet-show.mp4',
+      musicVideo: '',
+      taskUrl: ''
+    }, {
+      id: 2,
+      colour: 'pink',
+      genre: 'film & tv',
       image: 'assets/data/film/anna-kendrick/anna-kendrick.jpg',
       artist: 'Anna Kendrick',
       title: 'Cups (Pitch Perfect)',
@@ -425,7 +436,7 @@
       musicVideo: '',
       taskUrl: ''
     }, {
-      id: 2,
+      id: 3,
       colour: 'pink',
       genre: 'film & tv',
       image: 'assets/data/film/american-idol/kelly-clarkson.jpg',
@@ -436,7 +447,7 @@
       musicVideo: '',
       taskUrl: ''
     }, {
-      id: 3,
+      id: 4,
       colour: 'pink',
       genre: 'film & tv',
       image: 'assets/data/film/eurovision/joe_and_jake.jpg',
@@ -447,7 +458,7 @@
       musicVideo: '',
       taskUrl: ''
     }, {
-      id: 4,
+      id: 5,
       colour: 'pink',
       genre: 'film & tv',
       image: 'assets/data/film/frozen/frozen.jpg',
@@ -455,17 +466,6 @@
       title: "Let It Go (Frozen)",
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/film/frozen/frozen_let-it-go.mp4',
-      musicVideo: '',
-      taskUrl: ''
-    }, {
-      id: 5,
-      colour: 'pink',
-      genre: 'film & tv',
-      image: 'assets/data/film/muppets/muppets.jpg',
-      artist: 'Muppets',
-      title: "The Giant Crumpet Show (Warburton's Ad)",
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/film/muppets/the-muppets_warburtons-ad_the-giant-crumpet-show.mp4',
       musicVideo: '',
       taskUrl: ''
     }, {

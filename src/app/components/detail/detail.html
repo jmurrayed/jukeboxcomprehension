@@ -51,7 +51,7 @@
     				<vg-fullscreen-button></vg-fullscreen-button>
     			</vg-controls>
 
-    			<vg-overlay-play></vg-overlay-play>
+    			<!-- <vg-overlay-play></vg-overlay-play> -->
     			<!-- <vg-poster vg-url='controller.config.plugins.poster'></vg-poster> -->
     		</videogular>
 
@@ -73,7 +73,6 @@
     </a>
     <a class="btn btn-primary btn-lg outline neon-font detail-btn" ng-if="!detail.isLoggedIn()"
         ng-class="detail.selectedSong.colour"
-        target="_blank"
         ng-click="main.openLogin()">
         Task
     </a>
@@ -81,8 +80,14 @@
   <div class="spacer-2x hidden-xs">&nbsp;</div>
   <div class="spacer visible-xs">&nbsp;</div>
   <div class="text-center">
-    <a class="btn btn-primary btn-lg outline neon-font detail-btn"
-        ng-class="detail.selectedSong.colour">
+    <a class="btn btn-primary btn-lg outline neon-font detail-btn" ng-if="detail.isLoggedIn()"
+        ng-class="detail.selectedSong.colour"
+        target="_blank">
+        Comprehension
+    </a>
+    <a class="btn btn-primary btn-lg outline neon-font detail-btn" ng-if="!detail.isLoggedIn()"
+        ng-class="detail.selectedSong.colour"
+        ng-click="main.openLogin()">
         Comprehension
     </a>
   </div>
