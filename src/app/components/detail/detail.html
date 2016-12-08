@@ -35,7 +35,7 @@
   <div class="spacer hidden-xs">&nbsp;</div>
   <div class="detail-youtube border-glow text-center" ng-class="detail.selectedSong.colour">
     <videogular class="videogular-container">
-    			<vg-media vg-src="detail.selectedSong.lyricVideo"></vg-media>
+    			<vg-media vg-src="detail.getVideoLink()"></vg-media>
 
     			<vg-controls>
     				<vg-play-pause-button></vg-play-pause-button>
@@ -74,6 +74,7 @@
     <a class="btn btn-primary btn-lg outline neon-font detail-btn" ng-if="!detail.isLoggedIn()"
         ng-class="detail.selectedSong.colour"
         ng-click="main.openLogin()">
+        <span class="glyphicon glyphicon-star blue"></span>
         Task
     </a>
   </div>
@@ -83,11 +84,13 @@
     <a class="btn btn-primary btn-lg outline neon-font detail-btn" ng-if="detail.isLoggedIn()"
         ng-class="detail.selectedSong.colour"
         target="_blank">
+        <span class="glyphicon glyphicon-star blue"></span>
         Comprehension
     </a>
     <a class="btn btn-primary btn-lg outline neon-font detail-btn" ng-if="!detail.isLoggedIn()"
         ng-class="detail.selectedSong.colour"
         ng-click="main.openLogin()">
+        <span class="glyphicon glyphicon-star blue"></span>
         Comprehension
     </a>
   </div>
@@ -95,7 +98,8 @@
   <div class="spacer visible-xs">&nbsp;</div>
   <div class="text-center">
     <a class="btn btn-primary btn-lg outline neon-font detail-btn"
-        ng-class="detail.selectedSong.colour">
+        ng-class="detail.selectedSong.colour"
+        ng-click="detail.videoType = 'music'">
         <i class="glyphicon glyphicon-film"></i>
         Music Video
     </a>
@@ -104,7 +108,8 @@
   <div class="spacer visible-xs">&nbsp;</div>
   <div class="text-center">
     <a class="btn btn-primary btn-lg outline neon-font detail-btn"
-        ng-class="detail.selectedSong.colour">
+        ng-class="detail.selectedSong.colour"
+        ng-click="detail.videoType = 'lyric'">
         <i class="glyphicon glyphicon-film"></i>
         Lyric Video
     </a>

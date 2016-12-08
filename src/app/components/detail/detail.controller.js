@@ -10,8 +10,15 @@
     loginService) {
     var vm = this;
     vm.selectedSong = SelectedSong[0];
-
+    vm.videoType = 'lyric';
     // Public Functions...
+    vm.getVideoLink = function() {
+      if (vm.videoType == 'lyric') {
+        return vm.selectedSong.lyricVideo;
+      } else {
+        return vm.selectedSong.musicVideo;
+      }
+    };
 
     vm.openRegister = function() {
       $uibModal.open({
