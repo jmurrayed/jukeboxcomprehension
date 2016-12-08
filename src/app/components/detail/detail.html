@@ -67,8 +67,8 @@
   <div class="text-center detail-btn" >
     <a class="btn btn-primary btn-lg outline neon-font detail-btn" ng-if="detail.isLoggedIn()"
         ng-class="detail.selectedSong.colour"
-        target="_blank"
-        href="https://firebasestorage.googleapis.com/v0/b/jukebox-temp.appspot.com/o/tasks.pdf?alt=media&token=84a14a0c-cad4-497e-962b-1334225e2939">
+        ng-click="detail.getFileUrl('task.pdf')">
+        <span class="glyphicon glyphicon-star blue"></span>
         Task
     </a>
     <a class="btn btn-primary btn-lg outline neon-font detail-btn" ng-if="!detail.isLoggedIn()"
@@ -83,7 +83,7 @@
   <div class="text-center">
     <a class="btn btn-primary btn-lg outline neon-font detail-btn" ng-if="detail.isLoggedIn()"
         ng-class="detail.selectedSong.colour"
-        target="_blank">
+        ng-click="detail.getFileUrl('comprehension.pdf')">
         <span class="glyphicon glyphicon-star blue"></span>
         Comprehension
     </a>

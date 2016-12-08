@@ -6,7 +6,7 @@
     .controller('DetailController', DetailController);
 
   /** @ngInject */
-  function DetailController($scope, $log, SelectedSong, $uibModal,
+  function DetailController($scope, $log, $window, SelectedSong, $uibModal,
     loginService) {
     var vm = this;
     vm.selectedSong = SelectedSong[0];
@@ -38,15 +38,13 @@
       }
     };
 
-    // Private functions...
-
-    vm.getFileUrl = function() {
-      // use vm.selectedSong filename...
-      var storageRef = new firebase.storage().ref("tasks.pdf");
+    vm.getFileUrl = function(filename) {
+      $log.info(vm.selectedSong.fileUrl + filename);
+      var storageRef = new firebase.storage()
+        .ref(vm.selectedSong.fileUrl + filename);
       storageRef.getDownloadURL().then(function(url) {
-        $log.info("url -> " + url);
-        // vm.fileUrl = url;
-        return url;
+        // $log.info("url -> " + url);
+        $window.open(url, '_blank');
       });
     }
   }

@@ -12,7 +12,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/rock/daughtry/daughtry_what-about-now.mp4',
       musicVideo: '',
-      taskUrl: ''
+      fileUrl: ''
     }, {
       id: 2,
       colour: 'red',
@@ -23,7 +23,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/rock/disturbed/disturbed-the-sound-of-silence.mp4',
       musicVideo: '',
-      taskUrl: ''
+      fileUrl: ''
     }, {
       id: 3,
       colour: 'red',
@@ -34,7 +34,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/rock/linkin-park/linkin-park_castle-of-glass.mp4',
       musicVideo: '',
-      taskUrl: ''
+      fileUrl: ''
     }, {
       id: 4,
       colour: 'red',
@@ -45,7 +45,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/rock/nickelback/nickelback-if-everyone-cared.mp4',
       musicVideo: '',
-      taskUrl: ''
+      fileUrl: ''
     }, {
       id: 5,
       colour: 'red',
@@ -56,7 +56,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/rock/hoobastank/hoobastank_the-reason.mp4',
       musicVideo: '',
-      taskUrl: ''
+      fileUrl: ''
     }, {
       id: 6,
       colour: 'red',
@@ -67,7 +67,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/rock/smashing-pumpkins/the-smashing-pumpkins_tonight-tonight.mp4',
       musicVideo: '',
-      taskUrl: ''
+      fileUrl: ''
     }],
     'pop': [{
       id: 1,
@@ -79,7 +79,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/pop/a-ha/a-ha_take-on-me.mp4',
       musicVideo: '',
-      taskUrl: '/tasks/1.png'
+      fileUrl: '/tasks/1.png'
     }, {
       id: 2,
       colour: 'yellow',
@@ -90,7 +90,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: "assets/data/pop/adele/adele-rolling-in-the-deep.mp4",
       musicVideo: '',
-      taskUrl: '/tasks/1.png'
+      fileUrl: '/tasks/1.png'
     }, {
       id: 3,
       colour: 'yellow',
@@ -101,7 +101,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: "assets/data/pop/beverley-knight/beverley-knight_keep-this-fire-burning.mp4",
       musicVideo: '',
-      taskUrl: '/tasks/1.png'
+      fileUrl: '/tasks/1.png'
     }, {
       id: 4,
       colour: 'yellow',
@@ -112,7 +112,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: "assets/data/pop/christina-aguilera/christina_aguilera-fighter.mp4",
       musicVideo: '',
-      taskUrl: '/tasks/1.png'
+      fileUrl: '/tasks/1.png'
     }, {
       id: 5,
       colour: 'yellow',
@@ -123,7 +123,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: "assets/data/pop/duffy/duffy_warwick-avenue.mp4",
       musicVideo: '',
-      taskUrl: '/tasks/1.png'
+      fileUrl: '/tasks/1.png'
     }, {
       id: 6,
       colour: 'yellow',
@@ -134,7 +134,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: "assets/data/pop/greg-holden/greg-holden_hold-on-tight.mp4",
       musicVideo: '',
-      taskUrl: '/tasks/1.png'
+      fileUrl: '/tasks/1.png'
     }, {
       id: 7,
       colour: 'yellow',
@@ -145,7 +145,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: "assets/data/pop/heather-small/heather-small_proud.mp4",
       musicVideo: '',
-      taskUrl: '/tasks/1.png'
+      fileUrl: '/tasks/1.png'
     }, {
       id: 8,
       colour: 'yellow',
@@ -156,7 +156,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: "assets/data/pop/jason-mraz/jason-mraz_i-won't-give-up.mp4",
       musicVideo: '',
-      taskUrl: '/tasks/1.png'
+      fileUrl: '/tasks/1.png'
     }, {
       id: 9,
       colour: 'yellow',
@@ -167,7 +167,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/pop/katy-perry/firework-lyric.mp4',
       musicVideo: 'assets/data/pop/katy-perry/firework-music.mp4',
-      taskUrl: '/tasks/1.png'
+      fileUrl: '/pop/katy-perry-firework/'
     }, {
       id: 10,
       colour: 'yellow',
@@ -178,7 +178,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/pop/kylie/kylie_only-you.mp4',
       musicVideo: '',
-      taskUrl: '/tasks/1.png'
+      fileUrl: '/tasks/1.png'
     }, {
       id: 11,
       colour: 'yellow',
@@ -189,7 +189,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/pop/lenka/lenka-everything_at_once.mp4',
       musicVideo: '',
-      taskUrl: '/tasks/1.png'
+      fileUrl: '/tasks/1.png'
     }, {
       id: 12,
       colour: 'yellow',
@@ -200,7 +200,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/pop/michael-jackson/michael_jackson-black_or_white.mp4',
       musicVideo: '',
-      taskUrl: '/tasks/1.png'
+      fileUrl: '/tasks/1.png'
     }, {
       id: 13,
       colour: 'yellow',
@@ -211,7 +211,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/pop/norah-jones/norah-jones_come-away-with-me.mp4',
       musicVideo: '',
-      taskUrl: '/tasks/1.png'
+      fileUrl: '/tasks/1.png'
     }, {
       id: 14,
       colour: 'yellow',
@@ -222,7 +222,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/pop/rick-astley/rick_astley_keep-singing.mp4',
       musicVideo: '',
-      taskUrl: '/tasks/1.png'
+      fileUrl: '/tasks/1.png'
     }, {
       id: 15,
       colour: 'yellow',
@@ -233,7 +233,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/pop/sabrina-carpenter/sabrina-carpenter_smoke-and-fire-lyric.mp4',
       musicVideo: '',
-      taskUrl: '/tasks/1.png'
+      fileUrl: '/tasks/1.png'
     }, {
       id: 16,
       colour: 'yellow',
@@ -244,7 +244,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/pop/the-verve/the-verve_bitter-sweet-symphony.mp4',
       musicVideo: '',
-      taskUrl: '/tasks/1.png'
+      fileUrl: '/tasks/1.png'
     }, {
       id: 17,
       colour: 'yellow',
@@ -255,7 +255,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/pop/michael-jackson/michael_jackson-earthsong.mp4',
       musicVideo: '',
-      taskUrl: '/tasks/1.png'
+      fileUrl: '/tasks/1.png'
     }, {
       id: 18,
       colour: 'yellow',
@@ -266,7 +266,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/pop/aurora/aurora_half-the-world-away.mp4',
       musicVideo: '',
-      taskUrl: '/tasks/1.png'
+      fileUrl: '/tasks/1.png'
     }, {
       id: 19,
       colour: 'yellow',
@@ -277,7 +277,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/pop/frances/frances_say-it-again.mp4',
       musicVideo: '',
-      taskUrl: '/tasks/1.png'
+      fileUrl: '/tasks/1.png'
     }, {
       id: 20,
       colour: 'yellow',
@@ -288,7 +288,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/pop/justin-timberlake/cant-stop-the-feeling.mp4',
       musicVideo: '',
-      taskUrl: '/tasks/1.png'
+      fileUrl: '/tasks/1.png'
     }, {
       id: 21,
       colour: 'yellow',
@@ -299,7 +299,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/pop/will-young/will-young_come-on.mp4',
       musicVideo: '',
-      taskUrl: '/tasks/1.png'
+      fileUrl: '/tasks/1.png'
     }],
     'country': [{
       id: 1,
@@ -311,7 +311,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/country/miranda-lambert/miranda_lambert-the_house_that_built_me.mp4',
       musicVideo: '',
-      taskUrl: ''
+      fileUrl: ''
     }, {
       id: 2,
       colour: 'orange',
@@ -322,7 +322,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/country/kelly-clarkson/kelly-clarkson_tie-it-up.mp4',
       musicVideo: '',
-      taskUrl: ''
+      fileUrl: ''
     }, {
       id: 3,
       colour: 'orange',
@@ -333,7 +333,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/country/tim-mcgraw/tim-mcgraw_humble-and-kind.mp4',
       musicVideo: '',
-      taskUrl: ''
+      fileUrl: ''
     }, {
       id: 4,
       colour: 'orange',
@@ -344,7 +344,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/country/carrie-underwood/carrie_underwood-change.mp4',
       musicVideo: '',
-      taskUrl: ''
+      fileUrl: ''
     }, {
       id: 5,
       colour: 'orange',
@@ -355,7 +355,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/country/nichole-nordeman/nichole-nordeman_slow-down-lyric.mp4',
       musicVideo: '',
-      taskUrl: ''
+      fileUrl: ''
     }, {
       id: 6,
       colour: 'orange',
@@ -366,7 +366,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/country/dolly-parton/dolly_parton_blue-smoke.mp4',
       musicVideo: '',
-      taskUrl: ''
+      fileUrl: ''
     }],
     'dance': [{
       id: 1,
@@ -378,7 +378,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/dance/rudimental/rudimental-free-music.mp4',
       musicVideo: '',
-      taskUrl: ''
+      fileUrl: ''
     }, {
       id: 2,
       colour: 'white',
@@ -389,7 +389,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/dance/avicii/avicii-waiting-for-love-lyric.mp4',
       musicVideo: '',
-      taskUrl: ''
+      fileUrl: ''
     }, {
       id: 3,
       colour: 'white',
@@ -400,7 +400,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/dance/david-guetta/david_guetta-titanium-music.mp4',
       musicVideo: '',
-      taskUrl: ''
+      fileUrl: ''
     }, {
       id: 4,
       colour: 'white',
@@ -411,7 +411,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/dance/woodkid/woodkid_run-boy-run.mp4',
       musicVideo: '',
-      taskUrl: ''
+      fileUrl: ''
     }],
     'film & tv': [{
       id: 1,
@@ -423,7 +423,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/film/muppets/the-muppets_warburtons-ad_the-giant-crumpet-show.mp4',
       musicVideo: '',
-      taskUrl: ''
+      fileUrl: ''
     }, {
       id: 2,
       colour: 'pink',
@@ -434,7 +434,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/film/anna-kendrick/anna_kendrick-cups.mp4',
       musicVideo: '',
-      taskUrl: ''
+      fileUrl: ''
     }, {
       id: 3,
       colour: 'pink',
@@ -445,7 +445,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/film/american-idol/kelly-clarkson_piece-by-piece.mp4',
       musicVideo: '',
-      taskUrl: ''
+      fileUrl: ''
     }, {
       id: 4,
       colour: 'pink',
@@ -456,7 +456,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/film/eurovision/joe-and-jake_youre-not-alone.mp4',
       musicVideo: '',
-      taskUrl: ''
+      fileUrl: ''
     }, {
       id: 5,
       colour: 'pink',
@@ -467,7 +467,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/film/frozen/frozen_let-it-go.mp4',
       musicVideo: '',
-      taskUrl: ''
+      fileUrl: ''
     }, {
       id: 6,
       colour: 'pink',
@@ -478,7 +478,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/film/david-bowie/labyrinth_magic-dance-lyric.mp4',
       musicVideo: '',
-      taskUrl: ''
+      fileUrl: ''
     }, {
       id: 7,
       colour: 'pink',
@@ -489,7 +489,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/film/christina-perri/christina-perri_a-thousand-years.mp4',
       musicVideo: '',
-      taskUrl: ''
+      fileUrl: ''
     }, {
       id: 8,
       colour: 'pink',
@@ -500,7 +500,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/film/mans-zelmerlow/mans_zelmerlow-heroes.mp4',
       musicVideo: '',
-      taskUrl: ''
+      fileUrl: ''
     }, {
       id: 9,
       colour: 'pink',
@@ -511,7 +511,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/film/rihanna/rihanna-sledgehammer.mp4',
       musicVideo: '',
-      taskUrl: ''
+      fileUrl: ''
     }, {
       id: 10,
       colour: 'pink',
@@ -522,7 +522,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/film/vista-print/father-son_the-postcard.mp4',
       musicVideo: '',
-      taskUrl: ''
+      fileUrl: ''
     }, {
       id: 11,
       colour: 'pink',
@@ -533,7 +533,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/film/ed-sheeran/ed-sheeran_I-see-fire-music.mp4',
       musicVideo: '',
-      taskUrl: '/tasks/1.png'
+      fileUrl: '/tasks/1.png'
     }, {
       id: 12,
       colour: 'pink',
@@ -544,7 +544,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/film/aldi/favourite-things-parody_aldi-ad.mp4',
       musicVideo: '',
-      taskUrl: '/tasks/1.png'
+      fileUrl: '/tasks/1.png'
     }, {
       id: 13,
       colour: 'pink',
@@ -555,7 +555,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/film/enchanted/enchanted_happy-working-song_lyrics.mp4',
       musicVideo: '',
-      taskUrl: '/tasks/1.png'
+      fileUrl: '/tasks/1.png'
     }],
     'theatre': [{
       id: 1,
@@ -567,7 +567,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/theatre/wicked/wicked-defying-gravity-lyric-video.mp4',
       musicVideo: '',
-      taskUrl: ''
+      fileUrl: ''
     }, {
       id: 2,
       colour: 'green',
@@ -578,7 +578,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/theatre/my-fair-lady/my-fair-lady_wouldnt-it-be-loverly.mp4',
       musicVideo: '',
-      taskUrl: ''
+      fileUrl: ''
     }, {
       id: 3,
       colour: 'green',
@@ -589,7 +589,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/theatre/cats/memory.mp4',
       musicVideo: '',
-      taskUrl: ''
+      fileUrl: ''
     }, {
       id: 4,
       colour: 'green',
@@ -600,7 +600,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/theatre/oliver/pick-a-pocket-or-two.mp4',
       musicVideo: '',
-      taskUrl: ''
+      fileUrl: ''
     }, {
       id: 5,
       colour: 'green',
@@ -611,7 +611,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/theatre/phantom/phantom-theme.mp4',
       musicVideo: '',
-      taskUrl: ''
+      fileUrl: ''
     }]
   };
 
