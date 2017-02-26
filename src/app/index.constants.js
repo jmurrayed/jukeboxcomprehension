@@ -522,6 +522,28 @@
       lyricVideo: 'assets/data/dance/woodkid/woodkid_run-boy-run.mp4',
       musicVideo: '',
       fileUrl: ''
+    }, {
+      id: 5,
+      colour: 'white',
+      genre: 'dance',
+      image: 'assets/data/dance/starley/starley.jpg',
+      artist: 'Starley',
+      title: 'Call On Me',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/dance/starley/starley-call-on-me-lyrics.mp4',
+      musicVideo: 'assets/data/dance/starley/starley-call-on-me.mp4',
+      fileUrl: ''
+    }, {
+      id: 6,
+      colour: 'white',
+      genre: 'dance',
+      image: 'assets/data/dance/galantis/galantis.jpg',
+      artist: 'Galantis',
+      title: 'No Money',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: 'assets/data/dance/galantis/galantis-no-money.mp4',
+      fileUrl: ''
     }],
     'film & tv': [{
       id: 1,
