@@ -68,6 +68,39 @@
       lyricVideo: 'assets/data/rock/smashing-pumpkins/the-smashing-pumpkins_tonight-tonight.mp4',
       musicVideo: '',
       fileUrl: ''
+    }, {
+      id: 7,
+      colour: 'red',
+      genre: 'rock',
+      image: 'assets/data/rock/lower-than-atlantis/lower-than-atlantis.jpg',
+      artist: 'Lower Than Atlantis',
+      title: 'Get Over it',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/rock/lower-than-atlantis/lower-than-atlantis-get-over-it-lyrics.mp4',
+      musicVideo: 'assets/data/rock/lower-than-atlantis/lower-than-atlantis-get-over-it.mp4',
+      fileUrl: ''
+    }, {
+      id: 8,
+      colour: 'red',
+      genre: 'rock',
+      image: 'assets/data/rock/muse/muse.jpg',
+      artist: 'Muse',
+      title: 'Feeling Good',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/rock/muse/muse-feeling-good.mp4',
+      musicVideo: 'assets/data/rock/muse/muse-feeling-good.mp4',
+      fileUrl: ''
+    }, {
+      id: 9,
+      colour: 'red',
+      genre: 'rock',
+      image: 'assets/data/rock/tenacious-d/tenacious-d.jpg',
+      artist: 'Tenacious D',
+      title: 'Tribute',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/rock/tenacious-d/tenacious-d-tribute.mp4',
+      musicVideo: '',
+      fileUrl: ''
     }],
     'pop': [{
       id: 1,
