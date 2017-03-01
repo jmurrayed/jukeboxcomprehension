@@ -698,7 +698,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/film/ed-sheeran/ed-sheeran_I-see-fire-music.mp4',
       musicVideo: '',
-      fileUrl: '/tasks/1.png'
+      fileUrl: ''
     }, {
       id: 12,
       colour: 'pink',
@@ -709,7 +709,7 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/film/aldi/favourite-things-parody_aldi-ad.mp4',
       musicVideo: '',
-      fileUrl: '/tasks/1.png'
+      fileUrl: ''
     }, {
       id: 13,
       colour: 'pink',
@@ -720,7 +720,95 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/film/enchanted/enchanted_happy-working-song_lyrics.mp4',
       musicVideo: '',
-      fileUrl: '/tasks/1.png'
+      fileUrl: ''
+    }, {
+      id: 14,
+      colour: 'pink',
+      genre: 'film & tv',
+      image: 'assets/data/film/diana/lady-diana.jpg',
+      artist: 'Elton John',
+      title: "Goodbye England's Rose (Diana)",
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/film/diana/goodbye-englands-rose-elton-john.mp4',
+      musicVideo: '',
+      fileUrl: ''
+    }, {
+      id: 15,
+      colour: 'pink',
+      genre: 'film & tv',
+      image: 'assets/data/film/glee/imagine-john-lennon-glee.jpg',
+      artist: 'John Lennon',
+      title: "Imagine (Glee)",
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/film/glee/imagine-john-lennon-glee.mp4',
+      musicVideo: '',
+      fileUrl: ''
+    }, {
+      id: 16,
+      colour: 'pink',
+      genre: 'film & tv',
+      image: 'assets/data/film/jungle-book/bare-necessaties.jpg',
+      artist: 'Phil Harris & Bruce Reitherman',
+      title: "Bare Necessaties (The Jungle Book)",
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/film/jungle-book/bare-necessities-the-jungle-book-lyrics.mp4',
+      musicVideo: 'assets/data/film/jungle-book/bare-necessaties-the-jungle-book.mp4',
+      fileUrl: ''
+    }, {
+      id: 17,
+      colour: 'pink',
+      genre: 'film & tv',
+      image: 'assets/data/film/karen-o/karen-o.jpg',
+      artist: 'Karen O',
+      title: "Strange Love (frankenweenie)",
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/film/karen-o/karen-o-strange-love-frankenweenie.mp4',
+      musicVideo: '',
+      fileUrl: ''
+    }, {
+      id: 18,
+      colour: 'pink',
+      genre: 'film & tv',
+      image: 'assets/data/film/paralympics/bpa.jpg',
+      artist: 'Sammy Davis Jr.',
+      title: "Yes I Can (Paralympics)",
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/film/paralympics/yes-i-can-audio-described.mp4',
+      musicVideo: 'assets/data/film/paralympics/yes-i-can-paralympics-2016.mp4',
+      fileUrl: ''
+    }, {
+      id: 19,
+      colour: 'pink',
+      genre: 'film & tv',
+      image: 'assets/data/film/pharrell-williams/pharrell-williams.jpg',
+      artist: 'Pharrell Williams',
+      title: "Happy (Despicable Me 2)",
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/film/pharrell-williams/pharrell-williams-happy-lyric-video.mp4',
+      musicVideo: 'assets/data/film/pharrell-williams/pharrell-williams-happy.mp4',
+      fileUrl: ''
+    }, {
+      id: 20,
+      colour: 'pink',
+      genre: 'film & tv',
+      image: 'assets/data/film/spaceman/nasa_commander_chris_hadfield.jpg',
+      artist: 'Chris Hadfield',
+      title: "Space Oddity",
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: 'assets/data/film/spaceman/space-oddity.mp4',
+      fileUrl: ''
+    },  {
+      id: 21,
+      colour: 'pink',
+      genre: 'film & tv',
+      image: 'assets/data/film/toy-story/toy-story.jpg',
+      artist: 'Randy Newan',
+      title: "You've Got A Friend In Me (Toy Story)",
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/film/toy-story/youve-gota-friend-in-me-randy-newman.mp4',
+      musicVideo: '',
+      fileUrl: ''
     }],
     'theatre': [{
       id: 1,
