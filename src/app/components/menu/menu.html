@@ -38,7 +38,7 @@
 <div class="col-sm-6 col-xs-12">
   <div class="border-glow" ng-class="menu.genreColour">
     <uib-carousel active="0" no-wrap="false" interval="0">
-      <uib-slide ng-repeat="song in menu.selectedGenre track by song.id" >
+      <uib-slide ng-repeat="song in menu.selectedGenre " >
 
         <div ng-switch="song.id == 0">
           <div ng-switch-when="true">
