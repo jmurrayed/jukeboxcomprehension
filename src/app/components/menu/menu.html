@@ -39,14 +39,28 @@
   <div class="border-glow" ng-class="menu.genreColour">
     <uib-carousel active="0" no-wrap="false" interval="0">
       <uib-slide ng-repeat="song in menu.selectedGenre track by song.id" >
-        <div>
-          <a ng-href="index.html#!/songs/{{song.genre}}/{{song.id}}">
+
+        <div ng-switch="song.id == 0">
+          <div ng-switch-when="true">
+            <div>
               <img width="100%" ng-src="{{song.image}}">
-          </a>
+            </div>
+            <div class="text-center" ng-class="menu.genreColour">
+              <h3 class="song-title">{{song.title}}</h3>
+            </div>
+          </div>
+          <div ng-switch-default>
+            <div>
+              <a ng-href="index.html#!/songs/{{song.genre}}/{{song.id}}">
+                  <img width="100%" ng-src="{{song.image}}">
+              </a>
+            </div>
+            <div class="text-center" ng-class="menu.genreColour">
+              <h3 class="song-title">{{song.artist}} - {{song.title}}</h3>
+            </div>
+          </div>
         </div>
-        <div class="text-center" ng-class="menu.genreColour">
-          <h3 class="song-title">{{song.artist}} - {{song.title}}</h3>
-        </div>
+
       </uib-slide>
     </uib-carousel>
   </div>

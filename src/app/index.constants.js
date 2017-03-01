@@ -3,6 +3,17 @@
 
   var GENRES = {
     'rock': [{
+      id: 0,
+      colour: 'red',
+      genre: 'rock',
+      image: 'assets/data/rock/landing-photo-rock.jpg',
+      artist: '',
+      title: 'Rock',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: '',
+      fileUrl: ''
+    }, {
       id: 1,
       colour: 'red',
       genre: 'rock',
@@ -103,6 +114,17 @@
       fileUrl: ''
     }],
     'pop': [{
+      id: 0,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/pop-landing-icon.jpg',
+      artist: '',
+      title: 'Pop',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: '',
+      fileUrl: ''
+    },{
       id: 1,
       colour: 'yellow',
       genre: 'pop',
@@ -335,6 +357,17 @@
       fileUrl: '/tasks/1.png'
     }],
     'country': [{
+      id: 0,
+      colour: 'orange',
+      genre: 'country',
+      image: 'assets/data/country/landing-photo-country.jpg',
+      artist: '',
+      title: 'Country',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: '',
+      fileUrl: ''
+    }, {
       id: 1,
       colour: 'orange',
       genre: 'country',
@@ -512,6 +545,17 @@
       fileUrl: ''
     }],
     'dance': [{
+      id: 0,
+      colour: 'white',
+      genre: 'dance',
+      image: 'assets/data/dance/landing-photo-dance.jpg',
+      artist: '',
+      title: 'dance',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: '',
+      fileUrl: ''
+    }, {
       id: 1,
       colour: 'white',
       genre: 'dance',
@@ -579,6 +623,17 @@
       fileUrl: ''
     }],
     'film & tv': [{
+      id: 0,
+      colour: 'pink',
+      genre: 'film & tv',
+      image: 'assets/data/film/landing-photo-film-and-tv.jpg',
+      artist: '',
+      title: "Film & TV",
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: '',
+      fileUrl: ''
+    }, {
       id: 1,
       colour: 'pink',
       genre: 'film & tv',
@@ -811,6 +866,17 @@
       fileUrl: ''
     }],
     'theatre': [{
+      id: 0,
+      colour: 'green',
+      genre: 'theatre',
+      image: 'assets/data/theatre/landing-photo-theatre.jpg',
+      artist: '',
+      title: 'Theatre',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: '',
+      fileUrl: ''
+    }, {
       id: 1,
       colour: 'green',
       genre: 'theatre',
