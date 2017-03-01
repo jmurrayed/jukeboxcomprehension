@@ -803,7 +803,7 @@
       colour: 'pink',
       genre: 'film & tv',
       image: 'assets/data/film/jungle-book/bare-necessaties.jpg',
-      artist: 'Phil Harris & Bruce Reitherman',
+      artist: 'Phil Harris',
       title: "Bare Necessaties (The Jungle Book)",
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/film/jungle-book/bare-necessities-the-jungle-book-lyrics.mp4',
