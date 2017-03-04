@@ -621,6 +621,17 @@
       lyricVideo: '',
       musicVideo: 'assets/data/dance/galantis/galantis-no-money.mp4',
       fileUrl: ''
+    }, {
+      id: 7,
+      colour: 'white',
+      genre: 'dance',
+      image: 'assets/data/dance/clean-bandit/clean-bandit.jpg',
+      artist: 'Clean Bandit',
+      title: 'Tears',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: 'assets/data/dance/clean-bandit/clean-bandit-tears.mp4',
+      fileUrl: ''
     }],
     'film & tv': [{
       id: 0,
@@ -930,6 +941,61 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/theatre/phantom/phantom-theme.mp4',
       musicVideo: '',
+      fileUrl: ''
+    }, {
+      id: 6,
+      colour: 'green',
+      genre: 'theatre',
+      image: 'assets/data/theatre/christmas-carol/a-christmas-carol-picture.jpg',
+      artist: 'A Christmas Carol',
+      title: "Thank You Very Much",
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: 'assets/data/theatre/christmas-carol/a-christmas-carol-thank-you-very-much.mp4',
+      fileUrl: ''
+    }, {
+      id: 7,
+      colour: 'green',
+      genre: 'theatre',
+      image: 'assets/data/theatre/fiddler-on-the-roof/fiddler-on-the-roof.jpg',
+      artist: 'Fiddler On The Roof',
+      title: "If I Were A Rich Man",
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: 'assets/data/theatre/fiddler-on-the-roof/fiddler-on-the-roof-if-i-were-a-rich-man.mp4',
+      fileUrl: ''
+    }, {
+      id: 8,
+      colour: 'green',
+      genre: 'theatre',
+      image: 'assets/data/theatre/les-miserables/les-miserables.jpg',
+      artist: 'Les Miserables',
+      title: "Do You Hear The People Sing",
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: 'assets/data/theatre/les-miserables/do-you-hear-the-people-sing-les-miserables-song.mp4',
+      fileUrl: ''
+    }, {
+      id: 9,
+      colour: 'green',
+      genre: 'theatre',
+      image: 'assets/data/theatre/lion-king/the-lion-king.jpg',
+      artist: 'The Lion King',
+      title: "The Circle Of Life",
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/theatre/lion-king/the-lion-king-the-circle-of-life-lyric-video.mp4',
+      musicVideo: 'assets/data/theatre/lion-king/the-lion-king-the-circle-of-life.mp4',
+      fileUrl: ''
+    }, {
+      id: 10,
+      colour: 'green',
+      genre: 'theatre',
+      image: 'assets/data/theatre/west-side-story/west-side-story.jpg',
+      artist: 'West Side Story',
+      title: "America",
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: 'assets/data/theatre/west-side-story/west-side-story-america.mp4',
       fileUrl: ''
     }]
   };
