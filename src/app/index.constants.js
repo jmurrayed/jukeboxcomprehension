@@ -21,8 +21,8 @@
       artist: 'Daughtry',
       title: 'What About Now',
       description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/rock/daughtry/daughtry_what-about-now.mp4',
-      musicVideo: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/rock/daughtry/daughtry_what-about-now.mp4',
       fileUrl: ''
     }, {
       id: 2,
@@ -32,8 +32,8 @@
       artist: 'Disturbed',
       title: 'The Sound Of Silence',
       description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/rock/disturbed/disturbed-the-sound-of-silence.mp4',
-      musicVideo: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/rock/disturbed/disturbed-the-sound-of-silence.mp4',
       fileUrl: ''
     }, {
       id: 3,
@@ -43,8 +43,8 @@
       artist: 'Linkin Park',
       title: 'Castle Of Glass',
       description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/rock/linkin-park/linkin-park_castle-of-glass.mp4',
-      musicVideo: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/rock/linkin-park/linkin-park_castle-of-glass.mp4',
       fileUrl: ''
     }, {
       id: 4,
@@ -54,8 +54,8 @@
       artist: 'Nickelback',
       title: 'If Everyone Cared',
       description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/rock/nickelback/nickelback-if-everyone-cared.mp4',
-      musicVideo: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/rock/nickelback/nickelback-if-everyone-cared.mp4',
       fileUrl: ''
     }, {
       id: 5,
@@ -65,8 +65,8 @@
       artist: 'Hoobastank',
       title: 'The Reason',
       description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/rock/hoobastank/hoobastank_the-reason.mp4',
-      musicVideo: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/rock/hoobastank/hoobastank_the-reason.mp4',
       fileUrl: ''
     }, {
       id: 6,
@@ -76,8 +76,8 @@
       artist: 'The Smashing Pumpkins',
       title: 'Tonight, Tonight',
       description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/rock/smashing-pumpkins/the-smashing-pumpkins_tonight-tonight.mp4',
-      musicVideo: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/rock/smashing-pumpkins/the-smashing-pumpkins_tonight-tonight.mp4',
       fileUrl: ''
     }, {
       id: 7,
@@ -98,7 +98,7 @@
       artist: 'Muse',
       title: 'Feeling Good',
       description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/rock/muse/muse-feeling-good.mp4',
+      lyricVideo: '',
       musicVideo: 'assets/data/rock/muse/muse-feeling-good.mp4',
       fileUrl: ''
     }, {
@@ -109,8 +109,8 @@
       artist: 'Tenacious D',
       title: 'Tribute',
       description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/rock/tenacious-d/tenacious-d-tribute.mp4',
-      musicVideo: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/rock/tenacious-d/tenacious-d-tribute.mp4',
       fileUrl: ''
     }],
     'pop': [{
@@ -132,9 +132,9 @@
       artist: 'A-Ha',
       title: 'Take On Me',
       description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/pop/a-ha/a-ha_take-on-me.mp4',
-      musicVideo: '',
-      fileUrl: '/tasks/1.png'
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/a-ha/a-ha_take-on-me.mp4',
+      fileUrl: ''
     }, {
       id: 2,
       colour: 'yellow',
@@ -143,9 +143,9 @@
       artist: 'Adele',
       title: 'Rolling In The Deep',
       description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: "assets/data/pop/adele/adele-rolling-in-the-deep.mp4",
-      musicVideo: '',
-      fileUrl: '/tasks/1.png'
+      lyricVideo: "",
+      musicVideo: 'assets/data/pop/adele/adele-rolling-in-the-deep.mp4',
+      fileUrl: ''
     }, {
       id: 3,
       colour: 'yellow',
@@ -154,9 +154,9 @@
       artist: 'Beverley Knight',
       title: 'Keep This Fire Burning',
       description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: "assets/data/pop/beverley-knight/beverley-knight_keep-this-fire-burning.mp4",
-      musicVideo: '',
-      fileUrl: '/tasks/1.png'
+      lyricVideo: "",
+      musicVideo: 'assets/data/pop/beverley-knight/beverley-knight_keep-this-fire-burning.mp4',
+      fileUrl: ''
     }, {
       id: 4,
       colour: 'yellow',
@@ -165,9 +165,9 @@
       artist: 'Christina Aguilera',
       title: 'Fighter',
       description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: "assets/data/pop/christina-aguilera/christina_aguilera-fighter.mp4",
-      musicVideo: '',
-      fileUrl: '/tasks/1.png'
+      lyricVideo: "",
+      musicVideo: 'assets/data/pop/christina-aguilera/christina_aguilera-fighter.mp4',
+      fileUrl: ''
     }, {
       id: 5,
       colour: 'yellow',
@@ -176,9 +176,9 @@
       artist: 'Duffy',
       title: 'Warwick Avenue',
       description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: "assets/data/pop/duffy/duffy_warwick-avenue.mp4",
-      musicVideo: '',
-      fileUrl: '/tasks/1.png'
+      lyricVideo: "",
+      musicVideo: 'assets/data/pop/duffy/duffy_warwick-avenue.mp4',
+      fileUrl: ''
     }, {
       id: 6,
       colour: 'yellow',
@@ -187,9 +187,9 @@
       artist: 'Greg Holden',
       title: 'Hold On Tight',
       description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: "assets/data/pop/greg-holden/greg-holden_hold-on-tight.mp4",
-      musicVideo: '',
-      fileUrl: '/tasks/1.png'
+      lyricVideo: "",
+      musicVideo: 'assets/data/pop/greg-holden/greg-holden_hold-on-tight.mp4',
+      fileUrl: ''
     }, {
       id: 7,
       colour: 'yellow',
@@ -198,9 +198,9 @@
       artist: 'Heather Small',
       title: 'Proud',
       description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: "assets/data/pop/heather-small/heather-small_proud.mp4",
-      musicVideo: '',
-      fileUrl: '/tasks/1.png'
+      lyricVideo: "",
+      musicVideo: 'assets/data/pop/heather-small/heather-small_proud.mp4',
+      fileUrl: ''
     }, {
       id: 8,
       colour: 'yellow',
@@ -209,9 +209,9 @@
       artist: 'Jason Mraz',
       title: "I Won't Give Up",
       description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: "assets/data/pop/jason-mraz/jason-mraz_i-won't-give-up.mp4",
-      musicVideo: '',
-      fileUrl: '/tasks/1.png'
+      lyricVideo: "",
+      musicVideo: "assets/data/pop/jason-mraz/jason-mraz_i-won't-give-up.mp4",
+      fileUrl: ''
     }, {
       id: 9,
       colour: 'yellow',
@@ -231,9 +231,9 @@
       artist: 'Kylie Minogue',
       title: 'Only You',
       description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/pop/kylie/kylie_only-you.mp4',
-      musicVideo: '',
-      fileUrl: '/tasks/1.png'
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/kylie/kylie_only-you.mp4',
+      fileUrl: ''
     }, {
       id: 11,
       colour: 'yellow',
@@ -242,9 +242,9 @@
       artist: 'Lenka',
       title: 'Everything At Once',
       description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/pop/lenka/lenka-everything_at_once.mp4',
-      musicVideo: '',
-      fileUrl: '/tasks/1.png'
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/lenka/lenka-everything_at_once.mp4',
+      fileUrl: ''
     }, {
       id: 12,
       colour: 'yellow',
@@ -253,9 +253,9 @@
       artist: 'Michael Jackson',
       title: 'Black Or White',
       description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/pop/michael-jackson/michael_jackson-black_or_white.mp4',
-      musicVideo: '',
-      fileUrl: '/tasks/1.png'
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/michael-jackson/michael_jackson-black_or_white.mp4',
+      fileUrl: ''
     }, {
       id: 13,
       colour: 'yellow',
@@ -264,9 +264,9 @@
       artist: 'Norah Jones',
       title: 'Come Away With Me',
       description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/pop/norah-jones/norah-jones_come-away-with-me.mp4',
-      musicVideo: '',
-      fileUrl: '/tasks/1.png'
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/norah-jones/norah-jones_come-away-with-me.mp4',
+      fileUrl: ''
     }, {
       id: 14,
       colour: 'yellow',
@@ -275,9 +275,9 @@
       artist: 'Rick Astley',
       title: 'Keep Singing',
       description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/pop/rick-astley/rick_astley_keep-singing.mp4',
-      musicVideo: '',
-      fileUrl: '/tasks/1.png'
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/rick-astley/rick_astley_keep-singing.mp4',
+      fileUrl: ''
     }, {
       id: 15,
       colour: 'yellow',
@@ -286,9 +286,9 @@
       artist: 'Sabrina Carpenter',
       title: 'Smoke And Fire',
       description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/pop/sabrina-carpenter/sabrina-carpenter_smoke-and-fire-lyric.mp4',
-      musicVideo: '',
-      fileUrl: '/tasks/1.png'
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/sabrina-carpenter/sabrina-carpenter_smoke-and-fire-lyric.mp4',
+      fileUrl: ''
     }, {
       id: 16,
       colour: 'yellow',
