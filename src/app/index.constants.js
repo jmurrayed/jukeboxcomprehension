@@ -124,7 +124,7 @@
       lyricVideo: '',
       musicVideo: '',
       fileUrl: ''
-    },{
+    }, {
       id: 1,
       colour: 'yellow',
       genre: 'pop',
@@ -354,6 +354,248 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: 'assets/data/pop/will-young/will-young_come-on.mp4',
       musicVideo: '',
+      fileUrl: '/tasks/1.png'
+    }, {
+      id: 22,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/coldplay/coldplay.jpg',
+      artist: 'Coldplay',
+      title: 'Something just like this',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/pop/coldplay/coldplay-something-just-like-this-lyric.mp4',
+      musicVideo: '',
+      fileUrl: '/tasks/1.png'
+    }, {
+      id: 23,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/cyndi-lauper/cyndi-lauper.jpeg',
+      artist: 'Cyndi Lauper',
+      title: 'True Colours',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/pop/cyndi-lauper/cyndi-lauper-true-colours-lyrics.mp4',
+      musicVideo: 'assets/data/pop/cyndi-lauper/cyndi-lauper-true-colours-video.mp4',
+      fileUrl: '/tasks/1.png'
+    }, {
+      id: 24,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/elvis/elvis.jpg',
+      artist: 'Elvis',
+      title: 'Return to sender',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/elvis/elvis-return-to-sender.mp4',
+      fileUrl: '/tasks/1.png'
+    }, {
+      id: 25,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/emile-sande/emile-sande.jpg',
+      artist: 'Emile Sande',
+      title: 'Hurts',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/emile-sande/emile-sande-hurts.mp4',
+      fileUrl: '/tasks/1.png'
+    }, {
+      id: 26,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/four-tops/four-tops.jpg',
+      artist: 'Four Tops',
+      title: 'Reach out',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/four-tops/four-tops-reach-out.mp4',
+      fileUrl: '/tasks/1.png'
+    }, {
+      id: 27,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/four-tops/four-tops.jpg',
+      artist: 'Four Tops',
+      title: 'Reach out',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/four-tops/four-tops-reach-out.mp4',
+      fileUrl: '/tasks/1.png'
+    }, {
+      id: 28,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/george-ezra/george-ezra.jpg',
+      artist: 'George Ezra',
+      title: 'Listen to the man',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/george-ezra/george-ezra-listen-to-the-man.mp4',
+      fileUrl: '/tasks/1.png'
+    }, {
+      id: 29,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/jake-coco/jake-coco.jpg',
+      artist: 'Jake Coco',
+      title: 'Your song',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/jake-coco/jake-coco-your-song.mp4',
+      fileUrl: '/tasks/1.png'
+    }, {
+      id: 30,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/john-legend/john-legend.jpg',
+      artist: 'John Legend',
+      title: 'Love me now',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/pop/john-legend/john-legend-love-me-now-lyric.mp4',
+      musicVideo: '',
+      fileUrl: '/tasks/1.png'
+    }, {
+      id: 31,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/kt-tunstall/kt-tunstall.jpg',
+      artist: 'Kt Tunstall',
+      title: 'Hard Girls',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/kt-tunstall/kt-tunstall-hard-girls.mp4',
+      fileUrl: '/tasks/1.png'
+    }, {
+      id: 32,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/little-mix/little-mix.jpg',
+      artist: 'Little Mix',
+      title: 'Little Me',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/little-mix/little-mix-little-me.mp4',
+      fileUrl: '/tasks/1.png'
+    }, {
+      id: 33,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/lucy-spraggan/lucy-spraggan.jpg',
+      artist: 'Lucy Spraggan',
+      title: 'Mountains',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/lucy-spraggan/lucy-spraggan-mountains.mp4',
+      fileUrl: '/tasks/1.png'
+    }, {
+      id: 34,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/miley-cyrus/miley-cyrus.png',
+      artist: 'Miley Cyrus',
+      title: 'The Climb',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/pop/miley-cyrus/miley-cyrus-the-climb-lyrics.mp4',
+      musicVideo: 'assets/data/pop/miley-cyrus/miley-cyrus-the-climb.mp4',
+      fileUrl: '/tasks/1.png'
+    }, {
+      id: 35,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/natasha-bedingfield/natasha-bedingfield.jpg',
+      artist: 'Natasha Bedingfield',
+      title: 'Unwritten',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/natasha-bedingfield/natasha-bedingfield-unwritten.mp4',
+      fileUrl: '/tasks/1.png'
+    }, {
+      id: 36,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/niall-horan/niall-horan.jpg',
+      artist: 'Niall Horan',
+      title: 'This Town',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/pop/niall-horan/niall-horan-this-town-lyric-video.mp4',
+      musicVideo: '',
+      fileUrl: '/tasks/1.png'
+    }, {
+      id: 37,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/boyzone/boyzone.jpg',
+      artist: 'Boyzone',
+      title: 'Who we are',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/boyzone/boyzone-who-we-are.mp4',
+      fileUrl: '/tasks/1.png'
+    }, {
+      id: 38,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/katy-perry/katy-perry2.jpg',
+      artist: 'Katy Perry',
+      title: 'Roar',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/katy-perry/katy-perry-roar.mp4',
+      fileUrl: '/tasks/1.png'
+    }, {
+      id: 39,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/owl-city/owl-city.jpg',
+      artist: 'Owl City',
+      title: 'Fireflies',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/owl-city/owl-city-fireflies.mp4',
+      fileUrl: '/tasks/1.png'
+    }, {
+      id: 40,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/olly-murs/olly-murs.jpg',
+      artist: 'Olly Murs',
+      title: 'Dance with me tonight',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/olly-murs/olly-murs-dance-with-me-tonight.mp4',
+      fileUrl: '/tasks/1.png'
+    }, {
+      id: 41,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/pentatonix/pentatonix-sing.jpg',
+      artist: 'Pentatonix',
+      title: 'Sing',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/pentatonix/pentatonix-sing-video.mp4',
+      fileUrl: '/tasks/1.png'
+    }, {
+      id: 42,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/pentatonix/pentatonix.jpg',
+      artist: 'Pentatonix',
+      title: 'Hallelujah',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/pentatonix/pentatonix-hallelujah.mp4',
+      fileUrl: '/tasks/1.png'
+    }, {
+      id: 43,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/peter-gabriel/peter-gabriel.jpg',
+      artist: 'Peter Gabriel',
+      title: 'Sledgehammer',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/peter-gabriel/peter-gabriel-sledgehammer.mp4',
       fileUrl: '/tasks/1.png'
     }],
     'country': [{
@@ -864,7 +1106,7 @@
       lyricVideo: '',
       musicVideo: 'assets/data/film/spaceman/space-oddity.mp4',
       fileUrl: ''
-    },  {
+    }, {
       id: 21,
       colour: 'pink',
       genre: 'film & tv',
@@ -875,7 +1117,7 @@
       lyricVideo: 'assets/data/film/toy-story/youve-gota-friend-in-me-randy-newman.mp4',
       musicVideo: '',
       fileUrl: ''
-    },  {
+    }, {
       id: 22,
       colour: 'pink',
       genre: 'film & tv',
