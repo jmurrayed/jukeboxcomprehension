@@ -875,6 +875,17 @@
       lyricVideo: 'assets/data/film/toy-story/youve-gota-friend-in-me-randy-newman.mp4',
       musicVideo: '',
       fileUrl: ''
+    },  {
+      id: 22,
+      colour: 'pink',
+      genre: 'film & tv',
+      image: 'assets/data/film/tarzan/tarzan.jpg',
+      artist: 'Phil Collins',
+      title: "You'll be in my heart (Tarzan)",
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: 'assets/data/film/tarzan/phil-collins-youll-be-in-my-heart.mp4',
+      fileUrl: ''
     }],
     'theatre': [{
       id: 0,
