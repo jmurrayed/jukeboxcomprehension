@@ -596,7 +596,117 @@
       description: 'Place the text in the correct chronological order using key word and context clues.',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/peter-gabriel/peter-gabriel-sledgehammer.mp4',
-      fileUrl: '/tasks/1.png'
+      fileUrl: ''
+    }, {
+      id: 44,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/rachel-platten/rachel-platten.jpg',
+      artist: 'Rachel Platten',
+      title: 'Fight Song',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/pop/rachel-platten/rachel-platten-lyric-video.mp4',
+      musicVideo: 'assets/data/pop/rachel-platten/rachel-platten-fight-song.mp4',
+      fileUrl: ''
+    }, {
+      id: 45,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/rag-n-bone/rag-n-bone-man.jpg',
+      artist: 'Rag n Bone Man',
+      title: 'Human',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/rag-n-bone-man/rag-n-bone-man-human.mp4',
+      fileUrl: ''
+    }, {
+      id: 46,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/rebecca-ferguson/rebecca-ferguson.jpg',
+      artist: 'Rebecca Ferguson',
+      title: 'I Hope',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/rebecca-ferguson/rebecca-ferguson-i-hope.mp4',
+      fileUrl: ''
+    }, {
+      id: 47,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/ruth-b/ruth-b.jpg',
+      artist: 'Ruth B',
+      title: 'Lost Boy',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: 'assets/data/pop/ruth-b/ruth-b-lost-boy-lyric-video.mp4',
+      musicVideo: 'assets/data/pop/ruth-b/ruth-b-lost-boy.mp4',
+      fileUrl: ''
+    }, {
+      id: 48,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/sampha/sampha.jpg',
+      artist: 'Sampha',
+      title: 'Like the Piano',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/sampha/sampha-like-the-piano.mp4',
+      fileUrl: ''
+    }, {
+      id: 49,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/shivaree/shivaree.jpg',
+      artist: 'Shivaree',
+      title: 'The Snake',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/shivaree/shivaree-the-snake.mp4',
+      fileUrl: ''
+    }, {
+      id: 50,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/sia/sia.jpg',
+      artist: 'Sia',
+      title: 'The Greatest',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/sia/sia-the-greatest.mp4',
+      fileUrl: ''
+    }, {
+      id: 51,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/tom-chaplain/tom-chaplain.jpg',
+      artist: 'Tom Chaplain',
+      title: 'Still Waiting',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/tom-chaplain/tom-chaplain-still-waiting.mp4',
+      fileUrl: ''
+    }, {
+      id: 52,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/tony-ferrari/tony-ferrari.jpg',
+      artist: 'Tony Ferrari',
+      title: 'Stand By Me',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/tony-ferrari/tony-ferrari-stand-by-me.mp4',
+      fileUrl: ''
+    }, {
+      id: 53,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/tracy-chapman/tracy-chapman.jpg',
+      artist: 'Tracy Chapman',
+      title: 'Fast Cars',
+      description: 'Place the text in the correct chronological order using key word and context clues.',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/tracy-chapman/tracy-chapman-fast-cars.mp4',
+      fileUrl: ''
     }],
     'country': [{
       id: 0,
