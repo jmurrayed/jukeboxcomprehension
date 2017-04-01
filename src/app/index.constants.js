@@ -459,7 +459,7 @@
       colour: 'yellow',
       genre: 'pop',
       image: 'assets/data/pop/kt-tunstall/kt-tunstall.jpg',
-      artist: 'Kt Tunstall',
+      artist: 'KT Tunstall',
       title: 'Hard Girls',
       description: '',
       lyricVideo: '',
