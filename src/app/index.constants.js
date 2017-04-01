@@ -414,12 +414,12 @@
       id: 27,
       colour: 'yellow',
       genre: 'pop',
-      image: 'assets/data/pop/four-tops/four-tops.jpg',
-      artist: 'Four Tops',
-      title: 'Reach out',
+      image: 'assets/data/pop/pentatonix/pentatonix.jpg',
+      artist: 'Pentatonix',
+      title: 'Hallelujah',
       description: '',
       lyricVideo: '',
-      musicVideo: 'assets/data/pop/four-tops/four-tops-reach-out.mp4',
+      musicVideo: 'assets/data/pop/pentatonix/pentatonix-hallelujah.mp4',
       fileUrl: ''
     }, {
       id: 28,
@@ -559,7 +559,7 @@
       genre: 'pop',
       image: 'assets/data/pop/olly-murs/olly-murs.jpg',
       artist: 'Olly Murs',
-      title: 'Dance with me tonight',
+      title: 'Dance With Me Tonight',
       description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/olly-murs/olly-murs-dance-with-me-tonight.mp4',
@@ -575,7 +575,18 @@
       lyricVideo: '',
       musicVideo: 'assets/data/pop/pentatonix/pentatonix-sing-video.mp4',
       fileUrl: ''
-    },  {
+    }, {
+      id: 42,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/tracy-chapman/tracy-chapman.jpg',
+      artist: 'Tracy Chapman',
+      title: 'Fast Cars',
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/tracy-chapman/tracy-chapman-fast-cars.mp4',
+      fileUrl: ''
+    }, {
       id: 43,
       colour: 'yellow',
       genre: 'pop',
@@ -684,17 +695,6 @@
       description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/tony-ferrari/tony-ferrari-stand-by-me.mp4',
-      fileUrl: ''
-    }, {
-      id: 53,
-      colour: 'yellow',
-      genre: 'pop',
-      image: 'assets/data/pop/pentatonix/pentatonix.jpg',
-      artist: 'Pentatonix',
-      title: 'Hallelujah',
-      description: '',
-      lyricVideo: '',
-      musicVideo: 'assets/data/pop/pentatonix/pentatonix-hallelujah.mp4',
       fileUrl: ''
     }],
     'country': [{
