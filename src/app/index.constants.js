@@ -646,7 +646,7 @@
       colour: 'yellow',
       genre: 'pop',
       image: 'assets/data/pop/sampha/sampha.jpg',
-      artist: 'Sampha',
+      artist: 'The Sampha',
       title: 'Like the Piano',
       description: '',
       lyricVideo: '',
