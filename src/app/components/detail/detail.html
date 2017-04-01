@@ -1,10 +1,9 @@
 <div class="col-xs-12 col-sm-3">
-  <div class="spacer">&nbsp;</div>
   <div class="col-xs-12 col-sm-12 song-text blue neon-font">
     <h2 class="text-wrap">{{detail.selectedSong.artist}}</h2>
     <h2 class="text-wrap">{{detail.selectedSong.title}}</h2>
   </div>
-  <div class="spacer-2x col-sm-12 hidden-xs">&nbsp;</div>
+  <div class="spacer-1x col-sm-12 hidden-xs">&nbsp;</div>
   <div class="col-xs-12 col-sm-12">
     <div class="text-center col-xs-6 col-sm-12">
       <a class="btn btn-primary btn-lg outline neon-font blue"
@@ -96,7 +95,7 @@
   </div>
   <div class="spacer-2x hidden-xs">&nbsp;</div>
   <div class="spacer visible-xs">&nbsp;</div>
-  <div class="text-center">
+  <div class="text-center" ng-if="detail.selectedSong.musicVideo">
     <a class="btn btn-primary btn-lg outline neon-font detail-btn"
         ng-class="detail.selectedSong.colour"
         ng-click="detail.videoType = 'music'">
@@ -106,7 +105,7 @@
   </div>
   <div class="spacer-2x hidden-xs">&nbsp;</div>
   <div class="spacer visible-xs">&nbsp;</div>
-  <div class="text-center">
+  <div class="text-center" ng-if="detail.selectedSong.lyricVideo">
     <a class="btn btn-primary btn-lg outline neon-font detail-btn"
         ng-class="detail.selectedSong.colour"
         ng-click="detail.videoType = 'lyric'">

@@ -10,13 +10,16 @@
     loginService) {
     var vm = this;
     vm.selectedSong = SelectedSong[0];
-    vm.videoType = 'lyric';
+    vm.videoType = '';
+
     // Public Functions...
     vm.getVideoLink = function() {
       if (vm.videoType == 'lyric') {
         return vm.selectedSong.lyricVideo;
-      } else {
+      } else if (vm.videoType == 'music') {
         return vm.selectedSong.musicVideo;
+      } else {
+        return identifyVideo();
       }
     };
 
@@ -46,6 +49,15 @@
         // $log.info("url -> " + url);
         $window.open(url, '_blank');
       });
+    }
+
+    // Private Functions
+    function identifyVideo() {
+      if (vm.selectedSong.musicVideo){
+        return vm.selectedSong.musicVideo;
+      } else {
+        return vm.selectedSong.lyricVideo;
+      }
     }
   }
 })();
