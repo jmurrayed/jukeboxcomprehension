@@ -844,17 +844,6 @@
       id: 13,
       colour: 'orange',
       genre: 'country',
-      image: 'assets/data/country/martina-mcbride/martina-mcbride.jpg',
-      artist: 'Martina McBride',
-      title: 'Independance Day',
-      description: '',
-      lyricVideo: '',
-      musicVideo: 'assets/data/country/martina-mcbride/martina-mcbride-independance-day.mp4',
-      fileUrl: ''
-    }, {
-      id: 14,
-      colour: 'orange',
-      genre: 'country',
       image: 'assets/data/country/ward-thomas/ward-thomas.jpg',
       artist: 'Ward Thomas',
       title: "Carry You Home",
@@ -863,7 +852,7 @@
       musicVideo: 'assets/data/country/ward-thomas/ward-thomas-carry-you-home.mp4',
       fileUrl: ''
     }, {
-      id: 15,
+      id: 14,
       colour: 'orange',
       genre: 'country',
       image: 'assets/data/country/the-shires/the-shires.jpg',
