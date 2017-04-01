@@ -9,7 +9,7 @@
       image: 'assets/data/rock/landing-photo-rock.jpg',
       artist: '',
       title: 'ROCK',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: '',
       fileUrl: ''
@@ -20,7 +20,7 @@
       image: 'assets/data/rock/daughtry/daughtry.jpg',
       artist: 'Daughtry',
       title: 'What About Now',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/rock/daughtry/daughtry_what-about-now.mp4',
       fileUrl: ''
@@ -31,7 +31,7 @@
       image: 'assets/data/rock/disturbed/disturbed.jpg',
       artist: 'Disturbed',
       title: 'The Sound Of Silence',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/rock/disturbed/disturbed-the-sound-of-silence.mp4',
       fileUrl: ''
@@ -42,7 +42,7 @@
       image: 'assets/data/rock/linkin-park/linkin-park.jpg',
       artist: 'Linkin Park',
       title: 'Castle Of Glass',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/rock/linkin-park/linkin-park_castle-of-glass.mp4',
       fileUrl: ''
@@ -53,7 +53,7 @@
       image: 'assets/data/rock/nickelback/nickelback.jpg',
       artist: 'Nickelback',
       title: 'If Everyone Cared',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/rock/nickelback/nickelback-if-everyone-cared.mp4',
       fileUrl: ''
@@ -64,7 +64,7 @@
       image: 'assets/data/rock/hoobastank/hoobastank.jpeg',
       artist: 'Hoobastank',
       title: 'The Reason',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/rock/hoobastank/hoobastank_the-reason.mp4',
       fileUrl: ''
@@ -75,7 +75,7 @@
       image: 'assets/data/rock/smashing-pumpkins/smashing.jpg',
       artist: 'The Smashing Pumpkins',
       title: 'Tonight, Tonight',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/rock/smashing-pumpkins/the-smashing-pumpkins_tonight-tonight.mp4',
       fileUrl: ''
@@ -86,7 +86,7 @@
       image: 'assets/data/rock/lower-than-atlantis/lower-than-atlantis.jpg',
       artist: 'Lower Than Atlantis',
       title: 'Get Over it',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: 'assets/data/rock/lower-than-atlantis/lower-than-atlantis-get-over-it-lyrics.mp4',
       musicVideo: 'assets/data/rock/lower-than-atlantis/lower-than-atlantis-get-over-it.mp4',
       fileUrl: ''
@@ -97,7 +97,7 @@
       image: 'assets/data/rock/muse/muse.jpg',
       artist: 'Muse',
       title: 'Feeling Good',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/rock/muse/muse-feeling-good.mp4',
       fileUrl: ''
@@ -108,7 +108,7 @@
       image: 'assets/data/rock/tenacious-d/tenacious-d.jpg',
       artist: 'Tenacious D',
       title: 'Tribute',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/rock/tenacious-d/tenacious-d-tribute.mp4',
       fileUrl: ''
@@ -120,7 +120,7 @@
       image: 'assets/data/pop/pop-landing-icon.jpg',
       artist: '',
       title: 'POP',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: '',
       fileUrl: ''
@@ -131,7 +131,7 @@
       image: 'assets/data/pop/a-ha/a-ha.jpg',
       artist: 'A-Ha',
       title: 'Take On Me',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/a-ha/a-ha_take-on-me.mp4',
       fileUrl: ''
@@ -142,7 +142,7 @@
       image: 'assets/data/pop/adele/adele.jpg',
       artist: 'Adele',
       title: 'Rolling In The Deep',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: "",
       musicVideo: 'assets/data/pop/adele/adele-rolling-in-the-deep.mp4',
       fileUrl: ''
@@ -153,7 +153,7 @@
       image: 'assets/data/pop/beverley-knight/beverley-knight.jpg',
       artist: 'Beverley Knight',
       title: 'Keep This Fire Burning',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: "",
       musicVideo: 'assets/data/pop/beverley-knight/beverley-knight_keep-this-fire-burning.mp4',
       fileUrl: ''
@@ -164,7 +164,7 @@
       image: 'assets/data/pop/christina-aguilera/christina-aguilera.jpg',
       artist: 'Christina Aguilera',
       title: 'Fighter',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: "",
       musicVideo: 'assets/data/pop/christina-aguilera/christina_aguilera-fighter.mp4',
       fileUrl: ''
@@ -175,7 +175,7 @@
       image: 'assets/data/pop/duffy/duffy.jpg',
       artist: 'Duffy',
       title: 'Warwick Avenue',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: "",
       musicVideo: 'assets/data/pop/duffy/duffy_warwick-avenue.mp4',
       fileUrl: ''
@@ -186,7 +186,7 @@
       image: 'assets/data/pop/greg-holden/greg-holden.jpg',
       artist: 'Greg Holden',
       title: 'Hold On Tight',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: "",
       musicVideo: 'assets/data/pop/greg-holden/greg-holden_hold-on-tight.mp4',
       fileUrl: ''
@@ -197,7 +197,7 @@
       image: 'assets/data/pop/heather-small/heather-small.jpg',
       artist: 'Heather Small',
       title: 'Proud',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: "",
       musicVideo: 'assets/data/pop/heather-small/heather-small_proud.mp4',
       fileUrl: ''
@@ -208,7 +208,7 @@
       image: 'assets/data/pop/jason-mraz/jason-mraz.jpg',
       artist: 'Jason Mraz',
       title: "I Won't Give Up",
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: "",
       musicVideo: "assets/data/pop/jason-mraz/jason-mraz_i-won't-give-up.mp4",
       fileUrl: ''
@@ -219,7 +219,7 @@
       image: 'assets/data/pop/katy-perry/katy-perry.jpg',
       artist: 'Katy Perry',
       title: 'Firework',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: 'assets/data/pop/katy-perry/firework-lyric.mp4',
       musicVideo: 'assets/data/pop/katy-perry/firework-music.mp4',
       fileUrl: '/pop/katy-perry-firework/'
@@ -230,7 +230,7 @@
       image: 'assets/data/pop/kylie/kylie.jpg',
       artist: 'Kylie Minogue',
       title: 'Only You',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/kylie/kylie_only-you.mp4',
       fileUrl: ''
@@ -241,7 +241,7 @@
       image: 'assets/data/pop/lenka/lenka.jpg',
       artist: 'Lenka',
       title: 'Everything At Once',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/lenka/lenka-everything_at_once.mp4',
       fileUrl: ''
@@ -252,7 +252,7 @@
       image: 'assets/data/pop/michael-jackson/michael_jackson_1.jpg',
       artist: 'Michael Jackson',
       title: 'Black Or White',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/michael-jackson/michael_jackson-black_or_white.mp4',
       fileUrl: ''
@@ -263,7 +263,7 @@
       image: 'assets/data/pop/norah-jones/norah_jones.jpeg',
       artist: 'Norah Jones',
       title: 'Come Away With Me',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/norah-jones/norah-jones_come-away-with-me.mp4',
       fileUrl: ''
@@ -274,7 +274,7 @@
       image: 'assets/data/pop/rick-astley/rick-astley.png',
       artist: 'Rick Astley',
       title: 'Keep Singing',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/rick-astley/rick_astley_keep-singing.mp4',
       fileUrl: ''
@@ -285,9 +285,9 @@
       image: 'assets/data/pop/sabrina-carpenter/sabrina-carpenter.jpg',
       artist: 'Sabrina Carpenter',
       title: 'Smoke And Fire',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: '',
-      musicVideo: 'assets/data/pop/sabrina-carpenter/sabrina-carpenter_smoke-and-fire-lyric.mp4',
+      description: '',
+      lyricVideo: 'assets/data/pop/sabrina-carpenter/sabrina-carpenter_smoke-and-fire-lyric.mp4',
+      musicVideo: '',
       fileUrl: ''
     }, {
       id: 16,
@@ -296,10 +296,10 @@
       image: 'assets/data/pop/the-verve/verve.jpg',
       artist: 'The Verve',
       title: 'Bitter Sweet Symphony',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/pop/the-verve/the-verve_bitter-sweet-symphony.mp4',
-      musicVideo: '',
-      fileUrl: '/tasks/1.png'
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/the-verve/the-verve_bitter-sweet-symphony.mp4',
+      fileUrl: ''
     }, {
       id: 17,
       colour: 'yellow',
@@ -307,10 +307,10 @@
       image: 'assets/data/pop/michael-jackson/michael-jackson.jpg',
       artist: 'Michael Jackson',
       title: 'Earth Song',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/pop/michael-jackson/michael_jackson-earthsong.mp4',
-      musicVideo: '',
-      fileUrl: '/tasks/1.png'
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/michael-jackson/michael_jackson-earthsong.mp4',
+      fileUrl: ''
     }, {
       id: 18,
       colour: 'yellow',
@@ -318,10 +318,10 @@
       image: 'assets/data/pop/aurora/aurora.jpg',
       artist: 'Aurora',
       title: 'Half The World Away',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/pop/aurora/aurora_half-the-world-away.mp4',
-      musicVideo: '',
-      fileUrl: '/tasks/1.png'
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/aurora/aurora_half-the-world-away.mp4',
+      fileUrl: ''
     }, {
       id: 19,
       colour: 'yellow',
@@ -329,10 +329,10 @@
       image: 'assets/data/pop/frances/frances.jpg',
       artist: 'Frances',
       title: 'Say It Again',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/pop/frances/frances_say-it-again.mp4',
-      musicVideo: '',
-      fileUrl: '/tasks/1.png'
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/frances/frances_say-it-again.mp4',
+      fileUrl: ''
     }, {
       id: 20,
       colour: 'yellow',
@@ -340,10 +340,10 @@
       image: 'assets/data/pop/justin-timberlake/justin-timberlake.jpg',
       artist: 'Justin Timberlake',
       title: "Can't Stop The Feeling",
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/pop/justin-timberlake/cant-stop-the-feeling.mp4',
-      musicVideo: '',
-      fileUrl: '/tasks/1.png'
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/justin-timberlake/cant-stop-the-feeling.mp4',
+      fileUrl: ''
     }, {
       id: 21,
       colour: 'yellow',
@@ -351,10 +351,10 @@
       image: 'assets/data/pop/will-young/will-young.jpeg',
       artist: 'Will Young',
       title: 'Come On',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/pop/will-young/will-young_come-on.mp4',
-      musicVideo: '',
-      fileUrl: '/tasks/1.png'
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/will-young/will-young_come-on.mp4',
+      fileUrl: ''
     }, {
       id: 22,
       colour: 'yellow',
@@ -362,10 +362,10 @@
       image: 'assets/data/pop/coldplay/coldplay.jpg',
       artist: 'Coldplay',
       title: 'Something just like this',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: 'assets/data/pop/coldplay/coldplay-something-just-like-this-lyric.mp4',
       musicVideo: '',
-      fileUrl: '/tasks/1.png'
+      fileUrl: ''
     }, {
       id: 23,
       colour: 'yellow',
@@ -373,10 +373,10 @@
       image: 'assets/data/pop/cyndi-lauper/cyndi-lauper.jpeg',
       artist: 'Cyndi Lauper',
       title: 'True Colours',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: 'assets/data/pop/cyndi-lauper/cyndi-lauper-true-colours-lyrics.mp4',
       musicVideo: 'assets/data/pop/cyndi-lauper/cyndi-lauper-true-colours-video.mp4',
-      fileUrl: '/tasks/1.png'
+      fileUrl: ''
     }, {
       id: 24,
       colour: 'yellow',
@@ -384,10 +384,10 @@
       image: 'assets/data/pop/elvis/elvis.jpg',
       artist: 'Elvis',
       title: 'Return to sender',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/elvis/elvis-return-to-sender.mp4',
-      fileUrl: '/tasks/1.png'
+      fileUrl: ''
     }, {
       id: 25,
       colour: 'yellow',
@@ -395,10 +395,10 @@
       image: 'assets/data/pop/emile-sande/emile-sande.jpg',
       artist: 'Emile Sande',
       title: 'Hurts',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/emile-sande/emile-sande-hurts.mp4',
-      fileUrl: '/tasks/1.png'
+      fileUrl: ''
     }, {
       id: 26,
       colour: 'yellow',
@@ -406,10 +406,10 @@
       image: 'assets/data/pop/four-tops/four-tops.jpg',
       artist: 'Four Tops',
       title: 'Reach out',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/four-tops/four-tops-reach-out.mp4',
-      fileUrl: '/tasks/1.png'
+      fileUrl: ''
     }, {
       id: 27,
       colour: 'yellow',
@@ -417,10 +417,10 @@
       image: 'assets/data/pop/four-tops/four-tops.jpg',
       artist: 'Four Tops',
       title: 'Reach out',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/four-tops/four-tops-reach-out.mp4',
-      fileUrl: '/tasks/1.png'
+      fileUrl: ''
     }, {
       id: 28,
       colour: 'yellow',
@@ -428,10 +428,10 @@
       image: 'assets/data/pop/george-ezra/george-ezra.jpg',
       artist: 'George Ezra',
       title: 'Listen to the man',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/george-ezra/george-ezra-listen-to-the-man.mp4',
-      fileUrl: '/tasks/1.png'
+      fileUrl: ''
     }, {
       id: 29,
       colour: 'yellow',
@@ -439,10 +439,10 @@
       image: 'assets/data/pop/jake-coco/jake-coco.jpg',
       artist: 'Jake Coco',
       title: 'Your song',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/jake-coco/jake-coco-your-song.mp4',
-      fileUrl: '/tasks/1.png'
+      fileUrl: ''
     }, {
       id: 30,
       colour: 'yellow',
@@ -450,10 +450,10 @@
       image: 'assets/data/pop/john-legend/john-legend.jpg',
       artist: 'John Legend',
       title: 'Love me now',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: 'assets/data/pop/john-legend/john-legend-love-me-now-lyric.mp4',
       musicVideo: '',
-      fileUrl: '/tasks/1.png'
+      fileUrl: ''
     }, {
       id: 31,
       colour: 'yellow',
@@ -461,10 +461,10 @@
       image: 'assets/data/pop/kt-tunstall/kt-tunstall.jpg',
       artist: 'Kt Tunstall',
       title: 'Hard Girls',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/kt-tunstall/kt-tunstall-hard-girls.mp4',
-      fileUrl: '/tasks/1.png'
+      fileUrl: ''
     }, {
       id: 32,
       colour: 'yellow',
@@ -472,10 +472,10 @@
       image: 'assets/data/pop/little-mix/little-mix.jpg',
       artist: 'Little Mix',
       title: 'Little Me',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/little-mix/little-mix-little-me.mp4',
-      fileUrl: '/tasks/1.png'
+      fileUrl: ''
     }, {
       id: 33,
       colour: 'yellow',
@@ -483,10 +483,10 @@
       image: 'assets/data/pop/lucy-spraggan/lucy-spraggan.jpg',
       artist: 'Lucy Spraggan',
       title: 'Mountains',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/lucy-spraggan/lucy-spraggan-mountains.mp4',
-      fileUrl: '/tasks/1.png'
+      fileUrl: ''
     }, {
       id: 34,
       colour: 'yellow',
@@ -494,10 +494,10 @@
       image: 'assets/data/pop/miley-cyrus/miley-cyrus.png',
       artist: 'Miley Cyrus',
       title: 'The Climb',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: 'assets/data/pop/miley-cyrus/miley-cyrus-the-climb-lyrics.mp4',
       musicVideo: 'assets/data/pop/miley-cyrus/miley-cyrus-the-climb.mp4',
-      fileUrl: '/tasks/1.png'
+      fileUrl: ''
     }, {
       id: 35,
       colour: 'yellow',
@@ -505,10 +505,10 @@
       image: 'assets/data/pop/natasha-bedingfield/natasha-bedingfield.jpg',
       artist: 'Natasha Bedingfield',
       title: 'Unwritten',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/natasha-bedingfield/natasha-bedingfield-unwritten.mp4',
-      fileUrl: '/tasks/1.png'
+      fileUrl: ''
     }, {
       id: 36,
       colour: 'yellow',
@@ -516,10 +516,10 @@
       image: 'assets/data/pop/niall-horan/niall-horan.jpg',
       artist: 'Niall Horan',
       title: 'This Town',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: 'assets/data/pop/niall-horan/niall-horan-this-town-lyric-video.mp4',
       musicVideo: '',
-      fileUrl: '/tasks/1.png'
+      fileUrl: ''
     }, {
       id: 37,
       colour: 'yellow',
@@ -527,10 +527,10 @@
       image: 'assets/data/pop/boyzone/boyzone.jpg',
       artist: 'Boyzone',
       title: 'Who we are',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/boyzone/boyzone-who-we-are.mp4',
-      fileUrl: '/tasks/1.png'
+      fileUrl: ''
     }, {
       id: 38,
       colour: 'yellow',
@@ -538,10 +538,10 @@
       image: 'assets/data/pop/katy-perry/katy-perry2.jpg',
       artist: 'Katy Perry',
       title: 'Roar',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/katy-perry/katy-perry-roar.mp4',
-      fileUrl: '/tasks/1.png'
+      fileUrl: ''
     }, {
       id: 39,
       colour: 'yellow',
@@ -549,10 +549,10 @@
       image: 'assets/data/pop/owl-city/owl-city.jpg',
       artist: 'Owl City',
       title: 'Fireflies',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/owl-city/owl-city-fireflies.mp4',
-      fileUrl: '/tasks/1.png'
+      fileUrl: ''
     }, {
       id: 40,
       colour: 'yellow',
@@ -560,10 +560,10 @@
       image: 'assets/data/pop/olly-murs/olly-murs.jpg',
       artist: 'Olly Murs',
       title: 'Dance with me tonight',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/olly-murs/olly-murs-dance-with-me-tonight.mp4',
-      fileUrl: '/tasks/1.png'
+      fileUrl: ''
     }, {
       id: 41,
       colour: 'yellow',
@@ -571,10 +571,10 @@
       image: 'assets/data/pop/pentatonix/pentatonix-sing.jpg',
       artist: 'Pentatonix',
       title: 'Sing',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/pentatonix/pentatonix-sing-video.mp4',
-      fileUrl: '/tasks/1.png'
+      fileUrl: ''
     }, {
       id: 42,
       colour: 'yellow',
@@ -582,10 +582,10 @@
       image: 'assets/data/pop/pentatonix/pentatonix.jpg',
       artist: 'Pentatonix',
       title: 'Hallelujah',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/pentatonix/pentatonix-hallelujah.mp4',
-      fileUrl: '/tasks/1.png'
+      fileUrl: ''
     }, {
       id: 43,
       colour: 'yellow',
@@ -593,7 +593,7 @@
       image: 'assets/data/pop/peter-gabriel/peter-gabriel.jpg',
       artist: 'Peter Gabriel',
       title: 'Sledgehammer',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/peter-gabriel/peter-gabriel-sledgehammer.mp4',
       fileUrl: ''
@@ -604,7 +604,7 @@
       image: 'assets/data/pop/rachel-platten/rachel-platten.jpg',
       artist: 'Rachel Platten',
       title: 'Fight Song',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: 'assets/data/pop/rachel-platten/rachel-platten-lyric-video.mp4',
       musicVideo: 'assets/data/pop/rachel-platten/rachel-platten-fight-song.mp4',
       fileUrl: ''
@@ -615,7 +615,7 @@
       image: 'assets/data/pop/rag-n-bone/rag-n-bone-man.jpg',
       artist: 'Rag n Bone Man',
       title: 'Human',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/rag-n-bone-man/rag-n-bone-man-human.mp4',
       fileUrl: ''
@@ -626,7 +626,7 @@
       image: 'assets/data/pop/rebecca-ferguson/rebecca-ferguson.jpg',
       artist: 'Rebecca Ferguson',
       title: 'I Hope',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/rebecca-ferguson/rebecca-ferguson-i-hope.mp4',
       fileUrl: ''
@@ -637,7 +637,7 @@
       image: 'assets/data/pop/ruth-b/ruth-b.jpg',
       artist: 'Ruth B',
       title: 'Lost Boy',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: 'assets/data/pop/ruth-b/ruth-b-lost-boy-lyric-video.mp4',
       musicVideo: 'assets/data/pop/ruth-b/ruth-b-lost-boy.mp4',
       fileUrl: ''
@@ -648,7 +648,7 @@
       image: 'assets/data/pop/sampha/sampha.jpg',
       artist: 'Sampha',
       title: 'Like the Piano',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/sampha/sampha-like-the-piano.mp4',
       fileUrl: ''
@@ -659,7 +659,7 @@
       image: 'assets/data/pop/shivaree/shivaree.jpg',
       artist: 'Shivaree',
       title: 'The Snake',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/shivaree/shivaree-the-snake.mp4',
       fileUrl: ''
@@ -670,7 +670,7 @@
       image: 'assets/data/pop/sia/sia.jpg',
       artist: 'Sia',
       title: 'The Greatest',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/sia/sia-the-greatest.mp4',
       fileUrl: ''
@@ -681,7 +681,7 @@
       image: 'assets/data/pop/tom-chaplain/tom-chaplain.jpg',
       artist: 'Tom Chaplain',
       title: 'Still Waiting',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/tom-chaplain/tom-chaplain-still-waiting.mp4',
       fileUrl: ''
@@ -692,7 +692,7 @@
       image: 'assets/data/pop/tony-ferrari/tony-ferrari.jpg',
       artist: 'Tony Ferrari',
       title: 'Stand By Me',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/tony-ferrari/tony-ferrari-stand-by-me.mp4',
       fileUrl: ''
@@ -703,7 +703,7 @@
       image: 'assets/data/pop/tracy-chapman/tracy-chapman.jpg',
       artist: 'Tracy Chapman',
       title: 'Fast Cars',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/tracy-chapman/tracy-chapman-fast-cars.mp4',
       fileUrl: ''
@@ -715,7 +715,7 @@
       image: 'assets/data/country/landing-photo-country.jpg',
       artist: '',
       title: 'COUNTRY',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: '',
       fileUrl: ''
@@ -726,9 +726,9 @@
       image: 'assets/data/country/miranda-lambert/miranda-lambert.jpg',
       artist: 'Miranda Lambert',
       title: 'The House That Built Me',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/country/miranda-lambert/miranda_lambert-the_house_that_built_me.mp4',
-      musicVideo: '',
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/country/miranda-lambert/miranda_lambert-the_house_that_built_me.mp4',
       fileUrl: ''
     }, {
       id: 2,
@@ -737,9 +737,9 @@
       image: 'assets/data/country/kelly-clarkson/kelly-clarkson.jpg',
       artist: 'Kelly Clarkson',
       title: 'Tie It Up',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/country/kelly-clarkson/kelly-clarkson_tie-it-up.mp4',
-      musicVideo: '',
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/country/kelly-clarkson/kelly-clarkson_tie-it-up.mp4',
       fileUrl: ''
     }, {
       id: 3,
@@ -748,9 +748,9 @@
       image: 'assets/data/country/tim-mcgraw/tim-mcgraw.jpg',
       artist: 'Tim McGraw',
       title: 'Humble And Kind',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/country/tim-mcgraw/tim-mcgraw_humble-and-kind.mp4',
-      musicVideo: '',
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/country/tim-mcgraw/tim-mcgraw_humble-and-kind.mp4',
       fileUrl: ''
     }, {
       id: 4,
@@ -759,9 +759,9 @@
       image: 'assets/data/country/carrie-underwood/carrie-underwood.jpg',
       artist: 'Carrie Underwood',
       title: 'Change',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/country/carrie-underwood/carrie_underwood-change.mp4',
-      musicVideo: '',
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/country/carrie-underwood/carrie_underwood-change.mp4',
       fileUrl: ''
     }, {
       id: 5,
@@ -770,7 +770,7 @@
       image: 'assets/data/country/nichole-nordeman/nichole-nordeman.jpg',
       artist: 'Nichole Nordeman',
       title: 'Slow Down',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: 'assets/data/country/nichole-nordeman/nichole-nordeman_slow-down-lyric.mp4',
       musicVideo: '',
       fileUrl: ''
@@ -781,7 +781,7 @@
       image: 'assets/data/country/dolly-parton/dolly_parton.jpg',
       artist: 'Dolly Parton',
       title: 'Blue Smoke',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/country/dolly-parton/dolly_parton_blue-smoke.mp4',
       fileUrl: ''
@@ -792,7 +792,7 @@
       image: 'assets/data/country/alan-jackson/alan-jackson.jpg',
       artist: 'Alan Jackson',
       title: 'You Can Always Come Home',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: 'assets/data/country/alan-jackson/alan-jackson-you-can-always-come-home-lyric-video.mp4',
       musicVideo: '',
       fileUrl: ''
@@ -803,7 +803,7 @@
       image: 'assets/data/country/alexi-murdoch/alexi-murdoch.jpg',
       artist: 'Alexi Murdoch',
       title: 'You Can Always Come Home',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/country/alexi-murdoch/alexi-murdoch-some-day-soon.mp4',
       fileUrl: ''
@@ -814,7 +814,7 @@
       image: 'assets/data/country/brad-paisley/brad-paisley.jpg',
       artist: 'Brad Paisley',
       title: 'Today',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: 'assets/data/country/brad-paisley/brad-paisley-today-lyrics.mp4',
       musicVideo: 'assets/data/country/brad-paisley/brad-paisley-today.mp4',
       fileUrl: ''
@@ -825,7 +825,7 @@
       image: 'assets/data/country/cma/cma.jpg',
       artist: 'Country Music Awards',
       title: 'Forever Country',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/country/cma/cma-music-award-forever-country-various.mp4',
       fileUrl: ''
@@ -836,7 +836,7 @@
       image: 'assets/data/country/james-tw/james-tw.jpg',
       artist: 'James TW',
       title: 'When You Love Someone',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: 'assets/data/country/james-tw/james-tw-lyric-video.mp4',
       musicVideo: 'assets/data/country/james-tw/james-tw-when-you-love-someone.mp4',
       fileUrl: ''
@@ -847,7 +847,7 @@
       image: 'assets/data/country/lady-antebellum/lady-antebellum.jpg',
       artist: 'Lady Antebellum',
       title: 'American Honey',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/country/lady-antebellum/lady-antebellum-american-honey.mp4',
       fileUrl: ''
@@ -858,7 +858,7 @@
       image: 'assets/data/country/martina-mcbride/martina-mcbride.jpg',
       artist: 'Martina Mcbride',
       title: 'Independance Day',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/country/martina-mcbride/martina-mcbride-independance-day.mp4',
       fileUrl: ''
@@ -869,7 +869,7 @@
       image: 'assets/data/country/martina-mcbride/martina-mcbride.jpg',
       artist: 'Martina Mcbride',
       title: 'Independance Day',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/country/martina-mcbride/martina-mcbride-independance-day.mp4',
       fileUrl: ''
@@ -880,7 +880,7 @@
       image: 'assets/data/country/the-shires/the-shires.jpg',
       artist: 'The Shires',
       title: "Daddy's Little Girl",
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/country/the-shires/the-shires-daddys-little-girl.mp4',
       fileUrl: ''
@@ -891,7 +891,7 @@
       image: 'assets/data/country/ward-thomas/ward-thomas.jpg',
       artist: 'Ward Thomas',
       title: "Carry You Home",
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/country/ward-thomas/ward-thomas-carry-you-home.mp4',
       fileUrl: ''
@@ -903,7 +903,7 @@
       image: 'assets/data/dance/landing-photo-dance.jpg',
       artist: '',
       title: 'DANCE',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: '',
       fileUrl: ''
@@ -914,9 +914,9 @@
       image: 'assets/data/dance/rudimental/rudimental.jpg',
       artist: 'Rudimental',
       title: 'Free',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/dance/rudimental/rudimental-free-music.mp4',
-      musicVideo: '',
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/dance/rudimental/rudimental-free-music.mp4',
       fileUrl: ''
     }, {
       id: 2,
@@ -925,7 +925,7 @@
       image: 'assets/data/dance/avicii/avicii.jpg',
       artist: 'Avicii',
       title: 'Waiting For Love',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: 'assets/data/dance/avicii/avicii-waiting-for-love-lyric.mp4',
       musicVideo: '',
       fileUrl: ''
@@ -936,9 +936,9 @@
       image: 'assets/data/dance/david-guetta/david-guetta.jpg',
       artist: 'David Guetta',
       title: 'Titanium',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/dance/david-guetta/david_guetta-titanium-music.mp4',
-      musicVideo: '',
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/dance/david-guetta/david_guetta-titanium-music.mp4',
       fileUrl: ''
     }, {
       id: 4,
@@ -947,9 +947,9 @@
       image: 'assets/data/dance/woodkid/woodkid.jpg',
       artist: 'Woodkid',
       title: 'Run Boy Run',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/dance/woodkid/woodkid_run-boy-run.mp4',
-      musicVideo: '',
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/dance/woodkid/woodkid_run-boy-run.mp4',
       fileUrl: ''
     }, {
       id: 5,
@@ -958,7 +958,7 @@
       image: 'assets/data/dance/starley/starley.jpg',
       artist: 'Starley',
       title: 'Call On Me',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: 'assets/data/dance/starley/starley-call-on-me-lyrics.mp4',
       musicVideo: 'assets/data/dance/starley/starley-call-on-me.mp4',
       fileUrl: ''
@@ -969,7 +969,7 @@
       image: 'assets/data/dance/galantis/galantis.jpg',
       artist: 'Galantis',
       title: 'No Money',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/dance/galantis/galantis-no-money.mp4',
       fileUrl: ''
@@ -980,7 +980,7 @@
       image: 'assets/data/dance/clean-bandit/clean-bandit.jpg',
       artist: 'Clean Bandit',
       title: 'Tears',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/dance/clean-bandit/clean-bandit-tears.mp4',
       fileUrl: ''
@@ -992,7 +992,7 @@
       image: 'assets/data/film/landing-photo-film-and-tv.jpg',
       artist: '',
       title: "FILM & TV",
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: '',
       fileUrl: ''
@@ -1003,9 +1003,9 @@
       image: 'assets/data/film/muppets/muppets.jpg',
       artist: 'Muppets',
       title: "The Giant Crumpet Show (Warburtons Ad)",
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/film/muppets/the-muppets_warburtons-ad_the-giant-crumpet-show.mp4',
-      musicVideo: '',
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/film/muppets/the-muppets_warburtons-ad_the-giant-crumpet-show.mp4',
       fileUrl: ''
     }, {
       id: 2,
@@ -1014,9 +1014,9 @@
       image: 'assets/data/film/anna-kendrick/anna-kendrick.jpg',
       artist: 'Anna Kendrick',
       title: 'Cups (Pitch Perfect)',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/film/anna-kendrick/anna_kendrick-cups.mp4',
-      musicVideo: '',
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/film/anna-kendrick/anna_kendrick-cups.mp4',
       fileUrl: ''
     }, {
       id: 3,
@@ -1025,9 +1025,9 @@
       image: 'assets/data/film/american-idol/kelly-clarkson.jpg',
       artist: 'Kelly Clarkson',
       title: 'Piece By Piece (American Idol)',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/film/american-idol/kelly-clarkson_piece-by-piece.mp4',
-      musicVideo: '',
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/film/american-idol/kelly-clarkson_piece-by-piece.mp4',
       fileUrl: ''
     }, {
       id: 4,
@@ -1036,9 +1036,9 @@
       image: 'assets/data/film/eurovision/joe_and_jake.jpg',
       artist: 'Joe & Jake',
       title: "You're Not Alone (Eurovision)",
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/film/eurovision/joe-and-jake_youre-not-alone.mp4',
-      musicVideo: '',
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/film/eurovision/joe-and-jake_youre-not-alone.mp4',
       fileUrl: ''
     }, {
       id: 5,
@@ -1047,9 +1047,9 @@
       image: 'assets/data/film/frozen/frozen.jpg',
       artist: 'Idina Menzel',
       title: "Let It Go (Frozen)",
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/film/frozen/frozen_let-it-go.mp4',
-      musicVideo: '',
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/film/frozen/frozen_let-it-go.mp4',
       fileUrl: ''
     }, {
       id: 6,
@@ -1058,7 +1058,7 @@
       image: 'assets/data/film/david-bowie/labyrinth.jpg',
       artist: 'David Bowie',
       title: "Magic Dance (Labrynth)",
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: 'assets/data/film/david-bowie/labyrinth_magic-dance-lyric.mp4',
       musicVideo: '',
       fileUrl: ''
@@ -1069,9 +1069,9 @@
       image: 'assets/data/film/christina-perri/christina-perri.jpg',
       artist: 'Christina Perri',
       title: "A Thousand Years (Twilight)",
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/film/christina-perri/christina-perri_a-thousand-years.mp4',
-      musicVideo: '',
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/film/christina-perri/christina-perri_a-thousand-years.mp4',
       fileUrl: ''
     }, {
       id: 8,
@@ -1080,9 +1080,9 @@
       image: 'assets/data/film/mans-zelmerlow/mans_zelmerlow.jpg',
       artist: 'Måns Zelmerlöw',
       title: "Heroes (Eurovision)",
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/film/mans-zelmerlow/mans_zelmerlow-heroes.mp4',
-      musicVideo: '',
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/film/mans-zelmerlow/mans_zelmerlow-heroes.mp4',
       fileUrl: ''
     }, {
       id: 9,
@@ -1091,9 +1091,9 @@
       image: 'assets/data/film/rihanna/rihanna.jpg',
       artist: 'Rihanna',
       title: "Sledgehammer (Star Trek - Beyond)",
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/film/rihanna/rihanna-sledgehammer.mp4',
-      musicVideo: '',
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/film/rihanna/rihanna-sledgehammer.mp4',
       fileUrl: ''
     }, {
       id: 10,
@@ -1102,9 +1102,9 @@
       image: 'assets/data/film/vista-print/the-postcard.jpg',
       artist: 'D-Larson',
       title: "Hold On Tight (Vista Print Ad)",
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/film/vista-print/father-son_the-postcard.mp4',
-      musicVideo: '',
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/film/vista-print/father-son_the-postcard.mp4',
       fileUrl: ''
     }, {
       id: 11,
@@ -1113,9 +1113,9 @@
       image: 'assets/data/film/ed-sheeran/ed-sheeran.jpg',
       artist: 'Ed Sheeran',
       title: 'I See Fire (The Hobbit)',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/film/ed-sheeran/ed-sheeran_I-see-fire-music.mp4',
-      musicVideo: '',
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/film/ed-sheeran/ed-sheeran_I-see-fire-music.mp4',
       fileUrl: ''
     }, {
       id: 12,
@@ -1124,9 +1124,9 @@
       image: 'assets/data/film/aldi/aldi-easter.jpg',
       artist: 'Jade Williams',
       title: 'My Favourite Things (Aldi Ad)',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/film/aldi/favourite-things-parody_aldi-ad.mp4',
-      musicVideo: '',
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/film/aldi/favourite-things-parody_aldi-ad.mp4',
       fileUrl: ''
     }, {
       id: 13,
@@ -1135,7 +1135,7 @@
       image: 'assets/data/film/enchanted/amy-adams.jpg',
       artist: 'Amy Adams',
       title: 'Happy Working Song (Enchanted)',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: 'assets/data/film/enchanted/enchanted_happy-working-song_lyrics.mp4',
       musicVideo: '',
       fileUrl: ''
@@ -1146,9 +1146,9 @@
       image: 'assets/data/film/diana/lady-diana.jpg',
       artist: 'Elton John',
       title: "Goodbye England's Rose (Diana)",
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/film/diana/goodbye-englands-rose-elton-john.mp4',
-      musicVideo: '',
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/film/diana/goodbye-englands-rose-elton-john.mp4',
       fileUrl: ''
     }, {
       id: 15,
@@ -1157,9 +1157,9 @@
       image: 'assets/data/film/glee/imagine-john-lennon-glee.jpg',
       artist: 'John Lennon',
       title: "Imagine (Glee)",
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/film/glee/imagine-john-lennon-glee.mp4',
-      musicVideo: '',
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/film/glee/imagine-john-lennon-glee.mp4',
       fileUrl: ''
     }, {
       id: 16,
@@ -1168,7 +1168,7 @@
       image: 'assets/data/film/jungle-book/bare-necessaties.jpg',
       artist: 'Phil Harris',
       title: "Bare Necessaties (The Jungle Book)",
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: 'assets/data/film/jungle-book/bare-necessities-the-jungle-book-lyrics.mp4',
       musicVideo: 'assets/data/film/jungle-book/bare-necessaties-the-jungle-book.mp4',
       fileUrl: ''
@@ -1179,9 +1179,9 @@
       image: 'assets/data/film/karen-o/karen-o.jpg',
       artist: 'Karen O',
       title: "Strange Love (Frankenweenie)",
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/film/karen-o/karen-o-strange-love-frankenweenie.mp4',
-      musicVideo: '',
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/film/karen-o/karen-o-strange-love-frankenweenie.mp4',
       fileUrl: ''
     }, {
       id: 18,
@@ -1190,7 +1190,7 @@
       image: 'assets/data/film/paralympics/bpa.jpg',
       artist: 'Sammy Davis Jr',
       title: "Yes I Can (Paralympics)",
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: 'assets/data/film/paralympics/yes-i-can-audio-described.mp4',
       musicVideo: 'assets/data/film/paralympics/yes-i-can-paralympics-2016.mp4',
       fileUrl: ''
@@ -1201,7 +1201,7 @@
       image: 'assets/data/film/pharrell-williams/pharrell-williams.jpg',
       artist: 'Pharrell Williams',
       title: "Happy (Despicable Me 2)",
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: 'assets/data/film/pharrell-williams/pharrell-williams-happy-lyric-video.mp4',
       musicVideo: 'assets/data/film/pharrell-williams/pharrell-williams-happy.mp4',
       fileUrl: ''
@@ -1212,7 +1212,7 @@
       image: 'assets/data/film/spaceman/nasa_commander_chris_hadfield.jpg',
       artist: 'Chris Hadfield',
       title: "Space Oddity",
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/film/spaceman/space-oddity.mp4',
       fileUrl: ''
@@ -1223,9 +1223,9 @@
       image: 'assets/data/film/toy-story/toy-story.jpg',
       artist: 'Randy Newan',
       title: "You've Got A Friend In Me (Toy Story)",
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/film/toy-story/youve-gota-friend-in-me-randy-newman.mp4',
-      musicVideo: '',
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/film/toy-story/youve-gota-friend-in-me-randy-newman.mp4',
       fileUrl: ''
     }, {
       id: 22,
@@ -1234,7 +1234,7 @@
       image: 'assets/data/film/tarzan/tarzan.jpg',
       artist: 'Phil Collins',
       title: "You'll be in my heart (Tarzan)",
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/film/tarzan/phil-collins-youll-be-in-my-heart.mp4',
       fileUrl: ''
@@ -1246,7 +1246,7 @@
       image: 'assets/data/theatre/landing-photo-theatre.jpg',
       artist: '',
       title: 'THEATRE',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: '',
       fileUrl: ''
@@ -1257,7 +1257,7 @@
       image: 'assets/data/theatre/wicked/wicked.png',
       artist: 'Wicked',
       title: 'Defying Gravity',
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: 'assets/data/theatre/wicked/wicked-defying-gravity-lyric-video.mp4',
       musicVideo: '',
       fileUrl: ''
@@ -1268,9 +1268,9 @@
       image: 'assets/data/theatre/my-fair-lady/my-fair-lady.jpg',
       artist: 'My Fair Lady',
       title: "Wouldn't It Be Loverly",
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/theatre/my-fair-lady/my-fair-lady_wouldnt-it-be-loverly.mp4',
-      musicVideo: '',
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/theatre/my-fair-lady/my-fair-lady_wouldnt-it-be-loverly.mp4',
       fileUrl: ''
     }, {
       id: 3,
@@ -1279,9 +1279,9 @@
       image: 'assets/data/theatre/cats/cats.jpg',
       artist: 'Cats',
       title: "Memory",
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/theatre/cats/memory.mp4',
-      musicVideo: '',
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/theatre/cats/memory.mp4',
       fileUrl: ''
     }, {
       id: 4,
@@ -1290,9 +1290,9 @@
       image: 'assets/data/theatre/oliver/oliver.jpg',
       artist: 'Oliver',
       title: "You Gotta Pick A Pocket Or Two",
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/theatre/oliver/pick-a-pocket-or-two.mp4',
-      musicVideo: '',
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/theatre/oliver/pick-a-pocket-or-two.mp4',
       fileUrl: ''
     }, {
       id: 5,
@@ -1301,9 +1301,9 @@
       image: 'assets/data/theatre/phantom/phantom.jpg',
       artist: 'Phantom',
       title: "Phantom Theme",
-      description: 'Place the text in the correct chronological order using key word and context clues.',
-      lyricVideo: 'assets/data/theatre/phantom/phantom-theme.mp4',
-      musicVideo: '',
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/theatre/phantom/phantom-theme.mp4',
       fileUrl: ''
     }, {
       id: 6,
@@ -1312,7 +1312,7 @@
       image: 'assets/data/theatre/christmas-carol/a-christmas-carol-picture.jpg',
       artist: 'A Christmas Carol',
       title: "Thank You Very Much",
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/theatre/christmas-carol/a-christmas-carol-thank-you-very-much.mp4',
       fileUrl: ''
@@ -1323,7 +1323,7 @@
       image: 'assets/data/theatre/fiddler-on-the-roof/fiddler-on-the-roof.jpg',
       artist: 'Fiddler On The Roof',
       title: "If I Were A Rich Man",
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/theatre/fiddler-on-the-roof/fiddler-on-the-roof-if-i-were-a-rich-man.mp4',
       fileUrl: ''
@@ -1334,7 +1334,7 @@
       image: 'assets/data/theatre/les-miserables/les-miserables.jpg',
       artist: 'Les Miserables',
       title: "Do You Hear The People Sing",
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/theatre/les-miserables/do-you-hear-the-people-sing-les-miserables-song.mp4',
       fileUrl: ''
@@ -1345,7 +1345,7 @@
       image: 'assets/data/theatre/lion-king/the-lion-king.jpg',
       artist: 'The Lion King',
       title: "The Circle Of Life",
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: 'assets/data/theatre/lion-king/the-lion-king-the-circle-of-life-lyric-video.mp4',
       musicVideo: 'assets/data/theatre/lion-king/the-lion-king-the-circle-of-life.mp4',
       fileUrl: ''
@@ -1356,7 +1356,7 @@
       image: 'assets/data/theatre/west-side-story/west-side-story.jpg',
       artist: 'West Side Story',
       title: "America",
-      description: 'Place the text in the correct chronological order using key word and context clues.',
+      description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/theatre/west-side-story/west-side-story-america.mp4',
       fileUrl: ''
