@@ -613,7 +613,7 @@
       colour: 'yellow',
       genre: 'pop',
       image: 'assets/data/pop/rag-n-bone/rag-n-bone-man.jpg',
-      artist: 'Rag n Bone Man',
+      artist: 'Rag N Bone Man',
       title: 'Human',
       description: '',
       lyricVideo: '',
