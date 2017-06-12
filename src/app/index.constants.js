@@ -131,7 +131,7 @@
       artist: 'Stereophonics',
       title: 'Graffiti On The Train',
       description: '',
-      lyricVideo: 'assets/data/rock/stereophonics/stereophonics-graffiti-on-the-train-lyrics.mp4',
+      lyricVideo: '',
       musicVideo: '',
       fileUrl: ''
     }, {
