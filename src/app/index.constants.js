@@ -112,6 +112,50 @@
       lyricVideo: '',
       musicVideo: 'assets/data/rock/tenacious-d/tenacious-d-tribute.mp4',
       fileUrl: ''
+    }, {
+      id: 10,
+      colour: 'red',
+      genre: 'rock',
+      image: 'assets/data/rock/lincin-park/lincin-park-1.jpg',
+      artist: 'Lincin Park',
+      title: 'In The End',
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/rock/lincin-park/linkin-park_in-the-end.mp4',
+      fileUrl: ''
+    }, {
+      id: 11,
+      colour: 'red',
+      genre: 'rock',
+      image: 'assets/data/rock/stereophonics/stereophonics.jpg',
+      artist: 'Stereophonics',
+      title: 'Graffiti On The Train',
+      description: '',
+      lyricVideo: 'assets/data/rock/stereophonics/stereophonics-graffiti-on-the-train-lyrics.mp4',
+      musicVideo: '',
+      fileUrl: ''
+    }, {
+      id: 12,
+      colour: 'red',
+      genre: 'rock',
+      image: 'assets/data/rock/lifehouse/lifehouse.jpg',
+      artist: 'Lifehouse',
+      title: 'You And Me',
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/rock/lifehouse/lifehouse-you-and-me-video.mp4',
+      fileUrl: ''
+    }, {
+      id: 13,
+      colour: 'red',
+      genre: 'rock',
+      image: 'assets/data/rock/averil-lavigne/averil-lavigne.jpg',
+      artist: 'Averil Lavigne',
+      title: 'Sk8r Boi',
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/rock/averil-lavigne/averil-lavigne-sk8r-boi-video.mp4',
+      fileUrl: ''
     }],
     'pop': [{
       id: 0,
@@ -696,6 +740,39 @@
       lyricVideo: '',
       musicVideo: 'assets/data/pop/tony-ferrari/tony-ferrari-stand-by-me.mp4',
       fileUrl: ''
+    }, {
+      id: 53,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/vanessa-carlton/vanessa-carlton.jpg',
+      artist: 'Vanessa Carlton',
+      title: 'A Thousand Miles',
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/vanessa-carlton/vanessa-carlton_a-thousand-miles.mp4',
+      fileUrl: ''
+    }, {
+      id: 54,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/take-that/take-that.jpg',
+      artist: 'Take That',
+      title: 'A Thousand Miles',
+      description: '',
+      lyricVideo: 'assets/data/pop/take-that/take-that-giants-lyrics.mp4',
+      musicVideo: 'assets/data/pop/take-that/take-that-giants-video.mp4',
+      fileUrl: ''
+    }, {
+      id: 55,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/charlene-soraia/charlene-soraia.jpg',
+      artist: 'Charlene Soraia',
+      title: 'Whereever You Will Go',
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/charlene-soraia/charlene-soraia-wherever-you-will-go-video.mp4',
+      fileUrl: ''
     }],
     'country': [{
       id: 0,
@@ -861,6 +938,17 @@
       description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/country/the-shires/the-shires-daddys-little-girl.mp4',
+      fileUrl: ''
+    }, {
+      id: 15,
+      colour: 'orange',
+      genre: 'country',
+      image: 'assets/data/country/maren-morris/maren-morris.jpg',
+      artist: 'Maren Morris',
+      title: "My Church",
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/country/maren-morris/maren-morris-my-church.mp4',
       fileUrl: ''
     }],
     'dance': [{
@@ -1204,6 +1292,17 @@
       description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/film/tarzan/phil-collins-youll-be-in-my-heart.mp4',
+      fileUrl: ''
+    }, {
+      id: 23,
+      colour: 'pink',
+      genre: 'film & tv',
+      image: 'assets/data/film/stevie-wonder/stevie-wonder-ariana-grade-faith-sing.jpg',
+      artist: 'Stevie Wonder ft. Ariana Grande',
+      title: "Faith",
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/film/stevie-wonder/stevie-wonder-faith-ft-ariana-grande-video.mp4',
       fileUrl: ''
     }],
     'theatre': [{
