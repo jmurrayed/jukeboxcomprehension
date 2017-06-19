@@ -51,9 +51,18 @@
       });
     }
 
+    vm.trimBrackets = function(str) {
+      var index = str.indexOf("(");
+      if (index > 0) {
+        return str.substring(0, index);
+      } else {
+        return str;
+      }
+    }
+
     // Private Functions
     function identifyVideo() {
-      if (vm.selectedSong.musicVideo){
+      if (vm.selectedSong.musicVideo) {
         return vm.selectedSong.musicVideo;
       } else {
         return vm.selectedSong.lyricVideo;

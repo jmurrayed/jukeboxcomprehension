@@ -773,6 +773,17 @@
       lyricVideo: '',
       musicVideo: 'assets/data/pop/charlene-soraia/charlene-soraia-wherever-you-will-go-video.mp4',
       fileUrl: ''
+    }, {
+      id: 55,
+      colour: 'yellow',
+      genre: 'pop',
+      image: 'assets/data/pop/colbie-caillat/colbie-caillat.jpeg',
+      artist: 'Colbie Caillat',
+      title: 'Try',
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/pop/colbie-caillat/colbie-caillat-try.mp4',
+      fileUrl: ''
     }],
     'country': [{
       id: 0,
@@ -1039,6 +1050,17 @@
       lyricVideo: '',
       musicVideo: 'assets/data/dance/clean-bandit/clean-bandit-tears.mp4',
       fileUrl: ''
+    }, {
+      id: 8,
+      colour: 'white',
+      genre: 'dance',
+      image: 'assets/data/dance/shakira/shakira.png',
+      artist: 'Shakira',
+      title: 'La La La',
+      description: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/dance/shakira/shakira-la-la-la.mp4',
+      fileUrl: ''
     }],
     'film & tv': [{
       id: 0,
@@ -1299,7 +1321,7 @@
       genre: 'film & tv',
       image: 'assets/data/film/stevie-wonder/stevie-wonder-ariana-grade-faith-sing.jpg',
       artist: 'Stevie Wonder ft. Ariana Grande',
-      title: "Faith",
+      title: "Faith (Sing)",
       description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/film/stevie-wonder/stevie-wonder-faith-ft-ariana-grande-video.mp4',
