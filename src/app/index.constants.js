@@ -131,7 +131,7 @@
       artist: 'Stereophonics',
       title: 'Graffiti On The Train',
       description: '',
-      lyricVideo: '',
+      lyricVideo: 'assets/data/rock/stereophonics/stereophonics-graffiti-on-the-train-lyrics.mp4',
       musicVideo: '',
       fileUrl: ''
     }, {
@@ -768,13 +768,13 @@
       genre: 'pop',
       image: 'assets/data/pop/charlene-soraia/charlene-soraia.jpg',
       artist: 'Charlene Soraia',
-      title: 'Whereever You Will Go',
+      title: 'Wherever You Will Go',
       description: '',
       lyricVideo: '',
       musicVideo: 'assets/data/pop/charlene-soraia/charlene-soraia-wherever-you-will-go-video.mp4',
       fileUrl: ''
     }, {
-      id: 55,
+      id: 56,
       colour: 'yellow',
       genre: 'pop',
       image: 'assets/data/pop/colbie-caillat/colbie-caillat.jpeg',
