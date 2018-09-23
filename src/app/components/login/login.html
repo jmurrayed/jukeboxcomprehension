@@ -4,7 +4,7 @@
 
     <div class="modal-header">
       <div class="col-sm-11">
-        <h3 class="modal-title neon-font blue">Jukebox Comprehension Account</h3>
+        <h3 class="modal-title neon-font blue">Comprehension Lesson Pack</h3>
       </div>
       <div class="col-sm-1 text-right">
         <a><i class="glyphicon glyphicon-remove blue" ng-click="lc.close()"></i></a>
@@ -13,23 +13,14 @@
     <div class="modal-body">
 
       <div>
-        <h4 class="modal-title neon-font blue">Annual Membership Fee</h4>
-
-        <p>&pound;125 per school</p>
-
-        <p>This will gain you full access to the site and associated material for a single
-        academic year (September 1st – August 31st).</p>
-
-        <p>All subscriptions are calculated from the day of registration to August 31st.</p>
-
-        <p>By registering you agree to Jukebox Comprehension’s Terms &amp; Conditions.</p>
-
-        <h4><span class="neon-font blue">E-mail:</span> jukeboxcomprehension@gmail.com</h4>
-        <h4><span class="neon-font blue">Telephone:</span> 0161 204 3000</h4>
+        <h4 class="modal-title neon-font blue">Purchase</h4>
+        <p>Get access to the Comprehension lesson material for this Song and Artist for only &pound;1</p>
+        <img src="/assets/images/paypal.png" />
+        <p> comming soon ...</p>
       </div>
 
-      <hr/>
-
+      <!-- Hide the Login Form -->
+<div ng-hide=true>
       <div ng-if="!lc.isLoggedIn()"> <!-- 'NOT LOGGED IN' -->
         <h4 class="modal-title neon-font blue">Login</h4>
         <form name="authForm" ng-submit="authForm.$valid && lc.login(lc.user)" class="form-group" novalidate>
@@ -68,6 +59,7 @@
             </div>
         </form>
       </div> <!-- 'NOT LOGGED IN' END -->
+    </div>
 
     </div>  <!-- Modal Body END -->
   </div>

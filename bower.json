@@ -1,25 +1,25 @@
 {
   "name": "jukeboxcomprehension",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "dependencies": {
-    "angular-route": "~1.5.3",
-    "bootstrap": "~3.3.5",
-    "angular-bootstrap": "~0.14.3",
-    "moment": "~2.10.6",
-    "angular": "~1.5.3",
+    "angular-route": "1.7.4",
+    "bootstrap": "3.3.7",
+    "angular-bootstrap": "0.14.3",
+    "moment": "2.10.6",
+    "angular": "1.7.2",
     "firebase": "^3.2.1",
     "angularfire": "^2.0.1",
-    "videogular": "^1.4.4",
-    "videogular-themes-default": "^1.4.4",
-    "videogular-controls": "^1.4.4",
-    "videogular-buffering": "^1.4.4",
-    "videogular-overlay-play": "^1.4.4",
-    "videogular-poster": "^1.4.4",
-    "videogular-ima-ads": "^1.4.4",
-    "videogular-angulartics": "^1.4.4"
+    "videogular": "1.4.4",
+    "videogular-themes-default": "1.4.4",
+    "videogular-controls": "1.4.4",
+    "videogular-buffering": "1.4.4",
+    "videogular-overlay-play": "1.4.4",
+    "videogular-poster": "1.4.4",
+    "videogular-ima-ads": "1.4.4",
+    "videogular-angulartics": "1.4.4"
   },
   "devDependencies": {
-    "angular-mocks": "~1.5.3"
+    "angular-mocks": "1.7.4"
   },
   "overrides": {
     "bootstrap": {
@@ -34,6 +34,6 @@
     }
   },
   "resolutions": {
-    "angular": "~1.5.3"
+    "angular": "1.7.2"
   }
 }

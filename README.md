@@ -5,10 +5,18 @@
 ## Dev Instructions
 
 ...
+```
+npm install
 
+npm install gulp -g
+
+npm install bower -
+
+bower install
+```
 ### Gulp tasks
 
-* __gulp__ - build an optimized version of your application in folder `dist`
+* __gulp build__ - build an optimized version of your application in folder `dist`
 * __gulp serve__ to start BrowserSync server on your source files with live reload
 * __gulp serve:dist__ to start BrowserSync server on your optimized application `dist` folder without live reload
 * __gulp deploy__ compile latest code and push to `gh-pages` branch

@@ -757,7 +757,7 @@
       genre: 'pop',
       image: 'assets/data/pop/take-that/take-that.jpg',
       artist: 'Take That',
-      title: 'A Thousand Miles',
+      title: 'We Are Giants',
       description: '',
       lyricVideo: 'assets/data/pop/take-that/take-that-giants-lyrics.mp4',
       musicVideo: 'assets/data/pop/take-that/take-that-giants-video.mp4',
@@ -833,17 +833,6 @@
       id: 4,
       colour: 'orange',
       genre: 'country',
-      image: 'assets/data/country/carrie-underwood/carrie-underwood.jpg',
-      artist: 'Carrie Underwood',
-      title: 'Change',
-      description: '',
-      lyricVideo: '',
-      musicVideo: 'assets/data/country/carrie-underwood/carrie_underwood-change.mp4',
-      fileUrl: ''
-    }, {
-      id: 5,
-      colour: 'orange',
-      genre: 'country',
       image: 'assets/data/country/nichole-nordeman/nichole-nordeman.jpg',
       artist: 'Nichole Nordeman',
       title: 'Slow Down',
@@ -852,7 +841,7 @@
       musicVideo: '',
       fileUrl: ''
     }, {
-      id: 6,
+      id: 5,
       colour: 'orange',
       genre: 'country',
       image: 'assets/data/country/dolly-parton/dolly_parton.jpg',
@@ -863,7 +852,7 @@
       musicVideo: 'assets/data/country/dolly-parton/dolly_parton_blue-smoke.mp4',
       fileUrl: ''
     }, {
-      id: 7,
+      id: 6,
       colour: 'orange',
       genre: 'country',
       image: 'assets/data/country/alan-jackson/alan-jackson.jpg',
@@ -874,7 +863,7 @@
       musicVideo: '',
       fileUrl: ''
     }, {
-      id: 8,
+      id: 7,
       colour: 'orange',
       genre: 'country',
       image: 'assets/data/country/alexi-murdoch/alexi-murdoch.jpg',
@@ -885,7 +874,7 @@
       musicVideo: 'assets/data/country/alexi-murdoch/alexi-murdoch-some-day-soon.mp4',
       fileUrl: ''
     }, {
-      id: 9,
+      id: 8,
       colour: 'orange',
       genre: 'country',
       image: 'assets/data/country/brad-paisley/brad-paisley.jpg',
@@ -896,7 +885,7 @@
       musicVideo: 'assets/data/country/brad-paisley/brad-paisley-today.mp4',
       fileUrl: ''
     }, {
-      id: 10,
+      id: 9,
       colour: 'orange',
       genre: 'country',
       image: 'assets/data/country/cma/cma.jpg',
@@ -907,7 +896,7 @@
       musicVideo: 'assets/data/country/cma/cma-music-award-forever-country-various.mp4',
       fileUrl: ''
     }, {
-      id: 11,
+      id: 10,
       colour: 'orange',
       genre: 'country',
       image: 'assets/data/country/james-tw/james-tw.jpg',
@@ -918,7 +907,7 @@
       musicVideo: 'assets/data/country/james-tw/james-tw-when-you-love-someone.mp4',
       fileUrl: ''
     }, {
-      id: 12,
+      id: 11,
       colour: 'orange',
       genre: 'country',
       image: 'assets/data/country/lady-antebellum/lady-antebellum.jpg',
@@ -929,7 +918,7 @@
       musicVideo: 'assets/data/country/lady-antebellum/lady-antebellum-american-honey.mp4',
       fileUrl: ''
     }, {
-      id: 13,
+      id: 12,
       colour: 'orange',
       genre: 'country',
       image: 'assets/data/country/ward-thomas/ward-thomas.jpg',
@@ -940,7 +929,7 @@
       musicVideo: 'assets/data/country/ward-thomas/ward-thomas-carry-you-home.mp4',
       fileUrl: ''
     }, {
-      id: 14,
+      id: 13,
       colour: 'orange',
       genre: 'country',
       image: 'assets/data/country/the-shires/the-shires.jpg',
@@ -951,7 +940,7 @@
       musicVideo: 'assets/data/country/the-shires/the-shires-daddys-little-girl.mp4',
       fileUrl: ''
     }, {
-      id: 15,
+      id: 14,
       colour: 'orange',
       genre: 'country',
       image: 'assets/data/country/marren-morris/marren-morris.jpg',

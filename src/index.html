@@ -38,12 +38,10 @@
           <div class="col-xs-12 col-sm-4">
             <a ng-click="main.openTerms()"><span class="neon-font blue">Terms &amp; Conditions</span></a>
             <span class="divider">&nbsp;</span>
-            <a ng-click="main.openPrivacy()"><span class="neon-font blue">Privacy</span></a>
-            <span class="divider">&nbsp;</span>
-            <a ng-click="main.openTraining()"><span class="neon-font blue">Training</span></a>
+            <a ng-click="main.openContact()"><span class="neon-font blue">Contact</span></a>
           </div>
           <div class="col-xs-12 col-sm-4 text-center neon-font ">
-              <span>&copy; 2017 Jukebox Comprehension Ltd</span>
+              <span>&copy; {{ main.date | date:'yyyy' }} Jukebox Comprehension Ltd</span>
           </div>
           <div class="col-xs-12 col-sm-4">
             <a href="https://twitter.com/JBComprehension" target="_blank"><img class="text-center pull-right twitter" src="/assets/images/twitter.png" height="30" width="30" /></a>
@@ -62,7 +60,7 @@
             <a href="https://twitter.com/JBComprehension" target="_blank"><img src="/assets/images/twitter.png" height="30" width="30" /></a>
           </div>
           <div class="text-center neon-font">
-            <span>&copy; 2017 Jukebox Comprehension Ltd</span>
+            <span>&copy; {{ main.date | date:'yyyy' }} Jukebox Comprehension Ltd</span>
           </div>
         </div>
       </div>
