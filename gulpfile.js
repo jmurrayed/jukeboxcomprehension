@@ -8,7 +8,7 @@
 
 var gulp = require('gulp');
 var wrench = require('wrench');
-var deploy      = require('gulp-gh-pages');
+var deploy = require('gulp-gh-pages');
 
 /**
  *  This will load all js or coffee files in the gulp directory
