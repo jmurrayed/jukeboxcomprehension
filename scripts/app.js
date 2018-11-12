@@ -209,22 +209,6 @@
 
   angular
     .module('jukeboxcomprehension')
-    .controller('ContactController',ContactController);
-
-  /** @ngInject */
-  function ContactController($uibModalInstance) {
-    var vm = this;
-    vm.close = function () {
-      $uibModalInstance.dismiss('close');
-    };
-  }
-})();
-
-(function() {
-  'use strict';
-
-  angular
-    .module('jukeboxcomprehension')
     .controller('DetailController', DetailController);
 
   /** @ngInject */
@@ -290,6 +274,22 @@
         return vm.selectedSong.lyricVideo;
       }
     }
+  }
+})();
+
+(function() {
+  'use strict';
+
+  angular
+    .module('jukeboxcomprehension')
+    .controller('ContactController',ContactController);
+
+  /** @ngInject */
+  function ContactController($uibModalInstance) {
+    var vm = this;
+    vm.close = function () {
+      $uibModalInstance.dismiss('close');
+    };
   }
 })();
 
@@ -1118,7 +1118,7 @@
       title: 'Human',
       description: '',
       lyricVideo: '',
-      musicVideo: 'assets/data/pop/rag-n-bone-man/rag-n-bone-man-human.mp4',
+      musicVideo: 'assets/data/pop/rag-n-bone/rag-n-bone-man-human.mp4',
       fileUrl: ''
     }, {
       id: 46,
@@ -1360,7 +1360,7 @@
       artist: 'James TW',
       title: 'When You Love Someone',
       description: '',
-      lyricVideo: 'assets/data/country/james-tw/james-tw-lyric-video.mp4',
+      lyricVideo: '',
       musicVideo: 'assets/data/country/james-tw/james-tw-when-you-love-someone.mp4',
       fileUrl: ''
     }, {
@@ -1556,17 +1556,6 @@
       id: 4,
       colour: 'pink',
       genre: 'film & tv',
-      image: 'assets/data/film/eurovision/joe_and_jake.jpg',
-      artist: 'Joe & Jake',
-      title: "You're Not Alone (Eurovision)",
-      description: '',
-      lyricVideo: '',
-      musicVideo: 'assets/data/film/eurovision/joe-and-jake_youre-not-alone.mp4',
-      fileUrl: ''
-    }, {
-      id: 5,
-      colour: 'pink',
-      genre: 'film & tv',
       image: 'assets/data/film/frozen/frozen.jpg',
       artist: 'Idina Menzel',
       title: "Let It Go (Frozen)",
@@ -1575,18 +1564,18 @@
       musicVideo: 'assets/data/film/frozen/frozen_let-it-go.mp4',
       fileUrl: ''
     }, {
-      id: 6,
+      id: 5,
       colour: 'pink',
       genre: 'film & tv',
       image: 'assets/data/film/david-bowie/labyrinth.jpg',
       artist: 'David Bowie',
       title: "Magic Dance (Labrynth)",
       description: '',
-      lyricVideo: 'assets/data/film/david-bowie/labyrinth_magic-dance-lyric.mp4',
-      musicVideo: '',
+      lyricVideo: '',
+      musicVideo: 'assets/data/film/david-bowie/labyrinth_magic-dance-lyric.mp4',
       fileUrl: ''
     }, {
-      id: 7,
+      id: 6,
       colour: 'pink',
       genre: 'film & tv',
       image: 'assets/data/film/christina-perri/christina-perri.jpg',
@@ -1597,7 +1586,7 @@
       musicVideo: 'assets/data/film/christina-perri/christina-perri_a-thousand-years.mp4',
       fileUrl: ''
     }, {
-      id: 8,
+      id: 7,
       colour: 'pink',
       genre: 'film & tv',
       image: 'assets/data/film/mans-zelmerlow/mans_zelmerlow.jpg',
@@ -1608,7 +1597,7 @@
       musicVideo: 'assets/data/film/mans-zelmerlow/mans_zelmerlow-heroes.mp4',
       fileUrl: ''
     }, {
-      id: 9,
+      id: 8,
       colour: 'pink',
       genre: 'film & tv',
       image: 'assets/data/film/rihanna/rihanna.jpg',
@@ -1619,7 +1608,7 @@
       musicVideo: 'assets/data/film/rihanna/rihanna-sledgehammer.mp4',
       fileUrl: ''
     }, {
-      id: 10,
+      id: 9,
       colour: 'pink',
       genre: 'film & tv',
       image: 'assets/data/film/vista-print/the-postcard.jpg',
@@ -1630,7 +1619,7 @@
       musicVideo: 'assets/data/film/vista-print/father-son_the-postcard.mp4',
       fileUrl: ''
     }, {
-      id: 11,
+      id: 10,
       colour: 'pink',
       genre: 'film & tv',
       image: 'assets/data/film/ed-sheeran/ed-sheeran.jpg',
@@ -1641,7 +1630,7 @@
       musicVideo: 'assets/data/film/ed-sheeran/ed-sheeran_I-see-fire-music.mp4',
       fileUrl: ''
     }, {
-      id: 12,
+      id: 11,
       colour: 'pink',
       genre: 'film & tv',
       image: 'assets/data/film/aldi/aldi-easter.jpg',
@@ -1652,7 +1641,7 @@
       musicVideo: 'assets/data/film/aldi/favourite-things-parody_aldi-ad.mp4',
       fileUrl: ''
     }, {
-      id: 13,
+      id: 12,
       colour: 'pink',
       genre: 'film & tv',
       image: 'assets/data/film/enchanted/amy-adams.jpg',
@@ -1663,7 +1652,7 @@
       musicVideo: '',
       fileUrl: ''
     }, {
-      id: 14,
+      id: 13,
       colour: 'pink',
       genre: 'film & tv',
       image: 'assets/data/film/diana/lady-diana.jpg',
@@ -1674,7 +1663,7 @@
       musicVideo: 'assets/data/film/diana/goodbye-englands-rose-elton-john.mp4',
       fileUrl: ''
     }, {
-      id: 15,
+      id: 14,
       colour: 'pink',
       genre: 'film & tv',
       image: 'assets/data/film/glee/imagine-john-lennon-glee.jpg',
@@ -1685,7 +1674,7 @@
       musicVideo: 'assets/data/film/glee/imagine-john-lennon-glee.mp4',
       fileUrl: ''
     }, {
-      id: 16,
+      id: 15,
       colour: 'pink',
       genre: 'film & tv',
       image: 'assets/data/film/jungle-book/bare-necessaties.jpg',
@@ -1696,7 +1685,7 @@
       musicVideo: 'assets/data/film/jungle-book/bare-necessaties-the-jungle-book.mp4',
       fileUrl: ''
     }, {
-      id: 17,
+      id: 16,
       colour: 'pink',
       genre: 'film & tv',
       image: 'assets/data/film/karen-o/karen-o.jpg',
@@ -1707,7 +1696,7 @@
       musicVideo: 'assets/data/film/karen-o/karen-o-strange-love-frankenweenie.mp4',
       fileUrl: ''
     }, {
-      id: 18,
+      id: 17,
       colour: 'pink',
       genre: 'film & tv',
       image: 'assets/data/film/paralympics/bpa.jpg',
@@ -1718,7 +1707,7 @@
       musicVideo: 'assets/data/film/paralympics/yes-i-can-paralympics-2016.mp4',
       fileUrl: ''
     }, {
-      id: 19,
+      id: 18,
       colour: 'pink',
       genre: 'film & tv',
       image: 'assets/data/film/pharrell-williams/pharrell-williams.jpg',
@@ -1729,7 +1718,7 @@
       musicVideo: 'assets/data/film/pharrell-williams/pharrell-williams-happy.mp4',
       fileUrl: ''
     }, {
-      id: 20,
+      id: 19,
       colour: 'pink',
       genre: 'film & tv',
       image: 'assets/data/film/spaceman/nasa_commander_chris_hadfield.jpg',
@@ -1740,7 +1729,7 @@
       musicVideo: 'assets/data/film/spaceman/space-oddity.mp4',
       fileUrl: ''
     }, {
-      id: 21,
+      id: 20,
       colour: 'pink',
       genre: 'film & tv',
       image: 'assets/data/film/toy-story/toy-story.jpg',
@@ -1751,7 +1740,7 @@
       musicVideo: 'assets/data/film/toy-story/youve-gota-friend-in-me-randy-newman.mp4',
       fileUrl: ''
     }, {
-      id: 22,
+      id: 21,
       colour: 'pink',
       genre: 'film & tv',
       image: 'assets/data/film/tarzan/tarzan.jpg',
@@ -1762,7 +1751,7 @@
       musicVideo: 'assets/data/film/tarzan/phil-collins-youll-be-in-my-heart.mp4',
       fileUrl: ''
     }, {
-      id: 23,
+      id: 22,
       colour: 'pink',
       genre: 'film & tv',
       image: 'assets/data/film/stevie-wonder/stevie-wonder-ariana-grade-faith-sing.jpg',
@@ -1803,8 +1792,8 @@
       artist: 'My Fair Lady',
       title: "Wouldn't It Be Loverly",
       description: '',
-      lyricVideo: '',
-      musicVideo: 'assets/data/theatre/my-fair-lady/my-fair-lady_wouldnt-it-be-loverly.mp4',
+      lyricVideo: 'assets/data/theatre/my-fair-lady/my-fair-lady_wouldnt-it-be-loverly.mp4',
+      musicVideo: '',
       fileUrl: ''
     }, {
       id: 3,
@@ -1858,8 +1847,8 @@
       artist: 'Fiddler On The Roof',
       title: "If I Were A Rich Man",
       description: '',
-      lyricVideo: '',
-      musicVideo: 'assets/data/theatre/fiddler-on-the-roof/fiddler-on-the-roof-if-i-were-a-rich-man.mp4',
+      lyricVideo: 'assets/data/theatre/fiddler-on-the-roof/fiddler-on-the-roof-if-i-were-a-rich-man.mp4',
+      musicVideo: '',
       fileUrl: ''
     }, {
       id: 8,
@@ -1917,10 +1906,10 @@
 
 })();
 
-angular.module('jukeboxcomprehension').run(['$templateCache', function($templateCache) {$templateCache.put('app/components/detail/detail.html','<div class="col-xs-12 col-sm-3"><div class="spacer-5x col-sm-12 hidden-xs">&nbsp;</div><div class="col-xs-12 col-sm-12 song-text blue neon-font"><h2 class=text-wrap>{{detail.selectedSong.artist}}</h2><h2 class=text-wrap>{{detail.trimBrackets(detail.selectedSong.title)}}</h2></div><div class="spacer-3x col-sm-12 hidden-xs">&nbsp;</div><div class="col-xs-12 col-sm-12"><div class="text-center col-xs-6 col-sm-12"><a class="btn btn-primary btn-lg outline neon-font blue" href=index.html#!/ ><i class="glyphicon glyphicon-home"></i> Home</a></div></div></div><div class="col-xs-12 col-sm-6"><div class="spacer hidden-xs">&nbsp;</div><div class="detail-youtube border-glow text-center" ng-class=detail.selectedSong.colour><videogular class=videogular-container><vg-media vg-src=detail.getVideoLink()></vg-media><vg-controls><vg-play-pause-button></vg-play-pause-button><!-- <vg-time-display>{{ currentTime | date:\'mm:ss\' }}</vg-time-display> --><vg-scrub-bar><vg-scrub-bar-current-time></vg-scrub-bar-current-time></vg-scrub-bar><!-- <vg-time-display>{{ timeLeft | date:\'mm:ss\' }}</vg-time-display> --><vg-volume><vg-mute-button></vg-mute-button><vg-volume-bar></vg-volume-bar></vg-volume><vg-fullscreen-button></vg-fullscreen-button></vg-controls><!-- <vg-overlay-play></vg-overlay-play> --><!-- <vg-poster vg-url=\'controller.config.plugins.poster\'></vg-poster> --></videogular><!-- <video width="100%" height="100%" controls>\n      <source ng-src="{{detail.selectedSong.lyricVideo}}" type="video/mp4">\n    Your browser does not support the video tag. Please use a more modern browser.\n    </video> --></div></div><div class="col-xs-12 col-sm-3"><div class="spacer-5x hidden-xs">&nbsp;</div><div class="spacer visible-xs">&nbsp;</div><div class=text-center><a class="btn btn-primary btn-lg outline neon-font detail-btn" ng-if=detail.isLoggedIn() ng-class=detail.selectedSong.colour ng-click="detail.getFileUrl(\'comprehension.pdf\')"><span class="glyphicon glyphicon-star blue"></span> Comprehension <span class="glyphicon glyphicon-star blue"></span> </a><a class="btn btn-primary btn-lg outline neon-font detail-btn" ng-if=!detail.isLoggedIn() ng-class=detail.selectedSong.colour ng-click=main.openLogin()><span class="glyphicon glyphicon-star blue"></span> Comprehension <span class="glyphicon glyphicon-star blue"></span></a></div><div class="spacer-2x hidden-xs">&nbsp;</div><div class="spacer visible-xs">&nbsp;</div><div class=text-center ng-if=detail.selectedSong.musicVideo><a class="btn btn-primary btn-lg outline neon-font detail-btn" ng-class=detail.selectedSong.colour ng-click="detail.videoType = \'music\'"><i class="glyphicon glyphicon-film"></i> Music Video</a></div><div class="spacer-2x hidden-xs">&nbsp;</div><div class="spacer visible-xs">&nbsp;</div><div class=text-center ng-if=detail.selectedSong.lyricVideo><a class="btn btn-primary btn-lg outline neon-font detail-btn" ng-class=detail.selectedSong.colour ng-click="detail.videoType = \'lyric\'"><i class="glyphicon glyphicon-film"></i> Lyric Video</a></div></div>');
-$templateCache.put('app/components/contact/contact.html','<div class=modal-header><div class=col-sm-11><h3 class="modal-title neon-font blue">Contact Us</h3></div><div class="col-sm-1 text-right"><a><i class="glyphicon glyphicon-remove blue" ng-click=cc.close()></i></a></div></div><div class=modal-body><h4 class="neon-font blue">Got a question you\u2019d like to ask?</h4><h4 class="neon-font blue">Have a great lesson you\u2019d like to share?</h4><p>Then we\u2019d love to hear from you. Just get in touch and we\u2019ll get back to you as soon as we can.</p><h4><span class="neon-font blue">E-mail:</span> jukeboxcomprehension@gmail.com</h4><h4><span class="neon-font blue">Telephone:</span> 07724 042 186</h4><hr><h4 class="neon-font blue">Metronomics: The Science Behind the Learning</h4><p>A Professional Development course that will help you understand the proven benefits of using songs, lyrics and music videos to boost achievement and develop the whole child.</p><p>Created to help teachers embed core Literacy skills across the wider curriculum, this course focuses on the fascinating research of Metronomics: the science of how music enables the brain to acquire language both quickly and securely.\xA0</p><p>It will also look at the wider benefits of using song lyrics in the classroom and explain the best ways in which to use music videos effectively to maximise their impact.\xA0</p><p>&nbsp;</p><div class=form-group><a class="btn btn-lg btn-primary btn-lg outline neon-font blue" href=http://www.johnmurraycpd.co.uk/metronomics target=_blank>Find Out More</a></div></div>');
-$templateCache.put('app/components/login/login.html','<!-- Modal content--><div class=modal-content><div class=modal-header><div class=col-sm-11><h3 class="modal-title neon-font blue">Comprehension Lesson Pack</h3></div><div class="col-sm-1 text-right"><a><i class="glyphicon glyphicon-remove blue" ng-click=lc.close()></i></a></div></div><div class=modal-body><div><h4 class="modal-title neon-font blue">Purchase</h4><p>Get access to the Comprehension lesson material for this Song and Artist for only &pound;1</p><img src=/assets/images/paypal.png><p>comming soon ...</p></div><!-- Hide the Login Form --><div ng-hide=true><div ng-if=!lc.isLoggedIn()><!-- \'NOT LOGGED IN\' --><h4 class="modal-title neon-font blue">Login</h4><form name=authForm ng-submit="authForm.$valid && lc.login(lc.user)" class=form-group novalidate><div class=form-group><div class=input-group><!--Email input--> <span class=input-group-addon><i class="glyphicon glyphicon-envelope"></i></span> <input ng-model=lc.user.email ng-model-options="{ updateOn: \'default blur\', debounce: { default: 1000, blur: 0 } }" type=email name=email class=form-control placeholder="Email address" required autofocus><!--Email error--><div ng-show=authForm.$submitted><p ng-show=authForm.email.$error.required class=text-danger>Email required</p><p ng-show=authForm.email.$error.email class=text-danger>Please enter a valid email.</p></div></div></div><div class=form-group><div class=input-group><!--Password input--> <span class=input-group-addon><i class="glyphicon glyphicon-lock"></i></span> <input ng-model=lc.user.password type=password name=password class=form-control placeholder=Password required><!--Password error--><div ng-show=authForm.$submitted><p ng-show=authForm.password.$error.required class=text-danger>Password required</p></div></div></div><div class=form-group><!--Server authentication error--><h1 ng-show=lc.error class=text-danger>The Email or Password is incorrect</h1></div><div class=form-group><button class="btn btn-lg btn-primary btn-lg outline neon-font blue" type=submit>login</button></div></form></div><!-- \'NOT LOGGED IN\' END --></div></div><!-- Modal Body END --></div>');
+angular.module('jukeboxcomprehension').run(['$templateCache', function($templateCache) {$templateCache.put('app/components/detail/detail.html','<div class="col-xs-12 col-sm-3"><div class="spacer-5x col-sm-12 hidden-xs">&nbsp;</div><div class="col-xs-12 col-sm-12 song-text blue neon-font"><h2 class=text-wrap>{{detail.selectedSong.artist}}</h2><h2 class=text-wrap>{{detail.trimBrackets(detail.selectedSong.title)}}</h2></div></div><div class="col-xs-12 col-sm-6"><div class="detail-youtube border-glow text-center" ng-class=detail.selectedSong.colour><videogular class=videogular-container><vg-media vg-src=detail.getVideoLink()></vg-media><vg-controls><vg-play-pause-button></vg-play-pause-button><!-- <vg-time-display>{{ currentTime | date:\'mm:ss\' }}</vg-time-display> --><vg-scrub-bar><vg-scrub-bar-current-time></vg-scrub-bar-current-time></vg-scrub-bar><!-- <vg-time-display>{{ timeLeft | date:\'mm:ss\' }}</vg-time-display> --><vg-volume><vg-mute-button></vg-mute-button><vg-volume-bar></vg-volume-bar></vg-volume><vg-fullscreen-button></vg-fullscreen-button></vg-controls><!-- <vg-overlay-play></vg-overlay-play> --><!-- <vg-poster vg-url=\'controller.config.plugins.poster\'></vg-poster> --></videogular><!-- <video width="100%" height="100%" controls>\n      <source ng-src="{{detail.selectedSong.lyricVideo}}" type="video/mp4">\n    Your browser does not support the video tag. Please use a more modern browser.\n    </video> --></div></div><div class="col-xs-12 col-sm-3"><div class=spacer-2x>&nbsp;</div><div class=text-center><a class="btn btn-primary btn-lg outline neon-font detail-btn" ng-if=detail.isLoggedIn() ng-class=detail.selectedSong.colour ng-click="detail.getFileUrl(\'comprehension.pdf\')"><span class="glyphicon glyphicon-star blue"></span> Comprehension <span class="glyphicon glyphicon-star blue"></span> </a><a class="btn btn-primary btn-lg outline neon-font detail-btn" ng-if=!detail.isLoggedIn() ng-class=detail.selectedSong.colour ng-click=main.openLogin()><span class="glyphicon glyphicon-star blue"></span> Comprehension <span class="glyphicon glyphicon-star blue"></span></a></div><div class=spacer>&nbsp;</div><div class=text-center ng-if=detail.selectedSong.musicVideo><a class="btn btn-primary btn-lg outline neon-font detail-btn" ng-class=detail.selectedSong.colour ng-click="detail.videoType = \'music\'"><i class="glyphicon glyphicon-film"></i> Music Video</a></div><div class=spacer>&nbsp;</div><div class=text-center ng-if=detail.selectedSong.lyricVideo><a class="btn btn-primary btn-lg outline neon-font detail-btn" ng-class=detail.selectedSong.colour ng-click="detail.videoType = \'lyric\'"><i class="glyphicon glyphicon-film"></i> Lyric Video</a></div><div class=spacer-2x>&nbsp;</div><div class=text-center><a class="btn btn-primary btn-lg outline neon-font blue" href=index.html#!/ ><i class="glyphicon glyphicon-home"></i> Home</a></div></div>');
+$templateCache.put('app/components/contact/contact.html','<div class=modal-header><div class=col-sm-11><h3 class="modal-title neon-font blue">Contact Us</h3></div><div class="col-sm-1 text-right"><a><i class="glyphicon glyphicon-remove blue" ng-click=cc.close()></i></a></div></div><div class=modal-body><h4 class="neon-font blue">Got a question you\u2019d like to ask?</h4><h4 class="neon-font blue">Have a great lesson you\u2019d like to share?</h4><p>We\u2019d love to hear from you. Get in touch and we\u2019ll get back to you as soon as we can.</p><h4><span class="neon-font blue">E-mail:</span> jukeboxcomprehension@gmail.com</h4><h4><span class="neon-font blue">Telephone:</span> 07724 042 186</h4><hr><h4 class="neon-font blue">Metronomics: The Science Behind the Learning</h4><p>A Professional Development course that will help you understand the proven benefits of using songs, lyrics and music to boost achievement and develop the whole child.</p><p>Created to help teachers embed core Literacy skills across the wider curriculum, this course focuses on the fascinating research of Metronomics: the science of how music enables the brain to acquire language quickly and securely.\xA0</p><p>It also looks at the wider benefits of using music and song lyrics in the classroom and explores the best ways in which to use music videos effectively to maximise their impact.</p><p>&nbsp;</p><div class=form-group><a class="btn btn-lg btn-primary btn-lg outline neon-font blue" href=http://www.johnmurraycpd.co.uk/metronomics target=_blank>Find Out More</a></div></div>');
+$templateCache.put('app/components/login/login.html','<!-- Modal content--><div class=modal-content><div class=modal-header><div class=col-sm-11><h3 class="modal-title neon-font blue">Comprehension Lesson</h3></div><div class="col-sm-1 text-right"><a><i class="glyphicon glyphicon-remove blue" ng-click=lc.close()></i></a></div></div><div class=modal-body><div><h4 class="modal-title neon-font blue">Purchase</h4><p>Access the Comprehension material for this song and artist for just &pound;2</p><img src=/assets/images/paypal.png><p>coming soon ...</p></div><!-- Hide the Login Form --><div ng-hide=true><div ng-if=!lc.isLoggedIn()><!-- \'NOT LOGGED IN\' --><h4 class="modal-title neon-font blue">Login</h4><form name=authForm ng-submit="authForm.$valid && lc.login(lc.user)" class=form-group novalidate><div class=form-group><div class=input-group><!--Email input--> <span class=input-group-addon><i class="glyphicon glyphicon-envelope"></i></span> <input ng-model=lc.user.email ng-model-options="{ updateOn: \'default blur\', debounce: { default: 1000, blur: 0 } }" type=email name=email class=form-control placeholder="Email address" required autofocus><!--Email error--><div ng-show=authForm.$submitted><p ng-show=authForm.email.$error.required class=text-danger>Email required</p><p ng-show=authForm.email.$error.email class=text-danger>Please enter a valid email.</p></div></div></div><div class=form-group><div class=input-group><!--Password input--> <span class=input-group-addon><i class="glyphicon glyphicon-lock"></i></span> <input ng-model=lc.user.password type=password name=password class=form-control placeholder=Password required><!--Password error--><div ng-show=authForm.$submitted><p ng-show=authForm.password.$error.required class=text-danger>Password required</p></div></div></div><div class=form-group><!--Server authentication error--><h1 ng-show=lc.error class=text-danger>The Email or Password is incorrect</h1></div><div class=form-group><button class="btn btn-lg btn-primary btn-lg outline neon-font blue" type=submit>login</button></div></form></div><!-- \'NOT LOGGED IN\' END --></div></div><!-- Modal Body END --></div>');
 $templateCache.put('app/components/logout/logout.html','<!-- Modal content--><div class=modal-content><div class=modal-header><div class=col-sm-11><h3 class="modal-title neon-font blue">Jukebox Comprehension Logout</h3></div><div class="col-sm-1 text-right"><a><i class="glyphicon glyphicon-remove blue" ng-click=logout.close()></i></a></div></div><div class=modal-body><h4 class="modal-title neon-font blue">Are you sure you want to logout?</h4><div class="form-group spacer"><button class="btn btn-lg btn-primary btn-lg outline neon-font blue" ng-click=logout.logout()>logout</button></div></div><!-- Modal Body END --></div>');
-$templateCache.put('app/components/menu/menu.html','<div class="col-sm-3 col-xs-12 genre-container"><div class="spacer-5x hidden-xs">&nbsp;</div><div class="col-xs-12 spacer visible-xs">&nbsp;</div><div class=col-xs-12><h2 class="text-intro neon-font blue hidden-sm hidden-xs">Where music &amp; video improves the mind &amp; nurtures the soul.</h2><h3 class="text-intro neon-font blue hidden-md hidden-lg">Where music &amp; video improves the mind &amp; nurtures the soul.</h3></div></div><div class="col-sm-6 col-xs-12"><div class=border-glow ng-class=menu.genreColour><uib-carousel active=0 no-wrap=false interval=0><uib-slide ng-repeat="song in menu.selectedGenre "><div ng-switch="song.id == 0"><div ng-switch-when=true><div><img width=100% ng-src={{song.image}}></div><div class=text-center ng-class=menu.genreColour style=height:57px;><h2 class="song-title neon-font" style="margin-top:10px;padding-top: 8px;">{{song.title}}</h2></div></div><div ng-switch-default><div><a ng-href=index.html#!/songs/{{song.genre}}/{{song.id}}><img width=100% ng-src={{song.image}}></a></div><div class=text-center ng-class=menu.genreColour><h3 class=song-title>{{song.artist}}</h3><h3 class=song-title>{{song.title}}</h3></div></div></div></uib-slide></uib-carousel></div></div><div class="genre-container col-xs-12 col-sm-3"><div ng-repeat="genreKey in menu.genreKeys"><div class="col-sm-12 col-xs-6 genre-button"><a class="btn btn-primary btn-lg outline neon-font" ng-class=menu.genreColourByKey(genreKey) ng-click=menu.setGenre(genreKey)>{{genreKey}}</a></div></div></div>');
+$templateCache.put('app/components/menu/menu.html','<div class="col-sm-3 col-xs-12 genre-container"><div class="spacer-5x hidden-xs">&nbsp;</div><div class="col-xs-12 spacer visible-xs">&nbsp;</div><div class=col-xs-12><h2 class="text-intro neon-font blue hidden-sm hidden-xs">Where music &amp; video improves the mind &amp; nurtures the soul.</h2><h3 class="text-intro neon-font blue hidden-md hidden-lg">Where music &amp; video improves the mind &amp; nurtures the soul.</h3></div></div><div class="col-sm-6 col-xs-12"><div class=border-glow ng-class=menu.genreColour><uib-carousel active=0 no-wrap=false interval=0><uib-slide ng-repeat="song in menu.selectedGenre "><div ng-switch="song.id == 0"><div ng-switch-when=true><div><img width=100% ng-src={{song.image}}></div><div class=text-center ng-class=menu.genreColour style=height:57px;><h2 class="song-title neon-font" style="margin-top:10px;padding-top: 8px;">{{song.title}}</h2></div></div><div ng-switch-default><div><a ng-href=index.html#!/songs/{{song.genre}}/{{song.id}}><img width=100% ng-src={{song.image}}></a></div><div class=text-center ng-class=menu.genreColour><h3 class=song-title>{{song.artist}}</h3><h3 class=song-title>{{song.title}}</h3></div></div></div></uib-slide></uib-carousel></div></div><div class="genre-container col-xs-12 col-sm-3"><div ng-repeat="genreKey in menu.genreKeys"><div class="col-sm-12 col-xs-6 genre-button"><a class="btn btn-primary btn-lg outline neon-font" ng-class=menu.genreColourByKey(genreKey) ng-click=menu.setGenre(genreKey)>{{genreKey}}</a></div></div></div><div class=row><footer class=hidden-xs><div class="col-xs-12 col-sm-3 text-center"><a ng-click=main.openTerms()><span class="neon-font blue">Terms &amp; Conditions</span></a> <span class=divider>&nbsp;</span> <a ng-click=main.openContact()><span class="neon-font blue">Contact</span></a></div><div class="col-xs-12 col-sm-6 text-center neon-font"><span>&copy; {{ main.date | date:\'yyyy\' }} Jukebox Comprehension Ltd</span></div><div class="col-xs-12 col-sm-3 text-center"><a href=https://twitter.com/JBComprehension target=_blank><img src=/assets/images/twitter.png height=30 width=30></a></div></footer><div class=visible-xs><div class=spacer>&nbsp;</div><div class=text-center><a ng-click=main.openTerms()><span class="neon-font blue">Terms &amp; Conditions</span></a> <span class=divider>&nbsp;</span> <a ng-click=main.openPrivacy()><span class="neon-font blue">Privacy</span></a> <span class=divider>&nbsp;</span> <a ng-click=main.openTraining()><span class="neon-font blue">Training</span></a></div><div class=text-center><a href=https://twitter.com/JBComprehension target=_blank><img src=/assets/images/twitter.png height=30 width=30></a></div><div class="text-center neon-font"><span>&copy; {{ main.date | date:\'yyyy\' }} Jukebox Comprehension Ltd</span></div></div></div>');
 $templateCache.put('app/components/navbar/navbar.html','<nav class="col-sm-12 header blue"><div class="col-sm-12 text-center"><h1 class=neon-font>Jukebox Comprehension</h1></div></nav>');
-$templateCache.put('app/components/terms/terms.html','<div class=modal-header><div class=col-sm-11><h3 class="modal-title neon-font blue">Terms &amp; Conditions</h3></div><div class="col-sm-1 text-right"><a><i class="glyphicon glyphicon-remove blue" ng-click=tc.close()></i></a></div></div><div class=modal-body><h2 class="neon-font blue">Privacy</h2><div id=privacy-content style="overflow:scroll; overflow-x:hidden; height:400px;"><p>Jukebox Comprehension Ltd is committed to protecting your privacy online and will never share your contact information with another party. We do not store credit card details nor do we share customer financial details with any third parties.</p><h4 class="neon-font blue">What Information do we collect?</h4><p>When you register with us, we ask you for the following pieces of information: your name, contact address (both email and geographical) and, when necessary, any information that will allow payments to transfer to us securely.</p><h4 class="neon-font blue">How do we use your information?</h4><p>Your personal information may be used to verify that you are the subscriber to the Jukebox Comprehension website.\xA0 We also use the information we collect to help us understand more about how our web site is used, to improve our site, and to send you information about us and our products we think will be of interest to you.\xA0 Unless you have informed us that you do not wish to receive further information about our products, we will, from time to time, send you mail, both direct and electronically.</p><h4 class="neon-font blue">Do we share information?</h4><p>We will never sell or arbitrarily pass on your personal information to others. If we believe that your use of the site is unlawful or damaging to others, we reserve the right to disclose the information we have obtained through the site about you to the extent that it is reasonably necessary in our opinion to prevent, remedy or take action in relation to such conduct.</p></div><h2 class="neon-font blue">T & C\'s</h2><div id=terms-content style="overflow:scroll; overflow-x:hidden; height:400px;"><p>Please read the following Terms &amp; Conditions carefully. They apply to www.jukeboxcomprehension.com and cover all use of the Site. By registering, you confirm that you have read the Terms &amp; Conditions in their entirety and accept them in full.</p><p>The Terms &amp; Conditions are accessible from the Site at all times and we suggest you print and retain a copy for your personal records.</p><h3 class="neon-font blue">1. Personal Information</h3>\xA0<p>1.1. By registering on the Site and in completing the Registration Form, the User agrees to provide correct, precise and complete personal information to www.jukeboxcomprehension.com. If there are any changes to this personal information the User will update the details held by www.jukeboxcomprehension.com to ensure that they remain correct, complete and up-to-date.</p><p>1.2. The User agrees not to use another person\u2019s identity or to use a false name. If some of the information provided by the User is false or imprecise, www.jukeboxcomprehension.com reserves the right to suspend or cancel access to the Site.</p><p>1.3. All personal information is treated and held by\xA0www.jukeboxcomprehension.com\xA0in the strictest of confidence and in accordance with both our Privacy Policy\xA0and UK law.</p><h3 class="neon-font blue">2. The User\u2019s Account, Password and Security</h3><p>2.1. When registering, the User will be provided with a Username and a Password that will remain private and exclusive to the User. Your Username and Password grant access to all areas of the Site. When logging in to restricted areas of the Site the User must provide the assigned Username and Password.</p><p>2.2. The User accepts that the provision of their Username and Password are the means by which they prove their identity.</p>\xA0<p>2.3. In the case of forgetting their Password, the User may go on the Site and request to receive it by clicking on the\xA0Contact Us\xA0page or sending us an email direct.</p><p>2.4. On completion of the Registration Form and subsequent payment of the Annual Membership Fee, the User will gain access to the Site for a twelve month period starting on September the 1st to the period up until August the 31st for the current year. On expiry of this time period, a renewal charge for the Annual Membership Fee will be requested to the User\u2019s account. Upon receiving payment, this will result in the User being granted access to the Site for a further twelve months.</p><p>2.5. Approximately one month prior to the end of your subscription the User will receive an email notification from us, advising that the subscription will need to be renewed.</p><p>2.6. The twelve month Membership Fee will be collected annually on September 1st. Should membership be requested prior to this date, the Annual Membership Fee will still apply and will need to be paid by the User to \'Jukebox Comprehension Ltd\' before subsequent access to the site is accepted.\xA0</p><p>2.7. The User has the right to cease membership at any time within any twelve month period but will not be eligible to receive a refund or any other remuneration when doing so.</p><p>2.8. Should the Annual Membership Fee be altered in any way from that charged upon initial registration; www.jukeboxcomprehension.com will inform the User one month prior to the renewal of their membership. This will be communicated electronically.</p><p>2.9a. The User is fully responsible for the confidentiality of their Username and Password and www.jukeboxcomprehension.com may not in any case be held responsible for any use of their Username and Password by third parties. The User is authorized to allow all members situated at the same address the use of their account.</p><p>2.9b. The User must immediately inform www.jukeboxcomprehension.com by E-mail of (i) any unauthorized use of their E-mail address and Password and (ii) any resulting security breaches.</p><h3 class="neon-font blue">3. Modification and Suspension</h3><p>3.1. www.jukeboxcomprehension.com may, at any time, modify or suspend part of the Site without incurring any liability.</p><p>3.2. Unless for reasons of urgent work, www.jukeboxcomprehension.com will notify the User of any planned maintenance work or of any alteration or suspension of the Site. www.jukeboxcomprehension.com will try to carry out all such maintenance work outside of normal working hours (9 a.m. - 6 p.m., Monday to Friday) and will try to ensure minimum disruption for the User.</p><h3 class="neon-font blue">4. Intellectual Property Rights\xA0</h3><p>4.1. All original materials on the Site are the copyright of Jukebox Comprehension Ltd.\xA0</p><p>4.2. The Site, its content as well as all other material including the presentation of the Site (graphics, characters, structure, mapping, titles, photographs, videos, animation, software, music, sounds, banners, advertisements, logos, etc.), hereafter referred to as \u201COriginal Material\u201D, are protected by copyright and associated laws.\xA0</p><p>4.3. In virtue of the aforementioned laws it is strictly forbidden without prior authorization from Jukebox Comprehension Ltd to: (i) reproduce, (ii) adapt, (iii) use, (iv) translate and (v) make available to the public any Original Material. As a consequence the User may not (i) scan, adapt, digitalize or modify, by himself or by a third party, the Original Material (ii) reproduce, by himself or by a third party, the Original Material, in whole or in part, on any type of support (notably books, newspapers, prospectus, advertising leaflets, postcards, CD ROMs or any other electronic supports) in any format (ordinary, deluxe, mass-market, soft back, hardback, in any dimension, in limited edition or not, on disk, cassette, etc.) or (iii) broadcast or authorize the broadcast to the public the Original Material including via audio-visual broadcast or via Internet, etc., without being liable for prosecution for infringement under laws and international conventions.\xA0</p><p>4.4. Permission to reproduce any Original Material for use outside the classroom and for non-educational purposes must be obtained before publication.\xA0</p><p>4.5. For information on obtaining permission to reproduce or translate Jukebox Comprehension Ltd copyright material,\xA0please contact us directly via our \u201CContact Us\u201D page.</p><h3 class="neon-font blue">5. Responsibility</h3><p>5.1. www.jukeboxcomprehension.com cannot guarantee (i) that the Site will satisfy the specific expectations and demands of the User and (ii) that the Site will continue uninterrupted or free from errors. As such, the User will not hold www.jukeboxcomprehension.com to obligation regarding the performance of the Site.</p><p>5.2. In no case may www.jukebox comprehension.com be held responsible for any direct, indirect or accidental damage resulting from the incorrect use of the Site, or all other software or any connection to periphery hardware.</p><p>5.3. The User or Visitor commits and consents to (i) not disturb or interrupt networks connected to the Site (ii) conform to all rules, login procedures and conduct required on the Internet (iii) not to try to gain unauthorized access to other IT systems and (iv) not to disturb the use and functioning of the Site or of all other similar services.</p><h3 class="neon-font blue">6. Autonomy</h3><p>6.1. If one of the conditions of the present Terms &amp; Conditions is declared null and void or inapplicable, the other conditions remain valid.</p><p>6.2. No party may be presumed to have renounced one or more of the present Terms &amp; Conditions unless the renunciation has been communicated in writing (electronic or not).</p><h3 class="neon-font blue">Disclaimer:</h3><p>Jukebox Comprehension Ltd makes no warranties or representations of any kind concerning the accuracy or suitability of the information contained on this web site for any purpose. All such information is provided "as is" and with specific disclaimer of any warranties of merchantability, fitness for purpose, title and/or non-infringement. Jukebox Comprehension Ltd makes no warranties or representations of any kind that the services provided by this web site will be uninterrupted , error-free or that the web site or the server that hosts the web site are free from viruses or other forms of harmful computer code. In no event shall Jukebox Comprehension Ltd, its employees or agents be liable for any direct, indirect or consequential damages resulting from the use of this web site. This exclusion and limitation only applies to the extent permitted by law and is without prejudice to any express provisions to the contrary in any written licence or subscription agreement from Jukebox Comprehension Ltd in respect of the use of any online service provided via this web site.</p><h3 class="neon-font blue">Business Details:</h3><p>If you need to contact us directly then please\xA0email, call or write to us at the following address:</p><h4><span class="neon-font blue">Post:</span></h4><p>Jukebox Comprehension Ltd</p><p>74 Manchester Street</p><p>Manchester</p><p>Heywood</p><p>Ol10 1DL</p><h4><span class="neon-font blue">E-mail:</span> jukeboxcomprehension@gmail.com</h4><h4><span class="neon-font blue">Telephone:</span> 07724 042 186</h4></div></div>');}]);
+$templateCache.put('app/components/terms/terms.html','<div class=modal-header><div class=col-sm-11><h3 class="modal-title neon-font blue">Terms &amp; Conditions</h3></div><div class="col-sm-1 text-right"><a><i class="glyphicon glyphicon-remove blue" ng-click=tc.close()></i></a></div></div><div class=modal-body><h2 class="neon-font blue">T\'s & C\'s</h2><div id=terms-content style="overflow:scroll; overflow-x:hidden; height:400px;"><p>The following Terms and Conditions apply to www.jukeboxcomprehension.com and cover all use of the Site. By accessing and using this Site, you confirm that you have read the Term &amp; Conditions in their entirety and accept them in full.</p><p>The Term and Conditions are accessible from the Site at all times.</p><h3 class="neon-font blue">1.\tPrivacy</h3>\xA0<p>Jukebox Comprehension Ltd is committed to protecting your privacy online and will never store or share your personal information with another party. We do not retain credit card details nor do we share any customer details (financial or otherwise) with any third parties.</p><h3 class="neon-font blue">2.\tIntellectual Property Rights</h3><p>2.1.\tAll original materials are the copyright of Jukebox Comprehension Ltd.</p><p>2.2.\tBy downloading any resources from this Site, you agree to the Term and Conditions as stated below.</p>\xA0<p>2.3\tWider use and distribution of original material, including lesson plans and other such works for use outside the classroom setting, namely for conferences and training purposes by individuals or institutions is strictly prohibited without prior consent.</p><p>2.4\tPermission must be obtained before reproducing, publishing or sharing any Original Material for use outside of the classroom.</p><p>2.5. For information on obtaining permission to reproduce or translate Jukebox Comprehension Ltd copyright material,\xA0please contact us directly via our \u201CContact Us\u201D page.</p><p>2.6.\tOriginal works and ideas must be attributed to its source and writer should prior consent be permitted.\xA0</p><p>2.7. The Site, its content as well as all other material including the presentation of the Site (graphics, characters, structure, mapping, titles, photographs, videos, animation, software, music, sounds, banners, advertisements, logos, etc.), hereafter referred to as \u201COriginal Material\u201D, are protected by copyright and associated laws.\xA0</p><p>2.8. In virtue of the aforementioned laws it is strictly forbidden without prior authorization from Jukebox Comprehension Ltd to: (i) reproduce, (ii) adapt, (iii) use, (iv) translate and (v) make available to the public any Original Material. As a consequence the User may not (i) scan, adapt, digitalize or modify, by himself or by a third party, the Original Material (ii) reproduce, by himself or by a third party, the Original Material, in whole or in part, on any type of support (notably books, newspapers, prospectus, advertising leaflets, postcards, CD ROMs or any other electronic supports) in any format (ordinary, deluxe, mass-market, soft back, hardback, in any dimension, in limited edition or not, on disk, cassette, etc.) or (iii) broadcast or authorize the broadcast to the public the Original Material including via audio-visual broadcast or via Internet, etc., without being liable for prosecution for infringement under laws and international conventions.</p><p>2.9. ???</p><h3 class="neon-font blue">3. Responsibility</h3><p>3.1. www.jukeboxcomprehension.com cannot guarantee (i) that the Site will satisfy the specific expectations and demands of the User and (ii) that the Site will continue uninterrupted or free from errors. As such, the User will not hold www.jukeboxcomprehension.com to obligation regarding the performance of the Site.</p><p>3.2. In no case may www.jukebox comprehension.com be held responsible for any direct, indirect or accidental damage resulting from the incorrect use of the Site, or all other software or any connection to periphery hardware.</p><p>3.3. The User or Visitor commits and consents to (i) not disturb or interrupt networks connected to the Site (ii) conform to all rules, login procedures and conduct required on the Internet (iii) not to try to gain unauthorized access to other IT systems and (iv) not to disturb the use and functioning of the Site or of all other similar services.</p><h3 class="neon-font blue">4. Autonomy</h3><p>4.1. If one of the conditions of the present Terms &amp; Conditions is declared null and void or inapplicable, the other conditions remain valid.</p><p>4.2. No party may be presumed to have renounced one or more of the present Terms &amp; Conditions unless the renunciation has been communicated in writing (electronic or not).</p><h3 class="neon-font blue">Disclaimer</h3><p>Jukebox Comprehension Ltd makes no warranties or representations of any kind concerning the accuracy or suitability of the information contained on this web site for any purpose. All such information is provided "as is" and with specific disclaimer of any warranties of merchantability, fitness for purpose, title and/or non-infringement. Jukebox Comprehension Ltd makes no warranties or representations of any kind that the services provided by this web site will be uninterrupted , error-free or that the web site or the server that hosts the web site are free from viruses or other forms of harmful computer code. In no event shall Jukebox Comprehension Ltd, its employees or agents be liable for any direct, indirect or consequential damages resulting from the use of this web site. This exclusion and limitation only applies to the extent permitted by law and is without prejudice to any express provisions to the contrary in any written licence or subscription agreement from Jukebox Comprehension Ltd in respect of the use of any online service provided via this web site.</p><h3 class="neon-font blue">Business Details:</h3><p>If you need to contact us directly then please\xA0email, call or write to us at the following address:</p><h4><span class="neon-font blue">Post:</span></h4><p>Jukebox Comprehension Ltd</p><p>74 Manchester Street</p><p>Manchester</p><p>Heywood</p><p>Ol10 1DL</p><h4><span class="neon-font blue">E-mail:</span> jukeboxcomprehension@gmail.com</h4><h4><span class="neon-font blue">Telephone:</span> 07724 042 186</h4></div></div>');}]);
