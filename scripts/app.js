@@ -19,22 +19,6 @@
 
   angular
     .module('jukeboxcomprehension')
-    .controller('TermsController', TermsController);
-
-  /** @ngInject */
-  function TermsController($uibModalInstance) {
-    var vm = this;
-    vm.close = function () {
-      $uibModalInstance.dismiss('close');
-    };
-  }
-})();
-
-(function() {
-  'use strict';
-
-  angular
-    .module('jukeboxcomprehension')
     .directive('navbarHeader', navbarHeader);
 
   /** @ngInject */
@@ -59,6 +43,46 @@
     }
   }
 
+})();
+
+(function() {
+  'use strict';
+
+  angular
+    .module('jukeboxcomprehension')
+    .controller('TermsController', TermsController);
+
+  /** @ngInject */
+  function TermsController($uibModalInstance) {
+    var vm = this;
+    vm.close = function () {
+      $uibModalInstance.dismiss('close');
+    };
+  }
+})();
+
+(function() {
+  'use strict';
+
+  angular
+    .module('jukeboxcomprehension')
+    .controller('LogoutController', LogoutController);
+
+  /** @ngInject */
+  function LogoutController($location, $uibModalInstance, loginService) {
+    var vm = this;
+    vm.close = function() {
+      $uibModalInstance.close();
+      return $location.path('/');
+    };
+
+    vm.logout = function() {
+      loginService.logout();
+      $uibModalInstance.close();
+      return $location.path('/');
+    };
+
+  }
 })();
 
 (function() {
@@ -107,22 +131,14 @@
 
   angular
     .module('jukeboxcomprehension')
-    .controller('LogoutController', LogoutController);
+    .controller('ContactController',ContactController);
 
   /** @ngInject */
-  function LogoutController($location, $uibModalInstance, loginService) {
+  function ContactController($uibModalInstance) {
     var vm = this;
-    vm.close = function() {
-      $uibModalInstance.close();
-      return $location.path('/');
+    vm.close = function () {
+      $uibModalInstance.dismiss('close');
     };
-
-    vm.logout = function() {
-      loginService.logout();
-      $uibModalInstance.close();
-      return $location.path('/');
-    };
-
   }
 })();
 
@@ -249,12 +265,12 @@
 
     vm.getFileUrl = function(filename) {
       $log.info(vm.selectedSong.fileUrl + filename);
-      var storageRef = new firebase.storage()
-        .ref(vm.selectedSong.fileUrl + filename);
-      storageRef.getDownloadURL().then(function(url) {
-        // $log.info("url -> " + url);
-        $window.open(url, '_blank');
-      });
+      // var storageRef = new firebase.storage()
+      //   .ref(vm.selectedSong.fileUrl + filename);
+      // storageRef.getDownloadURL().then(function(url) {
+      //   // $log.info("url -> " + url);
+      //   $window.open(url, '_blank');
+      // });
     }
 
     vm.trimBrackets = function(str) {
@@ -274,22 +290,6 @@
         return vm.selectedSong.lyricVideo;
       }
     }
-  }
-})();
-
-(function() {
-  'use strict';
-
-  angular
-    .module('jukeboxcomprehension')
-    .controller('ContactController',ContactController);
-
-  /** @ngInject */
-  function ContactController($uibModalInstance) {
-    var vm = this;
-    vm.close = function () {
-      $uibModalInstance.dismiss('close');
-    };
   }
 })();
 
@@ -1906,10 +1906,10 @@
 
 })();
 
-angular.module('jukeboxcomprehension').run(['$templateCache', function($templateCache) {$templateCache.put('app/components/detail/detail.html','<div class="col-xs-12 col-sm-3"><div class="spacer-5x col-sm-12 hidden-xs">&nbsp;</div><div class="col-xs-12 col-sm-12 song-text blue neon-font"><h2 class=text-wrap>{{detail.selectedSong.artist}}</h2><h2 class=text-wrap>{{detail.trimBrackets(detail.selectedSong.title)}}</h2></div></div><div class="col-xs-12 col-sm-6"><div class="detail-youtube border-glow text-center" ng-class=detail.selectedSong.colour><videogular class=videogular-container><vg-media vg-src=detail.getVideoLink()></vg-media><vg-controls><vg-play-pause-button></vg-play-pause-button><!-- <vg-time-display>{{ currentTime | date:\'mm:ss\' }}</vg-time-display> --><vg-scrub-bar><vg-scrub-bar-current-time></vg-scrub-bar-current-time></vg-scrub-bar><!-- <vg-time-display>{{ timeLeft | date:\'mm:ss\' }}</vg-time-display> --><vg-volume><vg-mute-button></vg-mute-button><vg-volume-bar></vg-volume-bar></vg-volume><vg-fullscreen-button></vg-fullscreen-button></vg-controls><!-- <vg-overlay-play></vg-overlay-play> --><!-- <vg-poster vg-url=\'controller.config.plugins.poster\'></vg-poster> --></videogular><!-- <video width="100%" height="100%" controls>\n      <source ng-src="{{detail.selectedSong.lyricVideo}}" type="video/mp4">\n    Your browser does not support the video tag. Please use a more modern browser.\n    </video> --></div></div><div class="col-xs-12 col-sm-3"><div class=spacer-2x>&nbsp;</div><div class=text-center><a class="btn btn-primary btn-lg outline neon-font detail-btn" ng-if=detail.isLoggedIn() ng-class=detail.selectedSong.colour ng-click="detail.getFileUrl(\'comprehension.pdf\')"><span class="glyphicon glyphicon-star blue"></span> Comprehension <span class="glyphicon glyphicon-star blue"></span> </a><a class="btn btn-primary btn-lg outline neon-font detail-btn" ng-if=!detail.isLoggedIn() ng-class=detail.selectedSong.colour ng-click=main.openLogin()><span class="glyphicon glyphicon-star blue"></span> Comprehension <span class="glyphicon glyphicon-star blue"></span></a></div><div class=spacer>&nbsp;</div><div class=text-center ng-if=detail.selectedSong.musicVideo><a class="btn btn-primary btn-lg outline neon-font detail-btn" ng-class=detail.selectedSong.colour ng-click="detail.videoType = \'music\'"><i class="glyphicon glyphicon-film"></i> Music Video</a></div><div class=spacer>&nbsp;</div><div class=text-center ng-if=detail.selectedSong.lyricVideo><a class="btn btn-primary btn-lg outline neon-font detail-btn" ng-class=detail.selectedSong.colour ng-click="detail.videoType = \'lyric\'"><i class="glyphicon glyphicon-film"></i> Lyric Video</a></div><div class=spacer-2x>&nbsp;</div><div class=text-center><a class="btn btn-primary btn-lg outline neon-font blue" href=index.html#!/ ><i class="glyphicon glyphicon-home"></i> Home</a></div></div>');
-$templateCache.put('app/components/contact/contact.html','<div class=modal-header><div class=col-sm-11><h3 class="modal-title neon-font blue">Contact Us</h3></div><div class="col-sm-1 text-right"><a><i class="glyphicon glyphicon-remove blue" ng-click=cc.close()></i></a></div></div><div class=modal-body><h4 class="neon-font blue">Got a question you\u2019d like to ask?</h4><h4 class="neon-font blue">Have a great lesson you\u2019d like to share?</h4><p>We\u2019d love to hear from you. Get in touch and we\u2019ll get back to you as soon as we can.</p><h4><span class="neon-font blue">E-mail:</span> jukeboxcomprehension@gmail.com</h4><h4><span class="neon-font blue">Telephone:</span> 07724 042 186</h4><hr><h4 class="neon-font blue">Metronomics: The Science Behind the Learning</h4><p>A Professional Development course that will help you understand the proven benefits of using songs, lyrics and music to boost achievement and develop the whole child.</p><p>Created to help teachers embed core Literacy skills across the wider curriculum, this course focuses on the fascinating research of Metronomics: the science of how music enables the brain to acquire language quickly and securely.\xA0</p><p>It also looks at the wider benefits of using music and song lyrics in the classroom and explores the best ways in which to use music videos effectively to maximise their impact.</p><p>&nbsp;</p><div class=form-group><a class="btn btn-lg btn-primary btn-lg outline neon-font blue" href=http://www.johnmurraycpd.co.uk/metronomics target=_blank>Find Out More</a></div></div>');
+angular.module('jukeboxcomprehension').run(['$templateCache', function($templateCache) {$templateCache.put('app/components/contact/contact.html','<div class=modal-header><div class=col-sm-11><h3 class="modal-title neon-font blue">Contact Us</h3></div><div class="col-sm-1 text-right"><a><i class="glyphicon glyphicon-remove blue" ng-click=cc.close()></i></a></div></div><div class=modal-body><h4 class="neon-font blue">Got a question you\u2019d like to ask?</h4><h4 class="neon-font blue">Have a great lesson you\u2019d like to share?</h4><p>We\u2019d love to hear from you. Get in touch and we\u2019ll get back to you as soon as we can.</p><h4><span class="neon-font blue">E-mail:</span> jukeboxcomprehension@gmail.com</h4><h4><span class="neon-font blue">Telephone:</span> 07724 042 186</h4><hr><h4 class="neon-font blue">Metronomics: The Science Behind the Learning</h4><p>A Professional Development course that will help you understand the proven benefits of using songs, lyrics and music to boost achievement and develop the whole child.</p><p>Created to help teachers embed core Literacy skills across the wider curriculum, this course focuses on the fascinating research of Metronomics: the science of how music enables the brain to acquire language quickly and securely.\xA0</p><p>It also looks at the wider benefits of using music and song lyrics in the classroom and explores the best ways in which to use music videos effectively to maximise their impact.</p><p>&nbsp;</p><div class=form-group><a class="btn btn-lg btn-primary btn-lg outline neon-font blue" href=http://www.johnmurraycpd.co.uk/metronomics target=_blank>Find Out More</a></div></div>');
 $templateCache.put('app/components/login/login.html','<!-- Modal content--><div class=modal-content><div class=modal-header><div class=col-sm-11><h3 class="modal-title neon-font blue">Comprehension Lesson</h3></div><div class="col-sm-1 text-right"><a><i class="glyphicon glyphicon-remove blue" ng-click=lc.close()></i></a></div></div><div class=modal-body><div><h4 class="modal-title neon-font blue">Purchase</h4><p>Access the Comprehension material for this song and artist for just &pound;2</p><img src=/assets/images/paypal.png><p>coming soon ...</p></div><!-- Hide the Login Form --><div ng-hide=true><div ng-if=!lc.isLoggedIn()><!-- \'NOT LOGGED IN\' --><h4 class="modal-title neon-font blue">Login</h4><form name=authForm ng-submit="authForm.$valid && lc.login(lc.user)" class=form-group novalidate><div class=form-group><div class=input-group><!--Email input--> <span class=input-group-addon><i class="glyphicon glyphicon-envelope"></i></span> <input ng-model=lc.user.email ng-model-options="{ updateOn: \'default blur\', debounce: { default: 1000, blur: 0 } }" type=email name=email class=form-control placeholder="Email address" required autofocus><!--Email error--><div ng-show=authForm.$submitted><p ng-show=authForm.email.$error.required class=text-danger>Email required</p><p ng-show=authForm.email.$error.email class=text-danger>Please enter a valid email.</p></div></div></div><div class=form-group><div class=input-group><!--Password input--> <span class=input-group-addon><i class="glyphicon glyphicon-lock"></i></span> <input ng-model=lc.user.password type=password name=password class=form-control placeholder=Password required><!--Password error--><div ng-show=authForm.$submitted><p ng-show=authForm.password.$error.required class=text-danger>Password required</p></div></div></div><div class=form-group><!--Server authentication error--><h1 ng-show=lc.error class=text-danger>The Email or Password is incorrect</h1></div><div class=form-group><button class="btn btn-lg btn-primary btn-lg outline neon-font blue" type=submit>login</button></div></form></div><!-- \'NOT LOGGED IN\' END --></div></div><!-- Modal Body END --></div>');
-$templateCache.put('app/components/logout/logout.html','<!-- Modal content--><div class=modal-content><div class=modal-header><div class=col-sm-11><h3 class="modal-title neon-font blue">Jukebox Comprehension Logout</h3></div><div class="col-sm-1 text-right"><a><i class="glyphicon glyphicon-remove blue" ng-click=logout.close()></i></a></div></div><div class=modal-body><h4 class="modal-title neon-font blue">Are you sure you want to logout?</h4><div class="form-group spacer"><button class="btn btn-lg btn-primary btn-lg outline neon-font blue" ng-click=logout.logout()>logout</button></div></div><!-- Modal Body END --></div>');
+$templateCache.put('app/components/detail/detail.html','<div class="col-xs-12 col-sm-3"><div class="spacer-5x col-sm-12 hidden-xs">&nbsp;</div><div class="col-xs-12 col-sm-12 song-text blue neon-font"><h2 class=text-wrap>{{detail.selectedSong.artist}}</h2><h2 class=text-wrap>{{detail.trimBrackets(detail.selectedSong.title)}}</h2></div></div><div class="col-xs-12 col-sm-6"><div class="detail-youtube border-glow text-center" ng-class=detail.selectedSong.colour><videogular class=videogular-container><vg-media vg-src=detail.getVideoLink()></vg-media><vg-controls><vg-play-pause-button></vg-play-pause-button><!-- <vg-time-display>{{ currentTime | date:\'mm:ss\' }}</vg-time-display> --><vg-scrub-bar><vg-scrub-bar-current-time></vg-scrub-bar-current-time></vg-scrub-bar><!-- <vg-time-display>{{ timeLeft | date:\'mm:ss\' }}</vg-time-display> --><vg-volume><vg-mute-button></vg-mute-button><vg-volume-bar></vg-volume-bar></vg-volume><vg-fullscreen-button></vg-fullscreen-button></vg-controls><!-- <vg-overlay-play></vg-overlay-play> --><!-- <vg-poster vg-url=\'controller.config.plugins.poster\'></vg-poster> --></videogular><!-- <video width="100%" height="100%" controls>\n      <source ng-src="{{detail.selectedSong.lyricVideo}}" type="video/mp4">\n    Your browser does not support the video tag. Please use a more modern browser.\n    </video> --></div></div><div class="col-xs-12 col-sm-3"><div class=spacer-2x>&nbsp;</div><div class=text-center><a class="btn btn-primary btn-lg outline neon-font detail-btn" ng-if=detail.isLoggedIn() ng-class=detail.selectedSong.colour ng-click="detail.getFileUrl(\'comprehension.pdf\')"><span class="glyphicon glyphicon-star blue"></span> Comprehension <span class="glyphicon glyphicon-star blue"></span> </a><a class="btn btn-primary btn-lg outline neon-font detail-btn" ng-if=!detail.isLoggedIn() ng-class=detail.selectedSong.colour ng-click=main.openLogin()><span class="glyphicon glyphicon-star blue"></span> Comprehension <span class="glyphicon glyphicon-star blue"></span></a></div><div class=spacer>&nbsp;</div><div class=text-center ng-if=detail.selectedSong.musicVideo><a class="btn btn-primary btn-lg outline neon-font detail-btn" ng-class=detail.selectedSong.colour ng-click="detail.videoType = \'music\'"><i class="glyphicon glyphicon-film"></i> Music Video</a></div><div class=spacer>&nbsp;</div><div class=text-center ng-if=detail.selectedSong.lyricVideo><a class="btn btn-primary btn-lg outline neon-font detail-btn" ng-class=detail.selectedSong.colour ng-click="detail.videoType = \'lyric\'"><i class="glyphicon glyphicon-film"></i> Lyric Video</a></div><div class=spacer-2x>&nbsp;</div><div class=text-center><a class="btn btn-primary btn-lg outline neon-font blue" href=index.html#!/ ><i class="glyphicon glyphicon-home"></i> Home</a></div></div>');
 $templateCache.put('app/components/menu/menu.html','<div class="col-sm-3 col-xs-12 genre-container"><div class="spacer-5x hidden-xs">&nbsp;</div><div class="col-xs-12 spacer visible-xs">&nbsp;</div><div class=col-xs-12><h2 class="text-intro neon-font blue hidden-sm hidden-xs">Where music &amp; video improves the mind &amp; nurtures the soul.</h2><h3 class="text-intro neon-font blue hidden-md hidden-lg">Where music &amp; video improves the mind &amp; nurtures the soul.</h3></div></div><div class="col-sm-6 col-xs-12"><div class=border-glow ng-class=menu.genreColour><uib-carousel active=0 no-wrap=false interval=0><uib-slide ng-repeat="song in menu.selectedGenre "><div ng-switch="song.id == 0"><div ng-switch-when=true><div><img width=100% ng-src={{song.image}}></div><div class=text-center ng-class=menu.genreColour style=height:57px;><h2 class="song-title neon-font" style="margin-top:10px;padding-top: 8px;">{{song.title}}</h2></div></div><div ng-switch-default><div><a ng-href=index.html#!/songs/{{song.genre}}/{{song.id}}><img width=100% ng-src={{song.image}}></a></div><div class=text-center ng-class=menu.genreColour><h3 class=song-title>{{song.artist}}</h3><h3 class=song-title>{{song.title}}</h3></div></div></div></uib-slide></uib-carousel></div></div><div class="genre-container col-xs-12 col-sm-3"><div ng-repeat="genreKey in menu.genreKeys"><div class="col-sm-12 col-xs-6 genre-button"><a class="btn btn-primary btn-lg outline neon-font" ng-class=menu.genreColourByKey(genreKey) ng-click=menu.setGenre(genreKey)>{{genreKey}}</a></div></div></div><div class=row><footer class=hidden-xs><div class="col-xs-12 col-sm-3 text-center"><a ng-click=main.openTerms()><span class="neon-font blue">Terms &amp; Conditions</span></a> <span class=divider>&nbsp;</span> <a ng-click=main.openContact()><span class="neon-font blue">Contact</span></a></div><div class="col-xs-12 col-sm-6 text-center neon-font"><span>&copy; {{ main.date | date:\'yyyy\' }} Jukebox Comprehension Ltd</span></div><div class="col-xs-12 col-sm-3 text-center"><a href=https://twitter.com/JBComprehension target=_blank><img src=/assets/images/twitter.png height=30 width=30></a></div></footer><div class=visible-xs><div class=spacer>&nbsp;</div><div class=text-center><a ng-click=main.openTerms()><span class="neon-font blue">Terms &amp; Conditions</span></a> <span class=divider>&nbsp;</span> <a ng-click=main.openPrivacy()><span class="neon-font blue">Privacy</span></a> <span class=divider>&nbsp;</span> <a ng-click=main.openTraining()><span class="neon-font blue">Training</span></a></div><div class=text-center><a href=https://twitter.com/JBComprehension target=_blank><img src=/assets/images/twitter.png height=30 width=30></a></div><div class="text-center neon-font"><span>&copy; {{ main.date | date:\'yyyy\' }} Jukebox Comprehension Ltd</span></div></div></div>');
+$templateCache.put('app/components/logout/logout.html','<!-- Modal content--><div class=modal-content><div class=modal-header><div class=col-sm-11><h3 class="modal-title neon-font blue">Jukebox Comprehension Logout</h3></div><div class="col-sm-1 text-right"><a><i class="glyphicon glyphicon-remove blue" ng-click=logout.close()></i></a></div></div><div class=modal-body><h4 class="modal-title neon-font blue">Are you sure you want to logout?</h4><div class="form-group spacer"><button class="btn btn-lg btn-primary btn-lg outline neon-font blue" ng-click=logout.logout()>logout</button></div></div><!-- Modal Body END --></div>');
 $templateCache.put('app/components/navbar/navbar.html','<nav class="col-sm-12 header blue"><div class="col-sm-12 text-center"><h1 class=neon-font>Jukebox Comprehension</h1></div></nav>');
 $templateCache.put('app/components/terms/terms.html','<div class=modal-header><div class=col-sm-11><h3 class="modal-title neon-font blue">Terms &amp; Conditions</h3></div><div class="col-sm-1 text-right"><a><i class="glyphicon glyphicon-remove blue" ng-click=tc.close()></i></a></div></div><div class=modal-body><h2 class="neon-font blue">T\'s & C\'s</h2><div id=terms-content style="overflow:scroll; overflow-x:hidden; height:400px;"><p>The following Terms and Conditions apply to www.jukeboxcomprehension.com and cover all use of the Site. By accessing and using this Site, you confirm that you have read the Term &amp; Conditions in their entirety and accept them in full.</p><p>The Term and Conditions are accessible from the Site at all times.</p><h3 class="neon-font blue">1.\tPrivacy</h3>\xA0<p>Jukebox Comprehension Ltd is committed to protecting your privacy online and will never store or share your personal information with another party. We do not retain credit card details nor do we share any customer details (financial or otherwise) with any third parties.</p><h3 class="neon-font blue">2.\tIntellectual Property Rights</h3><p>2.1.\tAll original materials are the copyright of Jukebox Comprehension Ltd.</p><p>2.2.\tBy downloading any resources from this Site, you agree to the Term and Conditions as stated below.</p>\xA0<p>2.3\tWider use and distribution of original material, including lesson plans and other such works for use outside the classroom setting, namely for conferences and training purposes by individuals or institutions is strictly prohibited without prior consent.</p><p>2.4\tPermission must be obtained before reproducing, publishing or sharing any Original Material for use outside of the classroom.</p><p>2.5. For information on obtaining permission to reproduce or translate Jukebox Comprehension Ltd copyright material,\xA0please contact us directly via our \u201CContact Us\u201D page.</p><p>2.6.\tOriginal works and ideas must be attributed to its source and writer should prior consent be permitted.\xA0</p><p>2.7. The Site, its content as well as all other material including the presentation of the Site (graphics, characters, structure, mapping, titles, photographs, videos, animation, software, music, sounds, banners, advertisements, logos, etc.), hereafter referred to as \u201COriginal Material\u201D, are protected by copyright and associated laws.\xA0</p><p>2.8. In virtue of the aforementioned laws it is strictly forbidden without prior authorization from Jukebox Comprehension Ltd to: (i) reproduce, (ii) adapt, (iii) use, (iv) translate and (v) make available to the public any Original Material. As a consequence the User may not (i) scan, adapt, digitalize or modify, by himself or by a third party, the Original Material (ii) reproduce, by himself or by a third party, the Original Material, in whole or in part, on any type of support (notably books, newspapers, prospectus, advertising leaflets, postcards, CD ROMs or any other electronic supports) in any format (ordinary, deluxe, mass-market, soft back, hardback, in any dimension, in limited edition or not, on disk, cassette, etc.) or (iii) broadcast or authorize the broadcast to the public the Original Material including via audio-visual broadcast or via Internet, etc., without being liable for prosecution for infringement under laws and international conventions.</p><p>2.9. ???</p><h3 class="neon-font blue">3. Responsibility</h3><p>3.1. www.jukeboxcomprehension.com cannot guarantee (i) that the Site will satisfy the specific expectations and demands of the User and (ii) that the Site will continue uninterrupted or free from errors. As such, the User will not hold www.jukeboxcomprehension.com to obligation regarding the performance of the Site.</p><p>3.2. In no case may www.jukebox comprehension.com be held responsible for any direct, indirect or accidental damage resulting from the incorrect use of the Site, or all other software or any connection to periphery hardware.</p><p>3.3. The User or Visitor commits and consents to (i) not disturb or interrupt networks connected to the Site (ii) conform to all rules, login procedures and conduct required on the Internet (iii) not to try to gain unauthorized access to other IT systems and (iv) not to disturb the use and functioning of the Site or of all other similar services.</p><h3 class="neon-font blue">4. Autonomy</h3><p>4.1. If one of the conditions of the present Terms &amp; Conditions is declared null and void or inapplicable, the other conditions remain valid.</p><p>4.2. No party may be presumed to have renounced one or more of the present Terms &amp; Conditions unless the renunciation has been communicated in writing (electronic or not).</p><h3 class="neon-font blue">Disclaimer</h3><p>Jukebox Comprehension Ltd makes no warranties or representations of any kind concerning the accuracy or suitability of the information contained on this web site for any purpose. All such information is provided "as is" and with specific disclaimer of any warranties of merchantability, fitness for purpose, title and/or non-infringement. Jukebox Comprehension Ltd makes no warranties or representations of any kind that the services provided by this web site will be uninterrupted , error-free or that the web site or the server that hosts the web site are free from viruses or other forms of harmful computer code. In no event shall Jukebox Comprehension Ltd, its employees or agents be liable for any direct, indirect or consequential damages resulting from the use of this web site. This exclusion and limitation only applies to the extent permitted by law and is without prejudice to any express provisions to the contrary in any written licence or subscription agreement from Jukebox Comprehension Ltd in respect of the use of any online service provided via this web site.</p><h3 class="neon-font blue">Business Details:</h3><p>If you need to contact us directly then please\xA0email, call or write to us at the following address:</p><h4><span class="neon-font blue">Post:</span></h4><p>Jukebox Comprehension Ltd</p><p>74 Manchester Street</p><p>Manchester</p><p>Heywood</p><p>Ol10 1DL</p><h4><span class="neon-font blue">E-mail:</span> jukeboxcomprehension@gmail.com</h4><h4><span class="neon-font blue">Telephone:</span> 07724 042 186</h4></div></div>');}]);
